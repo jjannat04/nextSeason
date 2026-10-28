@@ -15,3 +15,7 @@ frontend/dist/
 frontend/test-results/
 frontend/playwright-report/
 *.sqlite3
+
+/PLANS.md
+/AGENTS.md
+/PROJECT_CONTEXT.md
