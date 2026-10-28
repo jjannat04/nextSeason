@@ -1,0 +1,175 @@
+{
+  "verified_on": "2026-10-28",
+  "sources": [
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/product",
+      "snapshot_sha256": "b100dc06172f3330b4bd2accf34d5e1a241267141df0084a8659f98dbc31ae99"
+    },
+    {
+      "url": "https://appeears.earthdatacloud.nasa.gov/api/product/SPL4SMGP.008",
+      "snapshot_sha256": "a35705740154a232d824dad5456c76a120193f6433d795c577d4a41975f0137f"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/capabilities?shortName=SPL4SMGP",
+      "snapshot_sha256": "6f26d1a695e9a4c1b00eb9b425ac5130462b2469e5232a00fbffd3ab571ee05c"
+    },
+    {
+      "url": "https://harmony.earthdata.nasa.gov/capabilities?shortName=GPM_3IMERGDF",
+      "snapshot_sha256": "c834c1236317fefc3759f9d054143a8b2134ff00443467afc78f90689daa0d36"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=SPL4SMGP&version=008",
+      "snapshot_sha256": "0c01c27cf4cd61ac69412badb584d4b5c2a7e307437eef77a47b9018370f419d"
+    },
+    {
+      "url": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=GPM_3IMERGDF&version=07",
+      "snapshot_sha256": "641b936b6a63112d638d75ad3dbc7755e5d1fe8a6f102b2646052b7ee6653069"
+    }
+  ],
+  "smap": {
+    "product": "SPL4SMGP.008",
+    "collection_id": "C3480440870-NSIDC_CPRD",
+    "layer_metadata": {
+      "Geophysical_Data_sm_rootzone": {
+        "AddOffset": "",
+        "Available": true,
+        "DataType": "float32",
+        "Description": "Root zone soil moisture (0-100 cm)",
+        "Dimensions": [
+          "time",
+          "y",
+          "x"
+        ],
+        "FillValue": -9999.0,
+        "FillValueAll": [
+          -9999.0
+        ],
+        "Group": "",
+        "Info": {
+          "group_name": "Geophysical_Data",
+          "layer_name": "sm_rootzone"
+        },
+        "IsQA": false,
+        "Layer": "Geophysical_Data_sm_rootzone",
+        "OrigDataType": "float32",
+        "OrigValidMax": 0.8999999762,
+        "OrigValidMin": 0.0,
+        "QualityLayers": "",
+        "QualityProductAndVersion": "",
+        "ScaleFactor": "",
+        "Units": "m^3/m^3",
+        "ValidMax": 0.8999999762,
+        "ValidMin": 0.0,
+        "XSize": 3856,
+        "YSize": 1624
+      },
+      "Geophysical_Data_sm_rootzone_pctl": {
+        "AddOffset": "",
+        "Available": true,
+        "DataType": "float32",
+        "Description": "Root zone soil moisture (0-100 cm; percentile units)",
+        "Dimensions": [
+          "time",
+          "y",
+          "x"
+        ],
+        "FillValue": -9999.0,
+        "FillValueAll": [
+          -9999.0
+        ],
+        "Group": "",
+        "Info": {
+          "group_name": "Geophysical_Data",
+          "layer_name": "sm_rootzone_pctl"
+        },
+        "IsQA": false,
+        "Layer": "Geophysical_Data_sm_rootzone_pctl",
+        "OrigDataType": "float32",
+        "OrigValidMax": 100.0,
+        "OrigValidMin": 0.0,
+        "QualityLayers": "",
+        "QualityProductAndVersion": "",
+        "ScaleFactor": "",
+        "Units": "Percent",
+        "ValidMax": 100.0,
+        "ValidMin": 0.0,
+        "XSize": 3856,
+        "YSize": 1624
+      },
+      "Geophysical_Data_sm_surface": {
+        "AddOffset": "",
+        "Available": true,
+        "DataType": "float32",
+        "Description": "Top layer soil moisture (0-5 cm)",
+        "Dimensions": [
+          "time",
+          "y",
+          "x"
+        ],
+        "FillValue": -9999.0,
+        "FillValueAll": [
+          -9999.0
+        ],
+        "Group": "",
+        "Info": {
+          "group_name": "Geophysical_Data",
+          "layer_name": "sm_surface"
+        },
+        "IsQA": false,
+        "Layer": "Geophysical_Data_sm_surface",
+        "OrigDataType": "float32",
+        "OrigValidMax": 0.8999999762,
+        "OrigValidMin": 0.0,
+        "QualityLayers": "",
+        "QualityProductAndVersion": "",
+        "ScaleFactor": "",
+        "Units": "m^3/m^3",
+        "ValidMax": 0.8999999762,
+        "ValidMin": 0.0,
+        "XSize": 3856,
+        "YSize": 1624
+      }
+    }
+  },
+  "gpm": {
+    "product": "GPM_3IMERGDF.07",
+    "collection_id": "C2723754864-GES_DISC",
+    "variable_metadata": [
+      {
+        "name": "lat",
+        "longName": "Latitude",
+        "href": "https://cmr.earthdata.nasa.gov/search/concepts/V3156651249-GES_DISC",
+        "units": "degrees_north",
+        "scienceKeywords": []
+      },
+      {
+        "name": "lon",
+        "longName": "Longitude",
+        "href": "https://cmr.earthdata.nasa.gov/search/concepts/V3156651243-GES_DISC",
+        "units": "degrees_east",
+        "scienceKeywords": []
+      },
+      {
+        "name": "precipitation",
+        "longName": "Daily mean precipitation rate (combined microwave-IR) estimate. Formerly precipitationCal.",
+        "href": "https://cmr.earthdata.nasa.gov/search/concepts/V3156651215-GES_DISC",
+        "units": "mm/day",
+        "scienceKeywords": []
+      },
+      {
+        "name": "precipitation_cnt",
+        "longName": "Count of all valid half-hourly precipitation retrievals for the day",
+        "href": "https://cmr.earthdata.nasa.gov/search/concepts/V3156651217-GES_DISC",
+        "units": "count",
+        "scienceKeywords": []
+      },
+      {
+        "name": "time",
+        "longName": "time",
+        "href": "https://cmr.earthdata.nasa.gov/search/concepts/V3156651253-GES_DISC",
+        "units": "days since 1980-01-06 00:00:00Z",
+        "scienceKeywords": []
+      }
+    ]
+  }
+}

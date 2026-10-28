@@ -1,0 +1,355 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Next Season • NASA Space Apps Challenge 2026</title>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<style>
+  @layer base {
+    html, body { margin: 0; padding: 0; }
+  }
+  ::-webkit-scrollbar { display: none; }
+</style>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          navy: "#0A1128",
+          satellite: "#0284C7",
+          plant: "#16A34A",
+          amber: "#D97706",
+          surface: "#F8FAFC",
+        },
+        fontFamily: {
+          headline: ["Plus Jakarta Sans", "sans-serif"],
+          body: ["Inter", "sans-serif"],
+        }
+      }
+    }
+  };
+</script>
+</head>
+<body class="bg-surface font-body text-slate-800 antialiased selection:bg-sky-100 selection:text-sky-900">
+<!-- 1. TOP NAVIGATION -->
+<header class="fixed top-0 inset-x-0 z-50 bg-white/80 backdrop-blur-xl border-b border-slate-100">
+<div class="max-w-6xl mx-auto h-20 px-6 sm:px-8 flex items-center justify-between">
+<!-- Logo -->
+<a class="flex items-center gap-3 group" href="#">
+<div class="w-9 h-9 rounded-xl bg-navy flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[20px] text-sky-400">nest_eco_leaf</span>
+</div>
+<div class="flex items-center gap-2.5">
+<span class="font-headline font-bold text-lg text-navy tracking-tight">Next Season</span>
+<span class="text-[10px] font-bold tracking-wider uppercase px-2 py-0.5 rounded-full bg-slate-100 text-slate-500 border border-slate-200/60">NASA Space Apps 2026</span>
+</div>
+</a>
+<!-- Clean centered nav links -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium text-slate-600 hover:text-navy transition-colors" href="#timeline">Plan</a>
+<a class="text-sm font-medium text-slate-600 hover:text-navy transition-colors" href="#water-commons">Water Commons</a>
+<a class="text-sm font-medium text-slate-600 hover:text-navy transition-colors" href="#methodology">Methodology</a>
+</nav>
+<!-- Right Controls -->
+<div class="flex items-center gap-4">
+<!-- Language toggle -->
+<div class="flex items-center bg-slate-100/90 p-1 rounded-full text-xs font-semibold text-slate-600">
+<button class="px-2.5 py-1 rounded-full bg-white text-navy shadow-xs" type="button">EN</button>
+<button class="px-2.5 py-1 rounded-full hover:text-navy transition-colors" type="button">বাংলা</button>
+</div>
+<!-- Primary CTA -->
+<a class="hidden sm:inline-flex items-center justify-center px-4 py-2 rounded-xl bg-navy text-white text-xs font-semibold hover:bg-slate-800 transition-all shadow-sm" href="#timeline">
+        Plan My Farm
+      </a>
+</div>
+</div>
+</header>
+<!-- MAIN WRAPPER -->
+<main class="flex flex-col w-full overflow-hidden gap-16 pt-24">
+<!-- 2. SECTION 1 — HERO & 3-SEASON TIMELINE -->
+<section class="max-w-6xl mx-auto px-6 sm:px-8 w-full flex flex-col items-center text-center">
+<!-- Eyebrow -->
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-50 border border-sky-100 text-sky-700 text-xs font-semibold mb-6">
+<span class="w-1.5 h-1.5 rounded-full bg-satellite animate-pulse"></span>
+      NASA-powered crop rotation planning
+    </div>
+<!-- Main Headline -->
+<h1 class="font-headline font-extrabold text-4xl sm:text-5xl md:text-6xl text-navy tracking-tight leading-[1.12] max-w-3xl">
+      Plan Beyond the Next Harvest.
+    </h1>
+<!-- Short Subheading (max 2 lines) -->
+<p class="font-body text-base sm:text-lg text-slate-600 max-w-xl mt-5 font-normal leading-relaxed">
+      Explore crop rotations shaped by climate, soil, and what matters most to you.
+    </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center justify-center gap-3.5 mt-8">
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-navy hover:bg-slate-800 text-white text-sm font-semibold shadow-sm hover:shadow-md transition-all" href="#timeline">
+<span class="">Plan My Next Seasons</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white hover:bg-slate-50 text-slate-700 text-sm font-semibold border border-slate-200 transition-all" href="#how-it-works">
+<span class="">How It Works</span>
+</a>
+</div>
+<!-- CENTRAL HERO VISUAL: 3-SEASON TIMELINE -->
+<div class="w-full relative mt-10" id="timeline"><div class="bg-white rounded-3xl border border-slate-200/80 shadow-2xl shadow-slate-900/[0.06] overflow-hidden flex flex-col"><div class="relative w-full overflow-hidden bg-slate-950 min-h-[480px] lg:min-h-[540px] flex items-end"><img alt="Stunning cinematic aerial earth-observation view of lush agricultural mosaic river delta fields in northern Bangladesh (Tista and Brahmaputra basin) with orbital telemetry HUD overlay" class="absolute inset-0 w-full h-full object-cover object-center transform transition-transform duration-700 hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCU0wZmgvu9czrbKFdX37_iD8Painwqd2i_2y-OIcQO-EbZVXv_zYup7zREMeXcMbs4qDDL0ijpW-klDtBRavKIQ1rLLC4iZYJgOhjV6TuSp5mvPt2ZMxWGrBrE4-FQNC3s6jnWxP3QY8G7JDkm6PVija2MHl-2zUoSS5nL5sOj09CXr3FbK2v6sdqvQcBAsCsLbKGS5cAa59eCQb4VdPSnktP8C5aUdhwvi-ojMbejipQf_obFnV0V"><div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-slate-900/40 pointer-events-none"></div><div class="absolute top-5 left-5 right-5 flex flex-wrap items-center justify-between gap-3 z-10"><div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900/80 backdrop-blur-md border border-slate-700/80 text-white text-xs font-mono shadow-sm"><span class="w-2 h-2 rounded-full bg-sky-400 animate-ping"></span><span class="text-sky-300 font-semibold">LIVE SENSOR HUD</span><span class="text-slate-400">|</span><span class="text-slate-200">SMAP L4 • Tista-Brahmaputra Basin</span></div><div class="hidden sm:flex items-center gap-2"><div class="px-3 py-1.5 rounded-full bg-slate-900/80 backdrop-blur-md border border-slate-700 text-xs text-white font-medium flex items-center gap-2"><span class="material-symbols-outlined text-plant text-[16px]">eco</span><span class="">NDVI +0.78 (Peak Canopy)</span></div><div class="px-3 py-1.5 rounded-full bg-slate-900/80 backdrop-blur-md border border-slate-700 text-xs text-white font-medium flex items-center gap-2"><span class="material-symbols-outlined text-sky-400 text-[16px]">satellite_alt</span><span class="">GPM Cycle: Calibrated</span></div></div></div><div class="relative z-10 w-full p-6 sm:p-10 text-left"><div class="max-w-2xl"><div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-full bg-sky-500/20 text-sky-300 border border-sky-400/40 text-[11px] font-mono uppercase tracking-wider mb-3"><span class="">Orbital Observation Feed</span><span class="">•</span><span class="">Mission Lat 25°48'N Long 89°21'E</span></div><h2 class="text-2xl sm:text-4xl font-headline font-bold text-white tracking-tight leading-tight">Delta Agriculture Telemetry &amp; Field Forecasting</h2><p class="text-slate-200 text-xs sm:text-sm mt-2 font-normal leading-relaxed max-w-xl">High-resolution Earth observation captures seasonal surface moisture, river dynamics, and biomass vigor to simulate sustainable 3-season crop sequences across northern Bangladesh.</p></div></div><div class="absolute bottom-6 right-6 hidden md:flex items-center gap-2 z-10"><button class="w-10 h-10 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md border border-white/30 text-white flex items-center justify-center transition-all cursor-pointer shadow-sm" title="Previous View" type="button"><span class="material-symbols-outlined text-[20px]">chevron_left</span></button><button class="w-10 h-10 rounded-full bg-white/20 hover:bg-white/30 backdrop-blur-md border border-white/30 text-white flex items-center justify-center transition-all cursor-pointer shadow-sm" title="Next View" type="button"><span class="material-symbols-outlined text-[20px]">chevron_right</span></button></div></div></div></div>
+</section>
+<!-- 3. SECTION 2 — ONE-SENTENCE DIFFERENTIATOR -->
+<section class="w-full bg-white border-y border-slate-100 py-12">
+<div class="max-w-4xl mx-auto px-6 sm:px-8 text-center">
+<h2 class="font-headline font-bold text-3xl sm:text-4xl md:text-5xl text-navy tracking-tight leading-tight">
+        Most tools recommend a crop.<br class="hidden sm:inline">
+<span class="text-satellite">Next Season</span> helps you compare entire crop rotations.
+      </h2>
+</div>
+</section>
+<!-- 4. SECTION 3 — HOW IT WORKS -->
+<section class="max-w-6xl mx-auto px-6 sm:px-8 w-full" id="how-it-works">
+<div class="text-center max-w-xl mx-auto mb-8">
+<span class="text-xs font-bold uppercase tracking-wider text-satellite">Process</span>
+<h2 class="font-headline font-bold text-3xl text-navy mt-1 tracking-tight">How It Works</h2>
+</div>
+<!-- 3 Simple Visual Steps -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+<!-- Step 1 -->
+<div class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-xs flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-2xl bg-sky-50 text-satellite flex items-center justify-center font-bold text-sm mb-6">
+            01
+          </div>
+<h3 class="font-headline font-bold text-xl text-navy">Your Farm</h3>
+<p class="text-sm text-slate-600 mt-2">Location, soil characteristics, and recent crop history.</p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-xs flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-2xl bg-sky-50 text-satellite flex items-center justify-center font-bold text-sm mb-6">
+            02
+          </div>
+<h3 class="font-headline font-bold text-xl text-navy">NASA + Crop Science</h3>
+<p class="text-sm text-slate-600 mt-2">Satellite climate benchmarks and real-time environmental context.</p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-xs flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-2xl bg-emerald-50 text-plant flex items-center justify-center font-bold text-sm mb-6">
+            03
+          </div>
+<h3 class="font-headline font-bold text-xl text-navy">Your Next Seasons</h3>
+<p class="text-sm text-slate-600 mt-2">Compare resilient, smallholder-sovereign rotation options.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. SECTION 4 — NASA DATA MOMENT ('Your Field From Space') -->
+<section class="max-w-6xl mx-auto px-6 sm:px-8 w-full" id="methodology">
+<div class="bg-navy rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden">
+<!-- Glow ambient background -->
+<div class="absolute -right-20 -bottom-20 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="mb-10">
+<span class="text-xs font-bold uppercase tracking-wider text-sky-400">Orbital Telemetry</span>
+<h2 class="font-headline font-bold text-3xl sm:text-4xl text-white mt-1 tracking-tight">Your Field From Space</h2>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<!-- Left: Stylized Satellite Field Plot -->
+<div class="lg:col-span-5 bg-slate-900/80 rounded-2xl border border-slate-800 p-6 relative flex flex-col justify-between min-h-[300px]">
+<div class="flex items-center justify-between">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-[11px] font-mono text-sky-300">
+<span class="w-1.5 h-1.5 rounded-full bg-sky-400 animate-ping"></span>
+              25.7439° N, 89.2752° E
+            </span>
+<span class="text-xs font-semibold text-slate-400">Rangpur</span>
+</div>
+<!-- Vector plot boundary visualization -->
+<div class="my-6 relative h-40 border border-dashed border-sky-400/40 rounded-xl p-4 flex flex-col justify-center items-center bg-slate-950/60">
+<div class="absolute inset-x-6 inset-y-4 border border-sky-500/60 rounded-lg bg-sky-500/5 flex items-center justify-center">
+<span class="text-xs font-mono text-sky-200">Plot Boundary (1.2 ha)</span>
+</div>
+<div class="w-full flex justify-between absolute bottom-2 px-4 text-[10px] font-mono text-slate-500">
+<span class="">SMAP L4 Volumetric</span>
+<span class="">AEZ-03 Alluvial</span>
+</div>
+</div>
+<div class="text-[11px] text-slate-400 font-mono">
+            Direct feed via NASA Earthdata Distributed Active Archive Centers
+          </div>
+</div>
+<!-- Right: 3 Environmental Cards -->
+<div class="lg:col-span-7 flex flex-col gap-4">
+<!-- Card 1: NASA POWER -->
+<div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-800 hover:border-slate-700 transition-colors">
+<div class="flex items-center justify-between mb-1.5">
+<span class="text-xs font-bold text-sky-400 uppercase tracking-wider">NASA POWER • Seasonal Climate</span>
+<span class="material-symbols-outlined text-[18px] text-slate-500">solar_power</span>
+</div>
+<p class="text-sm text-slate-300 leading-relaxed">
+              Dry-season heat profiles indicate accelerated topsoil drying.
+            </p>
+</div>
+<!-- Card 2: SMAP -->
+<div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-800 hover:border-slate-700 transition-colors">
+<div class="flex items-center justify-between mb-1.5">
+<span class="text-xs font-bold text-sky-400 uppercase tracking-wider">SMAP • Root-Zone Moisture</span>
+<span class="material-symbols-outlined text-[18px] text-slate-500">layers</span>
+</div>
+<p class="text-sm text-slate-300 leading-relaxed">
+              Root-zone moisture is 24% below the seasonal baseline.
+            </p>
+</div>
+<!-- Card 3: GPM IMERG -->
+<div class="bg-slate-900/60 rounded-2xl p-5 border border-slate-800 hover:border-slate-700 transition-colors">
+<div class="flex items-center justify-between mb-1.5">
+<span class="text-xs font-bold text-sky-400 uppercase tracking-wider">GPM IMERG • Rainfall Pattern</span>
+<span class="material-symbols-outlined text-[18px] text-slate-500">rainy</span>
+</div>
+<p class="text-sm text-slate-300 leading-relaxed">
+              Dry-season rainfall is lower than usual, favoring taproot crops.
+            </p>
+</div>
+<!-- Bottom evidence link -->
+<div class="pt-2">
+<a class="inline-flex items-center gap-1.5 text-xs font-semibold text-sky-400 hover:text-sky-300 transition-colors" href="#methodology">
+<span class="">See the evidence</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. SECTION 5 — ROTATION PREVIEW ('See More Than One Future') -->
+<section class="max-w-6xl mx-auto px-6 sm:px-8 w-full">
+<div class="text-center max-w-xl mx-auto mb-8">
+<span class="text-xs font-bold uppercase tracking-wider text-satellite">Comparative Horizons</span>
+<h2 class="font-headline font-bold text-3xl text-navy mt-1 tracking-tight">See More Than One Future.</h2>
+</div>
+<!-- 3 Clean Rotation Cards Side-by-Side -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Card 1: Balanced -->
+<div class="bg-white rounded-3xl p-7 border border-slate-200/80 shadow-xs flex flex-col justify-between">
+<div>
+<span class="text-xs font-bold text-slate-500 uppercase tracking-wider">Strategy 01</span>
+<h3 class="font-headline font-bold text-xl text-navy mt-1">Balanced</h3>
+<p class="text-sm text-slate-600 mt-2 font-medium">Rice → Mustard → Mung Bean</p>
+</div>
+<div class="mt-8 pt-6 border-t border-slate-100 flex flex-wrap gap-2">
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-slate-100 text-slate-700">Water: Moderate</span>
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-emerald-50 text-plant">Soil: +22 kg/ha N</span>
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-sky-50 text-satellite">Resilience: 8.8/10</span>
+</div>
+</div>
+<!-- Card 2: Water-Smart -->
+<div class="bg-white rounded-3xl p-7 border-2 border-sky-300 shadow-sm flex flex-col justify-between relative">
+<div class="absolute -top-3 right-6 px-3 py-0.5 rounded-full bg-satellite text-white text-[10px] font-bold uppercase tracking-wider">
+          Lowest Depletion
+        </div>
+<div>
+<span class="text-xs font-bold text-satellite uppercase tracking-wider">Strategy 02</span>
+<h3 class="font-headline font-bold text-xl text-navy mt-1">Water-Smart</h3>
+<p class="text-sm text-slate-600 mt-2 font-medium">Rice → Lentil → Sesame</p>
+</div>
+<div class="mt-8 pt-6 border-t border-slate-100 flex flex-wrap gap-2">
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-sky-100 text-sky-800">Water: 72% Saved</span>
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-slate-100 text-slate-700">Soil: Balanced</span>
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-emerald-50 text-plant">Resilience: 9.4/10</span>
+</div>
+</div>
+<!-- Card 3: Most Robust -->
+<div class="bg-white rounded-3xl p-7 border border-slate-200/80 shadow-xs flex flex-col justify-between">
+<div>
+<span class="text-xs font-bold text-slate-500 uppercase tracking-wider">Strategy 03</span>
+<h3 class="font-headline font-bold text-xl text-navy mt-1">Most Robust</h3>
+<p class="text-sm text-slate-600 mt-2 font-medium">Rice → Maize → Mung Bean</p>
+</div>
+<div class="mt-8 pt-6 border-t border-slate-100 flex flex-wrap gap-2">
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-sky-100 text-sky-800">Water: 55% Saved</span>
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-emerald-50 text-plant">Soil: High Cover</span>
+<span class="text-xs font-semibold px-3 py-1 rounded-full bg-sky-50 text-satellite">Resilience: 9.1/10</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. SECTION 6 — WATER COMMONS TEASER -->
+<section class="max-w-6xl mx-auto px-6 sm:px-8 w-full" id="water-commons">
+<div class="bg-white rounded-3xl p-8 sm:p-12 border border-slate-200/80 shadow-xs flex flex-col lg:flex-row items-center justify-between gap-10">
+<div class="max-w-lg">
+<span class="text-xs font-bold uppercase tracking-wider text-satellite">Aquifer Stewardship</span>
+<h2 class="font-headline font-bold text-2xl sm:text-3xl text-navy mt-1 tracking-tight">Some decisions are shared.</h2>
+<p class="text-sm text-slate-600 mt-3 leading-relaxed">
+          Coordinate crop timing when farms depend on the same irrigation source.
+        </p>
+<div class="mt-6">
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-navy text-white text-xs font-semibold hover:bg-slate-800 transition-all" href="#water-commons">
+<span class="">Explore Water Commons</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Minimal Stylized Visual: Connected Nodes & Capacity Curve -->
+<div class="w-full lg:w-96 bg-slate-50 rounded-2xl p-6 border border-slate-200/60 flex flex-col gap-5">
+<!-- 3 Connected Plot Nodes Sharing an Aquifer -->
+<div class="flex items-center justify-between relative px-4">
+<div class="w-9 h-9 rounded-full bg-white border border-slate-200 flex items-center justify-center text-xs font-bold text-slate-700 shadow-xs z-10">P1</div>
+<div class="w-9 h-9 rounded-full bg-white border border-slate-200 flex items-center justify-center text-xs font-bold text-slate-700 shadow-xs z-10">P2</div>
+<div class="w-9 h-9 rounded-full bg-white border border-slate-200 flex items-center justify-center text-xs font-bold text-slate-700 shadow-xs z-10">P3</div>
+<!-- Tube-well / Aquifer Node Connector Line -->
+<div class="absolute inset-x-8 top-1/2 -translate-y-1/2 h-0.5 bg-slate-200"></div>
+</div>
+<div class="flex items-center justify-center">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-50 border border-sky-100 text-[11px] font-semibold text-satellite">
+<span class="material-symbols-outlined text-[14px]">water</span>
+            Shared Deep Tube-Well
+          </div>
+</div>
+<!-- Stylized Peak Demand vs Capacity Curve -->
+<div class="pt-3 border-t border-slate-200/60">
+<div class="flex items-center justify-between text-[11px] font-medium text-slate-500 mb-2">
+<span class="">Peak Demand</span>
+<span class="text-plant font-semibold">Under Shared Capacity</span>
+</div>
+<div class="w-full h-2 bg-slate-200 rounded-full overflow-hidden">
+<div class="h-full bg-plant rounded-full w-2/3"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. SECTION 7 — FINAL CTA -->
+<section class="max-w-6xl mx-auto px-6 sm:px-8 w-full pb-8">
+<div class="bg-white rounded-3xl p-10 border border-slate-200 text-center flex flex-col items-center sm:p-10">
+<h2 class="font-headline font-bold text-3xl sm:text-4xl text-navy tracking-tight max-w-xl">
+        What could your next seasons look like?
+      </h2>
+<div class="flex flex-wrap items-center justify-center gap-4 mt-8">
+<a class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl bg-navy hover:bg-slate-800 text-white text-sm font-semibold shadow-sm transition-all" href="#timeline">
+          Explore My Farm
+        </a>
+<a class="inline-flex items-center justify-center px-6 py-3.5 rounded-xl text-slate-600 hover:text-navy text-sm font-semibold transition-colors" href="#methodology">
+          View Methodology →
+        </a>
+</div>
+</div>
+</section>
+</main>
+<!-- 9. FOOTER -->
+<footer class="w-full border-t border-slate-100 py-12 bg-white mt-8">
+<div class="max-w-6xl mx-auto px-6 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
+<div class="text-xs text-slate-500">
+      Next Season • Team OORT CLOUDS • NASA Space Apps Challenge 2026
+    </div>
+<div class="flex items-center gap-6 text-xs font-medium text-slate-600">
+<a class="hover:text-navy transition-colors" href="#methodology">Methodology</a>
+<a class="hover:text-navy transition-colors" href="https://earthdata.nasa.gov" rel="noopener noreferrer" target="_blank">NASA Data</a>
+<a class="hover:text-navy transition-colors" href="#">About</a>
+<a class="hover:text-navy transition-colors" href="#">GitHub</a>
+</div>
+</div>
+</footer>
+
+
+</body></html>

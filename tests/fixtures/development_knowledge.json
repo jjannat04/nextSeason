@@ -1,0 +1,1433 @@
+{
+  "schema_version": 1,
+  "origin": "DEVELOPMENT_FIXTURE",
+  "crops": [
+    {
+      "id": "aman_rice",
+      "label": "Aman rice",
+      "family": "Poaceae",
+      "origin": "DEVELOPMENT_FIXTURE",
+      "temperature": {
+        "temp_absolute_min_c": {
+          "raw_value": "10",
+          "normalized_value": 10,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_absolute_min_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "temp_optimal_min_c": {
+          "raw_value": "20",
+          "normalized_value": 20,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_optimal_min_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "temp_optimal_max_c": {
+          "raw_value": "30",
+          "normalized_value": 30,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_optimal_max_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "temp_absolute_max_c": {
+          "raw_value": "36",
+          "normalized_value": 36,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_absolute_max_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        }
+      },
+      "soil_ph": {
+        "soil_ph_opt_min": {
+          "raw_value": "5.5",
+          "normalized_value": 5.5,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "soil_ph_opt_min",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "soil_ph_opt_max": {
+          "raw_value": "7",
+          "normalized_value": 7,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "soil_ph_opt_max",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        }
+      },
+      "calendars": [
+        {
+          "id": "DEVELOPMENT_FIXTURE-aman_rice-2",
+          "slot": 2,
+          "verification": "verified",
+          "fields": {
+            "planting_start": {
+              "raw_value": "2027-08-10",
+              "normalized_value": "2027-08-10",
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "planting_start",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "planting_end": {
+              "raw_value": "2027-08-20",
+              "normalized_value": "2027-08-20",
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "planting_end",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "duration_days": {
+              "raw_value": "40",
+              "normalized_value": 40,
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "duration_days",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "turnaround_days": {
+              "raw_value": "3",
+              "normalized_value": 3,
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "turnaround_days",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            }
+          }
+        }
+      ],
+      "family_evidence": {
+        "raw_value": "Poaceae",
+        "normalized_value": "Poaceae",
+        "verification": "verified",
+        "source": {
+          "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+          "source_url": null
+        },
+        "confidence": null,
+        "notes": "Synthetic pipeline test only; never farming advice",
+        "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+        "provenance": {
+          "file": "tests/fixtures/development_knowledge.json",
+          "column": "family",
+          "origin": "DEVELOPMENT_FIXTURE"
+        },
+        "unit": null,
+        "allowed_uses": [
+          "structural_comparison"
+        ]
+      }
+    },
+    {
+      "id": "maize",
+      "label": "Maize",
+      "family": "Poaceae",
+      "origin": "DEVELOPMENT_FIXTURE",
+      "temperature": {
+        "temp_absolute_min_c": {
+          "raw_value": "10",
+          "normalized_value": 10,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_absolute_min_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "temp_optimal_min_c": {
+          "raw_value": "18",
+          "normalized_value": 18,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_optimal_min_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "temp_optimal_max_c": {
+          "raw_value": "33",
+          "normalized_value": 33,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_optimal_max_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "temp_absolute_max_c": {
+          "raw_value": "47",
+          "normalized_value": 47,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_absolute_max_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        }
+      },
+      "soil_ph": {
+        "soil_ph_opt_min": {
+          "raw_value": "5",
+          "normalized_value": 5,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "soil_ph_opt_min",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "soil_ph_opt_max": {
+          "raw_value": "7",
+          "normalized_value": 7,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "soil_ph_opt_max",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        }
+      },
+      "calendars": [
+        {
+          "id": "DEVELOPMENT_FIXTURE-maize-0",
+          "slot": 0,
+          "verification": "verified",
+          "fields": {
+            "planting_start": {
+              "raw_value": "2027-01-10",
+              "normalized_value": "2027-01-10",
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "planting_start",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "planting_end": {
+              "raw_value": "2027-01-20",
+              "normalized_value": "2027-01-20",
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "planting_end",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "duration_days": {
+              "raw_value": "40",
+              "normalized_value": 40,
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "duration_days",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "turnaround_days": {
+              "raw_value": "3",
+              "normalized_value": 3,
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "turnaround_days",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            }
+          }
+        },
+        {
+          "id": "DEVELOPMENT_FIXTURE-maize-1",
+          "slot": 1,
+          "verification": "verified",
+          "fields": {
+            "planting_start": {
+              "raw_value": "2027-04-10",
+              "normalized_value": "2027-04-10",
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "planting_start",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "planting_end": {
+              "raw_value": "2027-04-20",
+              "normalized_value": "2027-04-20",
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "planting_end",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "duration_days": {
+              "raw_value": "40",
+              "normalized_value": 40,
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "duration_days",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "turnaround_days": {
+              "raw_value": "3",
+              "normalized_value": 3,
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "turnaround_days",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            }
+          }
+        }
+      ],
+      "family_evidence": {
+        "raw_value": "Poaceae",
+        "normalized_value": "Poaceae",
+        "verification": "verified",
+        "source": {
+          "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+          "source_url": null
+        },
+        "confidence": null,
+        "notes": "Synthetic pipeline test only; never farming advice",
+        "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+        "provenance": {
+          "file": "tests/fixtures/development_knowledge.json",
+          "column": "family",
+          "origin": "DEVELOPMENT_FIXTURE"
+        },
+        "unit": null,
+        "allowed_uses": [
+          "structural_comparison"
+        ]
+      }
+    },
+    {
+      "id": "sunflower",
+      "label": "Sunflower",
+      "family": "Asteraceae",
+      "origin": "DEVELOPMENT_FIXTURE",
+      "temperature": {
+        "temp_absolute_min_c": {
+          "raw_value": "5",
+          "normalized_value": 5,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_absolute_min_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "temp_optimal_min_c": {
+          "raw_value": "17",
+          "normalized_value": 17,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_optimal_min_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "temp_optimal_max_c": {
+          "raw_value": "34",
+          "normalized_value": 34,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_optimal_max_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "temp_absolute_max_c": {
+          "raw_value": "45",
+          "normalized_value": 45,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_absolute_max_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        }
+      },
+      "soil_ph": {
+        "soil_ph_opt_min": {
+          "raw_value": "6",
+          "normalized_value": 6,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "soil_ph_opt_min",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "soil_ph_opt_max": {
+          "raw_value": "7.5",
+          "normalized_value": 7.5,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "soil_ph_opt_max",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        }
+      },
+      "calendars": [
+        {
+          "id": "DEVELOPMENT_FIXTURE-sunflower-0",
+          "slot": 0,
+          "verification": "verified",
+          "fields": {
+            "planting_start": {
+              "raw_value": "2027-01-10",
+              "normalized_value": "2027-01-10",
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "planting_start",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "planting_end": {
+              "raw_value": "2027-01-20",
+              "normalized_value": "2027-01-20",
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "planting_end",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "duration_days": {
+              "raw_value": "40",
+              "normalized_value": 40,
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "duration_days",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "turnaround_days": {
+              "raw_value": "3",
+              "normalized_value": 3,
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "turnaround_days",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            }
+          }
+        }
+      ],
+      "family_evidence": {
+        "raw_value": "Asteraceae",
+        "normalized_value": "Asteraceae",
+        "verification": "verified",
+        "source": {
+          "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+          "source_url": null
+        },
+        "confidence": null,
+        "notes": "Synthetic pipeline test only; never farming advice",
+        "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+        "provenance": {
+          "file": "tests/fixtures/development_knowledge.json",
+          "column": "family",
+          "origin": "DEVELOPMENT_FIXTURE"
+        },
+        "unit": null,
+        "allowed_uses": [
+          "structural_comparison"
+        ]
+      }
+    },
+    {
+      "id": "mung_bean",
+      "label": "Mungbean",
+      "family": "Fabaceae",
+      "origin": "DEVELOPMENT_FIXTURE",
+      "temperature": {
+        "temp_absolute_min_c": {
+          "raw_value": "8",
+          "normalized_value": 8,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_absolute_min_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "temp_optimal_min_c": {
+          "raw_value": "21",
+          "normalized_value": 21,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_optimal_min_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "temp_optimal_max_c": {
+          "raw_value": "36",
+          "normalized_value": 36,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_optimal_max_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "temp_absolute_max_c": {
+          "raw_value": "40",
+          "normalized_value": 40,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "temp_absolute_max_c",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        }
+      },
+      "soil_ph": {
+        "soil_ph_opt_min": {
+          "raw_value": "5.5",
+          "normalized_value": 5.5,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "soil_ph_opt_min",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        },
+        "soil_ph_opt_max": {
+          "raw_value": "6.2",
+          "normalized_value": 6.2,
+          "verification": "verified",
+          "source": {
+            "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+            "source_url": null
+          },
+          "confidence": null,
+          "notes": "Synthetic pipeline test only; never farming advice",
+          "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+          "provenance": {
+            "file": "tests/fixtures/development_knowledge.json",
+            "column": "soil_ph_opt_max",
+            "origin": "DEVELOPMENT_FIXTURE"
+          },
+          "unit": null,
+          "allowed_uses": [
+            "global_species_reference_comparison",
+            "rotation_feasibility"
+          ]
+        }
+      },
+      "calendars": [
+        {
+          "id": "DEVELOPMENT_FIXTURE-mung_bean-0",
+          "slot": 0,
+          "verification": "verified",
+          "fields": {
+            "planting_start": {
+              "raw_value": "2027-01-10",
+              "normalized_value": "2027-01-10",
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "planting_start",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "planting_end": {
+              "raw_value": "2027-01-20",
+              "normalized_value": "2027-01-20",
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "planting_end",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "duration_days": {
+              "raw_value": "40",
+              "normalized_value": 40,
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "duration_days",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "turnaround_days": {
+              "raw_value": "3",
+              "normalized_value": 3,
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "turnaround_days",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            }
+          }
+        },
+        {
+          "id": "DEVELOPMENT_FIXTURE-mung_bean-1",
+          "slot": 1,
+          "verification": "verified",
+          "fields": {
+            "planting_start": {
+              "raw_value": "2027-04-10",
+              "normalized_value": "2027-04-10",
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "planting_start",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "planting_end": {
+              "raw_value": "2027-04-20",
+              "normalized_value": "2027-04-20",
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "planting_end",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "duration_days": {
+              "raw_value": "40",
+              "normalized_value": 40,
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "duration_days",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            },
+            "turnaround_days": {
+              "raw_value": "3",
+              "normalized_value": 3,
+              "verification": "verified",
+              "source": {
+                "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+                "source_url": null
+              },
+              "confidence": null,
+              "notes": "Synthetic pipeline test only; never farming advice",
+              "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+              "provenance": {
+                "file": "tests/fixtures/development_knowledge.json",
+                "column": "turnaround_days",
+                "origin": "DEVELOPMENT_FIXTURE"
+              },
+              "unit": null,
+              "allowed_uses": [
+                "global_species_reference_comparison",
+                "rotation_feasibility"
+              ]
+            }
+          }
+        }
+      ],
+      "family_evidence": {
+        "raw_value": "Fabaceae",
+        "normalized_value": "Fabaceae",
+        "verification": "verified",
+        "source": {
+          "source_title": "DEVELOPMENT_FIXTURE: synthetic test constants",
+          "source_url": null
+        },
+        "confidence": null,
+        "notes": "Synthetic pipeline test only; never farming advice",
+        "geographic_applicability": "DEVELOPMENT_FIXTURE only",
+        "provenance": {
+          "file": "tests/fixtures/development_knowledge.json",
+          "column": "family",
+          "origin": "DEVELOPMENT_FIXTURE"
+        },
+        "unit": null,
+        "allowed_uses": [
+          "structural_comparison"
+        ]
+      }
+    }
+  ],
+  "rotation_rules": [
+    {
+      "id": "DEVELOPMENT_FIXTURE-aman_rice-maize",
+      "previous": "aman_rice",
+      "next": "maize",
+      "verification": "verified",
+      "allowed_uses": [
+        "rotation_feasibility"
+      ],
+      "provenance": {
+        "origin": "DEVELOPMENT_FIXTURE"
+      },
+      "source": {
+        "source_title": "DEVELOPMENT_FIXTURE synthetic admissible pair"
+      },
+      "notes": "Not agronomic validation"
+    },
+    {
+      "id": "DEVELOPMENT_FIXTURE-aman_rice-sunflower",
+      "previous": "aman_rice",
+      "next": "sunflower",
+      "verification": "verified",
+      "allowed_uses": [
+        "rotation_feasibility"
+      ],
+      "provenance": {
+        "origin": "DEVELOPMENT_FIXTURE"
+      },
+      "source": {
+        "source_title": "DEVELOPMENT_FIXTURE synthetic admissible pair"
+      },
+      "notes": "Not agronomic validation"
+    },
+    {
+      "id": "DEVELOPMENT_FIXTURE-aman_rice-mung_bean",
+      "previous": "aman_rice",
+      "next": "mung_bean",
+      "verification": "verified",
+      "allowed_uses": [
+        "rotation_feasibility"
+      ],
+      "provenance": {
+        "origin": "DEVELOPMENT_FIXTURE"
+      },
+      "source": {
+        "source_title": "DEVELOPMENT_FIXTURE synthetic admissible pair"
+      },
+      "notes": "Not agronomic validation"
+    },
+    {
+      "id": "DEVELOPMENT_FIXTURE-maize-aman_rice",
+      "previous": "maize",
+      "next": "aman_rice",
+      "verification": "verified",
+      "allowed_uses": [
+        "rotation_feasibility"
+      ],
+      "provenance": {
+        "origin": "DEVELOPMENT_FIXTURE"
+      },
+      "source": {
+        "source_title": "DEVELOPMENT_FIXTURE synthetic admissible pair"
+      },
+      "notes": "Not agronomic validation"
+    },
+    {
+      "id": "DEVELOPMENT_FIXTURE-maize-sunflower",
+      "previous": "maize",
+      "next": "sunflower",
+      "verification": "verified",
+      "allowed_uses": [
+        "rotation_feasibility"
+      ],
+      "provenance": {
+        "origin": "DEVELOPMENT_FIXTURE"
+      },
+      "source": {
+        "source_title": "DEVELOPMENT_FIXTURE synthetic admissible pair"
+      },
+      "notes": "Not agronomic validation"
+    },
+    {
+      "id": "DEVELOPMENT_FIXTURE-maize-mung_bean",
+      "previous": "maize",
+      "next": "mung_bean",
+      "verification": "verified",
+      "allowed_uses": [
+        "rotation_feasibility"
+      ],
+      "provenance": {
+        "origin": "DEVELOPMENT_FIXTURE"
+      },
+      "source": {
+        "source_title": "DEVELOPMENT_FIXTURE synthetic admissible pair"
+      },
+      "notes": "Not agronomic validation"
+    },
+    {
+      "id": "DEVELOPMENT_FIXTURE-sunflower-aman_rice",
+      "previous": "sunflower",
+      "next": "aman_rice",
+      "verification": "verified",
+      "allowed_uses": [
+        "rotation_feasibility"
+      ],
+      "provenance": {
+        "origin": "DEVELOPMENT_FIXTURE"
+      },
+      "source": {
+        "source_title": "DEVELOPMENT_FIXTURE synthetic admissible pair"
+      },
+      "notes": "Not agronomic validation"
+    },
+    {
+      "id": "DEVELOPMENT_FIXTURE-sunflower-maize",
+      "previous": "sunflower",
+      "next": "maize",
+      "verification": "verified",
+      "allowed_uses": [
+        "rotation_feasibility"
+      ],
+      "provenance": {
+        "origin": "DEVELOPMENT_FIXTURE"
+      },
+      "source": {
+        "source_title": "DEVELOPMENT_FIXTURE synthetic admissible pair"
+      },
+      "notes": "Not agronomic validation"
+    },
+    {
+      "id": "DEVELOPMENT_FIXTURE-sunflower-mung_bean",
+      "previous": "sunflower",
+      "next": "mung_bean",
+      "verification": "verified",
+      "allowed_uses": [
+        "rotation_feasibility"
+      ],
+      "provenance": {
+        "origin": "DEVELOPMENT_FIXTURE"
+      },
+      "source": {
+        "source_title": "DEVELOPMENT_FIXTURE synthetic admissible pair"
+      },
+      "notes": "Not agronomic validation"
+    },
+    {
+      "id": "DEVELOPMENT_FIXTURE-mung_bean-aman_rice",
+      "previous": "mung_bean",
+      "next": "aman_rice",
+      "verification": "verified",
+      "allowed_uses": [
+        "rotation_feasibility"
+      ],
+      "provenance": {
+        "origin": "DEVELOPMENT_FIXTURE"
+      },
+      "source": {
+        "source_title": "DEVELOPMENT_FIXTURE synthetic admissible pair"
+      },
+      "notes": "Not agronomic validation"
+    },
+    {
+      "id": "DEVELOPMENT_FIXTURE-mung_bean-maize",
+      "previous": "mung_bean",
+      "next": "maize",
+      "verification": "verified",
+      "allowed_uses": [
+        "rotation_feasibility"
+      ],
+      "provenance": {
+        "origin": "DEVELOPMENT_FIXTURE"
+      },
+      "source": {
+        "source_title": "DEVELOPMENT_FIXTURE synthetic admissible pair"
+      },
+      "notes": "Not agronomic validation"
+    },
+    {
+      "id": "DEVELOPMENT_FIXTURE-mung_bean-sunflower",
+      "previous": "mung_bean",
+      "next": "sunflower",
+      "verification": "verified",
+      "allowed_uses": [
+        "rotation_feasibility"
+      ],
+      "provenance": {
+        "origin": "DEVELOPMENT_FIXTURE"
+      },
+      "source": {
+        "source_title": "DEVELOPMENT_FIXTURE synthetic admissible pair"
+      },
+      "notes": "Not agronomic validation"
+    }
+  ],
+  "limitations": [
+    "All calendar and sequence constants are synthetic tests; not recommendations"
+  ]
+}

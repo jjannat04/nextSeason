@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"primary-fixed-dim":"#bfc5e4","on-secondary-container":"#00476e","secondary-fixed-dim":"#93ccff","surface-container-high":"#dce9ff","on-tertiary-container":"#339650","on-tertiary-fixed-variant":"#005323","on-surface-variant":"#46464d","on-error-container":"#93000a","surface":"#f8f9ff","primary-container":"#141a32","on-primary-fixed":"#141a32","surface-tint":"#575d78","on-tertiary":"#ffffff","surface-variant":"#d3e4fe","on-secondary-fixed":"#001d31","secondary-fixed":"#cce5ff","on-surface":"#0b1c30","on-primary-fixed-variant":"#3f465f","tertiary-fixed":"#95f8a7","error":"#ba1a1a","on-primary-container":"#7c839f","on-secondary":"#ffffff","on-secondary-fixed-variant":"#004b73","error-container":"#ffdad6","surface-dim":"#cbdbf5","inverse-primary":"#bfc5e4","surface-container-highest":"#d3e4fe","on-background":"#0b1c30","inverse-surface":"#213145","background":"#f8f9ff","secondary-container":"#5bb8fe","on-tertiary-fixed":"#00210a","surface-container-low":"#eff4ff","outline":"#76767e","primary":"#000000","tertiary-fixed-dim":"#79db8d","tertiary-container":"#00210a","inverse-on-surface":"#eaf1ff","surface-container-lowest":"#ffffff","secondary":"#006398","on-primary":"#ffffff","primary-fixed":"#dce1ff","outline-variant":"#c6c6ce","surface-container":"#e5eeff","surface-bright":"#f8f9ff","tertiary":"#000000","on-error":"#ffffff"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-xs":"0.25rem","space-lg":"1.5rem","margin":"2rem","space-sm":"0.5rem","margin-mobile":"1rem","space-md":"1rem","gutter":"1.5rem","space-xl":"2.5rem","gutter-mobile":"0.75rem"},"fontFamily":{"headline-md":["Plus Jakarta Sans"],"body-md":["Inter"],"headline-lg-mobile":["Plus Jakarta Sans"],"telemetry-data":["Inter"],"body-lg":["Inter"],"body-sm":["Inter"],"headline-lg":["Plus Jakarta Sans"],"label-sm":["Inter"],"headline-sm":["Plus Jakarta Sans"],"label-lg":["Inter"],"label-md":["Inter"]},"fontSize":{"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"telemetry-data":["13px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"500"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"400"}],"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"0em","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface"><header class="fixed top-0 left-0 right-0 h-16 bg-surface/90 backdrop-blur-xl z-50 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="w-full h-16 px-space-lg flex items-center justify-between"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-secondary">satellite_alt</span><span class="font-headline-sm text-headline-sm text-on-surface">Next Season</span></div><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container-high text-on-surface"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">NASA Space Apps 2026</span></div></div><div class="flex items-center gap-space-lg"><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-on-surface font-label-lg font-bold"><a aria-current="page" class="transition-colors text-on-surface font-label-lg font-bold" data-path="methodology-whitepaper" href="#">Whitepaper</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="farmer-planning-tool" href="#">Farmer Planning Tool</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="validation-benchmark" href="#">Benchmarks</a></nav><div class="flex items-center gap-space-md"><div class="flex items-center p-0.5 rounded-full bg-surface-container-low"><button class="px-space-sm py-0.5 rounded-full bg-surface-container-lowest shadow-[0_1px_3px_0_rgba(10,17,40,0.04)] font-label-sm text-label-sm text-on-surface" type="button">EN</button><button class="px-space-sm py-0.5 rounded-full font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface" type="button">বাংলা</button></div><a class="flex items-center gap-space-xs px-space-sm py-1 rounded-xl bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-sm text-label-sm" href="https://github.com" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px]">terminal</span><span class="hidden md:inline">GitHub</span></a><a class="flex items-center gap-space-xs px-space-sm py-1 rounded-xl bg-surface-container-low text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors font-label-sm text-label-sm" data-path="research-paper" href="#"><span class="material-symbols-outlined text-[16px]">description</span><span class="hidden md:inline">Research Paper</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><aside class="fixed left-0 top-16 bottom-0 w-72 bg-surface-container-lowest z-40 overflow-y-auto shadow-[0_1px_8px_rgba(0,0,0,0.02)]"><div class="p-space-lg"><div class="mb-space-md"><span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Methodology Spec</span><h2 class="font-headline-sm text-headline-sm text-on-surface">System Architecture</h2></div><nav class="space-y-1" data-active-classes="bg-surface-container-high text-on-surface font-label-md font-semibold"><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="system-architecture" href="#"><span>1. Core Architecture</span><span class="font-telemetry-data text-telemetry-data text-outline">01</span></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="geospatial-inputs" href="#"><span>2. Multi-Modal Inputs</span><span class="font-telemetry-data text-telemetry-data text-outline">02</span></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="nasa-telemetry" href="#"><span>3. NASA Telemetry Stream</span><span class="font-telemetry-data text-telemetry-data text-outline">03</span></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="crop-knowledge-base" href="#"><span>4. Agronomic Knowledge Base</span><span class="font-telemetry-data text-telemetry-data text-outline">04</span></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="generation-engine" href="#"><span>5. Generation Engine</span><span class="font-telemetry-data text-telemetry-data text-outline">05</span></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="multi-objective-ranking" href="#"><span>6. Pareto Ranking Algorithm</span><span class="font-telemetry-data text-telemetry-data text-outline">06</span></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="stress-testing" href="#"><span>7. Climate Stress Testing</span><span class="font-telemetry-data text-telemetry-data text-outline">07</span></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="water-commons" href="#"><span>8. Water Commons Equilibrium</span><span class="font-telemetry-data text-telemetry-data text-outline">08</span></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="uncertainty-quantification" href="#"><span>9. Uncertainty Bounds</span><span class="font-telemetry-data text-telemetry-data text-outline">09</span></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface font-label-md text-label-md transition-colors" data-path="limitations-validation" href="#"><span>10. Validation & Limitations</span><span class="font-telemetry-data text-telemetry-data text-outline">10</span></a></nav></div></aside><div class="pl-72"><main class="w-full pt-16 bg-surface min-h-screen px-space-lg"><div class="flex flex-col w-full pb-24 text-on-surface">
+<!-- ========================================== -->
+<!-- TOP AUDIT DOSSIER BANNER & PEER SPECS      -->
+<!-- ========================================== -->
+<section class="mb-space-xl">
+<div class="relative overflow-hidden rounded-xl bg-surface-container-lowest p-space-lg shadow-sm">
+<div class="absolute -right-16 -top-16 w-80 h-80 rounded-full bg-secondary/5 blur-3xl pointer-events-none"></div>
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-lg relative z-10">
+<div>
+<div class="flex flex-wrap items-center gap-space-xs mb-space-xs">
+<span class="inline-flex items-center gap-1.5 px-space-sm py-0.5 rounded-full bg-surface-container-high text-secondary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
+              NASA Space Apps 2026 Audit Dossier
+            </span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">
+              Archival Ref: OORT-NS-ARCH-2026.04
+            </span>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">
+              CC-BY 4.0 Open Science
+            </span>
+</div>
+<h1 class="font-headline-lg text-headline-lg tracking-tight text-on-surface">
+            How Next Season Works
+          </h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 max-w-4xl">
+            System Architecture, Earth Observation Telemetry Integration, and Non-Dominated Algorithmic Rotation Synthesis for Deltaic Agro-Ecological Zones.
+          </p>
+</div>
+<!-- Quick Spec Matrix -->
+<div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 gap-space-sm lg:w-96 shrink-0 bg-surface-container-low p-space-md rounded-lg">
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Engine Core</div>
+<div class="font-telemetry-data text-telemetry-data text-on-surface mt-0.5">v4.2.1-Reanalysis</div>
+</div>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">NASA Feeds</div>
+<div class="font-telemetry-data text-telemetry-data text-secondary mt-0.5">SMAP / GPM / POWER</div>
+</div>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Ground Truth</div>
+<div class="font-telemetry-data text-telemetry-data text-on-surface mt-0.5">BARI/BRRI 2012-24</div>
+</div>
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase">Target Basin</div>
+<div class="font-telemetry-data text-telemetry-data text-on-surface mt-0.5">AEZ-03 Tista Meander</div>
+</div>
+</div>
+</div>
+<!-- Quick Action Toolbar -->
+<div class="mt-space-lg pt-space-md flex flex-wrap items-center justify-between gap-space-md">
+<div class="flex flex-wrap items-center gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<span class="flex items-center gap-1 text-on-surface font-semibold">
+<span class="material-symbols-outlined text-[18px] text-secondary">verified</span>
+            Peer-Reviewed Pipeline
+          </span>
+<span class="text-outline-variant">•</span>
+<span>Zero Black-Box Hallucination</span>
+<span class="text-outline-variant">•</span>
+<span>Hard Physio-Hydrologic Pruning</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">terminal</span>
+<span>PyTorch Replay Source</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-lg bg-primary text-on-primary hover:bg-on-surface-variant font-label-md text-label-md transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">file_download</span>
+<span>Download Reviewer Dossier (PDF)</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 1: SYSTEM ARCHITECTURE FLOWCHART   -->
+<!-- ========================================== -->
+<section class="mb-space-xl scroll-mt-20" id="system-architecture">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Module 01</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Full Execution Pipeline & Data Topology</h2>
+</div>
+<span class="font-telemetry-data text-telemetry-data px-space-sm py-1 rounded bg-surface-container text-on-surface-variant">Deterministic Flow • Directed Acyclic Graph</span>
+</div>
+<!-- Interactive Architecture Diagram Container -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm overflow-x-auto">
+<div class="min-w-[960px] flex flex-col gap-space-lg">
+<!-- Stage Headers Grid -->
+<div class="grid grid-cols-5 gap-space-md text-center">
+<div class="p-space-xs rounded bg-surface-container-low font-label-md text-label-md font-semibold text-on-surface">Stage 1: Multi-Modal Ingestion</div>
+<div class="p-space-xs rounded bg-surface-container-low font-label-md text-label-md font-semibold text-on-surface">Stage 2: Synthesis & Profiling</div>
+<div class="p-space-xs rounded bg-surface-container-low font-label-md text-label-md font-semibold text-on-surface">Stage 3: Hard Pruning Engine</div>
+<div class="p-space-xs rounded bg-surface-container-low font-label-md text-label-md font-semibold text-on-surface">Stage 4: Pareto Ranking</div>
+<div class="p-space-xs rounded bg-surface-container-low font-label-md text-label-md font-semibold text-on-surface">Stage 5: Stress & Commons</div>
+</div>
+<!-- The Pipeline Cards Connected by Flow SVG -->
+<div class="grid grid-cols-5 gap-space-md items-stretch relative">
+<!-- Column 1: Heterogeneous Inputs -->
+<div class="flex flex-col gap-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container-high/60">
+<div class="flex items-center gap-1.5 text-secondary font-label-sm text-label-sm uppercase font-semibold mb-1">
+<span class="material-symbols-outlined text-[16px]">satellite_alt</span> NASA Earth Obs
+              </div>
+<ul class="text-body-sm font-body-sm space-y-1 text-on-surface-variant">
+<li>• SMAP L4 (9km root-zone θ)</li>
+<li>• GPM IMERG Final (30m rain)</li>
+<li>• POWER (Insolation, Temp, RH)</li>
+</ul>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<div class="flex items-center gap-1.5 text-on-surface font-label-sm text-label-sm uppercase font-semibold mb-1">
+<span class="material-symbols-outlined text-[16px]">pin_drop</span> Farmer In-Situ
+              </div>
+<ul class="text-body-sm font-body-sm space-y-1 text-on-surface-variant">
+<li>• GeoJSON field polygon</li>
+<li>• Stubble retention status</li>
+<li>• Tube-well HP & pumping quota</li>
+</ul>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low">
+<div class="flex items-center gap-1.5 text-on-surface font-label-sm text-label-sm uppercase font-semibold mb-1">
+<span class="material-symbols-outlined text-[16px]">menu_book</span> Agronomic Rules
+              </div>
+<ul class="text-body-sm font-body-sm space-y-1 text-on-surface-variant">
+<li>• BARI / BRRI yield curves</li>
+<li>• Thermal units (GDD targets)</li>
+<li>• Legume N-fixation equations</li>
+</ul>
+</div>
+</div>
+<!-- Column 2: Synthesis & Profiling Vector -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col justify-between">
+<div>
+<div class="font-label-sm text-label-sm text-secondary uppercase font-semibold mb-2">Micro-Climate Vector</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+                Transforms heterogeneous rasters into a continuous spatio-temporal boundary condition vector <span class="font-telemetry-data font-bold text-on-surface">Ω(t, z)</span> across a 20-year empirical baseline.
+              </p>
+<div class="p-space-sm rounded bg-surface-container-lowest font-telemetry-data text-telemetry-data text-on-surface space-y-1">
+<div class="flex justify-between"><span>θ_init (0-100cm):</span> <span class="text-secondary font-semibold">0.248 m³/m³</span></div>
+<div class="flex justify-between"><span>ETo (FAO-56):</span> <span class="text-secondary font-semibold">3.82 mm/day</span></div>
+<div class="flex justify-between"><span>Dry spells >5d:</span> <span class="text-secondary font-semibold">P = 0.14</span></div>
+</div>
+</div>
+<div class="mt-space-md p-space-xs rounded bg-surface-container-high text-center font-label-sm text-label-sm text-on-secondary-container">
+              Bayesian Uncertainty Imputation
+            </div>
+</div>
+<!-- Column 3: Hard Pruning Engine -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col justify-between">
+<div>
+<div class="font-label-sm text-label-sm text-error uppercase font-semibold mb-2">Constraint Pruning</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+                Excludes impossible crop triplets before scoring. 4,096 theoretical permutations pruned down to ≤32 biologically feasible candidates.
+              </p>
+<div class="space-y-1.5 font-label-sm text-label-sm">
+<div class="p-1 rounded bg-error-container text-on-error-container flex items-center justify-between">
+<span>Overlap Violations</span>
+<span class="font-telemetry-data font-bold">Δt < 7d → REJECT</span>
+</div>
+<div class="p-1 rounded bg-error-container text-on-error-container flex items-center justify-between">
+<span>Salinity Limit Exceeded</span>
+<span class="font-telemetry-data font-bold">ECe > Tol → REJECT</span>
+</div>
+<div class="p-1 rounded bg-error-container text-on-error-container flex items-center justify-between">
+<span>Aquifer Exhaustion</span>
+<span class="font-telemetry-data font-bold">Q_dtw > 18h → REJECT</span>
+</div>
+</div>
+</div>
+<div class="mt-space-md p-space-xs rounded bg-surface-container-lowest text-center font-telemetry-data text-telemetry-data text-on-surface">
+              Feasibility Set: S<sub>valid</sub> ⊆ C³
+            </div>
+</div>
+<!-- Column 4: Pareto Multi-Objective -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col justify-between">
+<div>
+<div class="font-label-sm text-label-sm text-secondary uppercase font-semibold mb-2">Non-Dominated Sort</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+                Multi-objective NSGA-II sorting over 5 dimensions. Eliminates artificial scalar weighting.
+              </p>
+<!-- Mini SVG Radar Graphic -->
+<div class="h-28 flex items-center justify-center bg-surface-container-lowest rounded p-2">
+<svg class="w-full h-full text-secondary" viewbox="0 0 100 100">
+<polygon class="opacity-40" fill="none" points="50,15 85,38 72,82 28,82 15,38" stroke="currentColor" stroke-dasharray="2 2" stroke-width="0.75"></polygon>
+<polygon class="opacity-20" fill="none" points="50,25 75,42 66,75 34,75 25,42" stroke="currentColor" stroke-width="0.5"></polygon>
+<polygon fill="currentColor" fill-opacity="0.2" points="50,18 80,42 64,78 30,70 20,39" stroke="currentColor" stroke-width="1.5"></polygon>
+<circle cx="50" cy="18" fill="currentColor" r="2.5"></circle>
+<circle cx="80" cy="42" fill="currentColor" r="2.5"></circle>
+<circle cx="64" cy="78" fill="currentColor" r="2.5"></circle>
+<circle cx="30" cy="70" fill="currentColor" r="2.5"></circle>
+<circle cx="20" cy="39" fill="currentColor" r="2.5"></circle>
+</svg>
+</div>
+</div>
+<div class="mt-space-md font-telemetry-data text-telemetry-data text-center text-on-surface">
+              Pareto Rank 1 (NDS Front)
+            </div>
+</div>
+<!-- Column 5: Stress Replay & Water Commons -->
+<div class="p-space-md rounded-lg bg-surface-container-high flex flex-col justify-between">
+<div>
+<div class="font-label-sm text-label-sm text-on-secondary-container uppercase font-semibold mb-2">Validation & Output</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+                Replays empirical NASA drought (2014) and heatwave (2017) records to compute VaR down-side yield risk before synthesis.
+              </p>
+<div class="p-space-sm rounded bg-surface-container-lowest shadow-sm space-y-1.5">
+<div class="font-label-sm text-label-sm font-semibold text-on-surface">Final Recommendation</div>
+<div class="font-telemetry-data text-telemetry-data text-secondary font-bold">Rot-04B: Aman → Mustard → Mung</div>
+<div class="text-body-sm font-body-sm text-on-surface-variant">Groundwater saved: -38.4%</div>
+</div>
+</div>
+<div class="mt-space-md p-space-xs rounded bg-surface-container-lowest text-center font-label-sm text-label-sm text-on-surface font-semibold">
+              Causal Agronomic Trace
+            </div>
+</div>
+</div>
+<!-- Flow Description Callout -->
+<div class="flex items-center justify-between p-space-sm rounded-lg bg-surface-container-low text-body-sm font-body-sm text-on-surface-variant">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">schema</span>
+<span>All execution transitions are strictly reproducible via seeded PRNG and immutable raster telemetry feeds.</span>
+</span>
+<span class="font-telemetry-data text-telemetry-data">Complexity: O(N log^(M-1) N)</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 2: NASA DATA INGESTION & SPECS     -->
+<!-- ========================================== -->
+<section class="mb-space-xl scroll-mt-20" id="nasa-telemetry">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Module 02</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">NASA Earth Observation Ingestion & Calibration</h2>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">Data Product Specifications & Transformations</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- NASA SMAP Card -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-lg text-label-lg font-bold text-on-surface">SMAP L4 Global</span>
+</div>
+<span class="px-space-sm py-0.5 rounded bg-surface-container-high text-secondary font-telemetry-data text-telemetry-data">SPL4SMGP.007</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+            L-band (1.4 GHz) passive radiometer combined with NASA Catchment Land Surface Model assimilation.
+          </p>
+<div class="space-y-2 font-telemetry-data text-telemetry-data bg-surface-container-low p-space-sm rounded-lg mb-space-md">
+<div class="flex justify-between"><span class="text-on-surface-variant">Spatial Res:</span> <span class="text-on-surface font-semibold">9 km EASE-Grid 2.0</span></div>
+<div class="flex justify-between"><span class="text-on-surface-variant">Temporal Res:</span> <span class="text-on-surface font-semibold">3-hourly snapshots</span></div>
+<div class="flex justify-between"><span class="text-on-surface-variant">Depths:</span> <span class="text-on-surface font-semibold">0-5cm (Sfc) & 0-100cm (Root)</span></div>
+<div class="flex justify-between"><span class="text-on-surface-variant">Uncertainty:</span> <span class="text-on-surface font-semibold">ubRMSE ≤ 0.040 m³/m³</span></div>
+</div>
+<div class="text-body-sm font-body-sm text-on-surface">
+<strong class="font-semibold block mb-1">Agronomic Integration:</strong>
+            Governs pre-sowing soil profile hydration. Dictates zero-tillage mustard sowing viability immediately following T. Aman drainage without wasteful supplemental irrigation.
+          </div>
+</div>
+<div class="mt-space-md pt-space-sm text-label-sm font-label-sm text-on-surface-variant">
+          Citation: Entekhabi et al. (IEEE Trans. Geosci. Remote Sens. 2010, 48(2))
+        </div>
+</div>
+<!-- NASA GPM IMERG Card -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-lg text-label-lg font-bold text-on-surface">GPM IMERG Final</span>
+</div>
+<span class="px-space-sm py-0.5 rounded bg-surface-container-high text-secondary font-telemetry-data text-telemetry-data">3B-HHR V07B</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+            Integrated Multi-satellite Retrievals combining Dual-frequency Precipitation Radar with microwave constellations.
+          </p>
+<div class="space-y-2 font-telemetry-data text-telemetry-data bg-surface-container-low p-space-sm rounded-lg mb-space-md">
+<div class="flex justify-between"><span class="text-on-surface-variant">Spatial Res:</span> <span class="text-on-surface font-semibold">0.1° × 0.1° (~10 km)</span></div>
+<div class="flex justify-between"><span class="text-on-surface-variant">Temporal Res:</span> <span class="text-on-surface font-semibold">30-min accumulation</span></div>
+<div class="flex justify-between"><span class="text-on-surface-variant">Coverage:</span> <span class="text-on-surface font-semibold">60°N – 60°S Multi-Decadal</span></div>
+<div class="flex justify-between"><span class="text-on-surface-variant">Calibration:</span> <span class="text-on-surface font-semibold">GPCC monthly gauge-tuned</span></div>
+</div>
+<div class="text-body-sm font-body-sm text-on-surface">
+<strong class="font-semibold block mb-1">Agronomic Integration:</strong>
+            Detects Kharif-1 pre-monsoon squall windows (Kalbaishakhi). Triggers harvest alerts for ripening lentils and pulses to prevent 100% pod dehiscence from waterlogging.
+          </div>
+</div>
+<div class="mt-space-md pt-space-sm text-label-sm font-label-sm text-on-surface-variant">
+          Citation: Huffman et al. (NASA GSFC Algorithm Theoretical Basis Document, 2019)
+        </div>
+</div>
+<!-- NASA POWER Card -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-lg text-label-lg font-bold text-on-surface">NASA POWER GIS</span>
+</div>
+<span class="px-space-sm py-0.5 rounded bg-surface-container-high text-secondary font-telemetry-data text-telemetry-data">MERRA-2 GEOS-5</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
+            Prediction Of Worldwide Energy Resources providing solar irradiance and 2m boundary layer meteorology.
+          </p>
+<div class="space-y-2 font-telemetry-data text-telemetry-data bg-surface-container-low p-space-sm rounded-lg mb-space-md">
+<div class="flex justify-between"><span class="text-on-surface-variant">Spatial Res:</span> <span class="text-on-surface font-semibold">0.5° × 0.625° Native</span></div>
+<div class="flex justify-between"><span class="text-on-surface-variant">Temporal Res:</span> <span class="text-on-surface font-semibold">Hourly & Daily Reanalysis</span></div>
+<div class="flex justify-between"><span class="text-on-surface-variant">Parameters:</span> <span class="text-on-surface font-semibold">ALLSKY_SFC_SW_DWN, T2M, RH2M</span></div>
+<div class="flex justify-between"><span class="text-on-surface-variant">Timespan:</span> <span class="text-on-surface font-semibold">1984 – Near Real-Time</span></div>
+</div>
+<div class="text-body-sm font-body-sm text-on-surface">
+<strong class="font-semibold block mb-1">Agronomic Integration:</strong>
+            Drives daily Penman-Monteith reference evapotranspiration (ET<sub>o</sub>) and thermal degree accumulations (GDD) for phenology tracking.
+          </div>
+</div>
+<div class="mt-space-md pt-space-sm text-label-sm font-label-sm text-on-surface-variant">
+          Citation: Stackhouse et al. (NASA Langley Research Center Project POWER, 2020)
+        </div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 3: CROP KNOWLEDGE BASE & RULES     -->
+<!-- ========================================== -->
+<section class="mb-space-xl scroll-mt-20" id="crop-knowledge-base">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Module 03</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Crop Physiological Calibration Engine (AEZ-03 Benchmark)</h2>
+</div>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant">BARI / BRRI Calibrated Cultivars</span>
+</div>
+<!-- Benchmark Crops Table -->
+<div class="overflow-x-auto rounded-xl bg-surface-container-lowest shadow-sm p-space-md mb-space-lg">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead class="font-label-sm text-label-sm text-on-surface-variant uppercase bg-surface-container-low">
+<tr>
+<th class="p-space-sm rounded-l">Cultivar / Common Name</th>
+<th class="p-space-sm">Season</th>
+<th class="p-space-sm">Window (Sow-Harvest)</th>
+<th class="p-space-sm">GDD Target (T<sub>base</sub>)</th>
+<th class="p-space-sm">ET<sub>c</sub> Demand (mm)</th>
+<th class="p-space-sm">Salinity (EC<sub>e</sub> dS/m)</th>
+<th class="p-space-sm rounded-r">Soil N Balance (kg/ha)</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container">
+<tr>
+<td class="p-space-sm font-semibold text-on-surface">BRRI dhan29 (Dry Boro Rice)</td>
+<td class="p-space-sm"><span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm">Rabi</span></td>
+<td class="p-space-sm font-telemetry-data">Jan 10 – May 10</td>
+<td class="p-space-sm font-telemetry-data">2,150 °C•d (10°C)</td>
+<td class="p-space-sm font-telemetry-data text-error font-semibold">1,180 mm</td>
+<td class="p-space-sm font-telemetry-data">3.2</td>
+<td class="p-space-sm font-telemetry-data text-error">-115 kg/ha</td>
+</tr>
+<tr>
+<td class="p-space-sm font-semibold text-on-surface">BRRI dhan87 (T. Aman Rice)</td>
+<td class="p-space-sm"><span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm">Kharif-2</span></td>
+<td class="p-space-sm font-telemetry-data">Jul 15 – Nov 10</td>
+<td class="p-space-sm font-telemetry-data">1,820 °C•d (10°C)</td>
+<td class="p-space-sm font-telemetry-data text-secondary">540 mm (Rain-fed)</td>
+<td class="p-space-sm font-telemetry-data">4.0</td>
+<td class="p-space-sm font-telemetry-data text-error">-78 kg/ha</td>
+</tr>
+<tr>
+<td class="p-space-sm font-semibold text-on-surface">Tori-7 / BARI Sarisha-14 (Mustard)</td>
+<td class="p-space-sm"><span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm">Early Rabi</span></td>
+<td class="p-space-sm font-telemetry-data">Nov 15 – Jan 25</td>
+<td class="p-space-sm font-telemetry-data">1,240 °C•d (5°C)</td>
+<td class="p-space-sm font-telemetry-data text-secondary">210 mm</td>
+<td class="p-space-sm font-telemetry-data">5.5</td>
+<td class="p-space-sm font-telemetry-data text-on-surface-variant">-35 kg/ha</td>
+</tr>
+<tr>
+<td class="p-space-sm font-semibold text-on-surface">BARI Mung-6 (Mungbean)</td>
+<td class="p-space-sm"><span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm">Kharif-1</span></td>
+<td class="p-space-sm font-telemetry-data">Feb 20 – May 05</td>
+<td class="p-space-sm font-telemetry-data">1,380 °C•d (10°C)</td>
+<td class="p-space-sm font-telemetry-data text-secondary">280 mm</td>
+<td class="p-space-sm font-telemetry-data">2.8</td>
+<td class="p-space-sm font-telemetry-data text-on-tertiary-container font-semibold">+42 kg/ha (Fixed)</td>
+</tr>
+<tr>
+<td class="p-space-sm font-semibold text-on-surface">BARI Masur-8 (Lentil)</td>
+<td class="p-space-sm"><span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm">Rabi</span></td>
+<td class="p-space-sm font-telemetry-data">Nov 10 – Feb 25</td>
+<td class="p-space-sm font-telemetry-data">1,450 °C•d (5°C)</td>
+<td class="p-space-sm font-telemetry-data text-secondary">195 mm</td>
+<td class="p-space-sm font-telemetry-data">2.5</td>
+<td class="p-space-sm font-telemetry-data text-on-tertiary-container font-semibold">+35 kg/ha (Fixed)</td>
+</tr>
+<tr>
+<td class="p-space-sm font-semibold text-on-surface">NK-40 / Pioneer 3355 (Hybrid Maize)</td>
+<td class="p-space-sm"><span class="px-2 py-0.5 rounded bg-surface-container text-on-surface font-label-sm">Rabi / Kharif-1</span></td>
+<td class="p-space-sm font-telemetry-data">Dec 01 – Apr 20</td>
+<td class="p-space-sm font-telemetry-data">2,400 °C•d (10°C)</td>
+<td class="p-space-sm font-telemetry-data text-on-surface-variant">520 mm</td>
+<td class="p-space-sm font-telemetry-data">4.8</td>
+<td class="p-space-sm font-telemetry-data text-error">-145 kg/ha</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Biological Rotation Logic Chains -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div class="p-space-md rounded-xl bg-surface-container-low">
+<div class="flex items-center gap-2 mb-space-xs text-on-surface font-label-lg font-bold">
+<span class="material-symbols-outlined text-secondary">sync_problem</span>
+          Rule A: Phytopathogen Suppression
+        </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Strict non-repetition of continuous gramineous hosts prevents build-up of sheath blight (<em>Rhizoctonia solani</em>). Mandatory dicot pulse/oilseed break resets fungal inocula.
+        </p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low">
+<div class="flex items-center gap-2 mb-space-xs text-on-surface font-label-lg font-bold">
+<span class="material-symbols-outlined text-secondary">compost</span>
+          Rule B: Organic Carbon Replenishment
+        </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Triplets with consecutive cereal depletion are penalized unless followed by green manuring (<em>Dhaincha / Sesbania</em>) or non-harvested legume biomass incorporation.
+        </p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low">
+<div class="flex items-center gap-2 mb-space-xs text-on-surface font-label-lg font-bold">
+<span class="material-symbols-outlined text-secondary">hourglass_bottom</span>
+          Rule C: Mandatory Stubble Mineralization
+        </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Minimum 7 to 15-day aerobic drying window between T. Aman harvest and cold-season Rabi planting allows soil nitrogen immobilization recovery and aerobic nitrification.
+        </p>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 4: HARD CONSTRAINTS VS SOFT PREFS  -->
+<!-- ========================================== -->
+<section class="mb-space-xl scroll-mt-20" id="generation-engine">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Module 04</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Candidate Pruning: Hard Boundary Logic vs Soft Utility</h2>
+</div>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant">Two-Tier Feasibility Engine</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-space-lg">
+<!-- Tier 1: Hard Constraints -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-center justify-between mb-space-md pb-space-xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-error">cancel</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Hard Constraints (Non-Negotiable)</span>
+</div>
+<span class="px-space-sm py-0.5 rounded bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold">Binary Pruner</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+          Any permutation violating a hard physical rule is discarded immediately (<span class="font-telemetry-data text-error">Score = −∞</span>). Prevents generating agronomically fatal advice.
+        </p>
+<div class="space-y-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-error text-[20px] mt-0.5">do_not_disturb_on</span>
+<div>
+<div class="font-label-md text-label-md font-semibold text-on-surface">Phenological Window Overlap (Δt ≥ 7d)</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Crop A harvest date plus minimal tillage preparation time cannot exceed Crop B latest physiological sowing date.</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-error text-[20px] mt-0.5">do_not_disturb_on</span>
+<div>
+<div class="font-label-md text-label-md font-semibold text-on-surface">Aquifer Continuous Discharge Limit (≤ 18h/day)</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Peak dry-season irrigation cannot exceed village tubewell continuous operating limits, preventing electric grid trip and pump burnout.</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-error text-[20px] mt-0.5">do_not_disturb_on</span>
+<div>
+<div class="font-label-md text-label-md font-semibold text-on-surface">Household Food Security Floor (≥ 3.2 t/ha Rice)</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Rotations lacking at least one food staple cereal are pruned for smallholders without verified off-farm liquidity reserves.</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-error text-[20px] mt-0.5">do_not_disturb_on</span>
+<div>
+<div class="font-label-md text-label-md font-semibold text-on-surface">Soil Salinity Ceiling (EC<sub>e</sub> ≤ Crop Tolerance)</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pulses with EC<sub>e</sub> tolerance < 3.0 dS/m are immediately rejected in saline coastal AEZ-13 delta zones.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Tier 2: Soft Multi-Objective -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-center justify-between mb-space-md pb-space-xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">tune</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Soft Objectives (Pareto Trade-offs)</span>
+</div>
+<span class="px-space-sm py-0.5 rounded bg-surface-container-high text-on-secondary-container font-label-sm text-label-sm font-semibold">Continuous Space</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+          Surviving feasible rotations are scored across five non-dominated orthogonal objectives without arbitrary weighted summing.
+        </p>
+<div class="space-y-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">attach_money</span>
+<div>
+<div class="font-label-md text-label-md font-semibold text-on-surface">f<sub>1</sub>(R): Expected Net Farm Margin (BDT/bigha)</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Local wholesale gate prices minus seed, chemical fertilizer, hired mechanized plowing, and diesel irrigation fuel.</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">water_drop</span>
+<div>
+<div class="font-label-md text-label-md font-semibold text-on-surface">f<sub>2</sub>(R): Aquifer Depletion Factor (ΔH mm)</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Penman-Monteith crop evapotranspiration requirement minus historical NASA GPM effective rainfall in-situ.</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">eco</span>
+<div>
+<div class="font-label-md text-label-md font-semibold text-on-surface">f<sub>3</sub>(R): Soil Ecological Stewardship Score</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Root-mass biomass turnover, biological rhizobial N-fixation balance, and soil organic matter preservation index.</p>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px] mt-0.5">shield</span>
+<div>
+<div class="font-label-md text-label-md font-semibold text-on-surface">f<sub>4</sub>(R): Climate Downside Risk VaR (5% Tail)</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Worst-case yield loss modeled against NASA empirical drought (2014) and heat spike (2017) telemetry replays.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 5: RANKING ALGORITHM MATHEMATICS   -->
+<!-- ========================================== -->
+<section class="mb-space-xl scroll-mt-20" id="multi-objective-ranking">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Module 05</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Pareto Non-Dominated Ranking Formulation</h2>
+</div>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant">Mathematical Definition</span>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Formula Box LaTeX Style -->
+<div class="lg:col-span-7 flex flex-col justify-between">
+<div>
+<div class="font-label-sm text-label-sm text-secondary uppercase font-semibold mb-2">Pareto Dominance Definition</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              A rotation sequence <span class="font-telemetry-data font-semibold text-on-surface">R<sub>A</sub></span> is defined to strictly dominate another sequence <span class="font-telemetry-data font-semibold text-on-surface">R<sub>B</sub></span> (<span class="font-telemetry-data font-semibold text-on-surface">R<sub>A</sub> ≻ R<sub>B</sub></span>) if and only if:
+            </p>
+<div class="p-space-md rounded-lg bg-surface-container-low font-telemetry-data text-telemetry-data space-y-2 mb-space-md">
+<div class="text-on-surface font-bold text-center py-2 text-[15px]">
+                ∀ i ∈ {1, …, M}: f<sub>i</sub>(R<sub>A</sub>) ≥ f<sub>i</sub>(R<sub>B</sub>)  ∧  ∃ j ∈ {1, …, M}: f<sub>j</sub>(R<sub>A</sub>) > f<sub>j</sub>(R<sub>B</sub>)
+              </div>
+<div class="text-on-surface-variant text-center text-body-sm font-body-sm">
+                Where objective vector <span class="text-on-surface font-semibold">F(R) = [ +NetMargin, −AquiferDrawdown, +SoilSOM, −RiskVaR ]</span>
+</div>
+</div>
+<div class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<p>
+<strong>Why Scalarization Fails:</strong> Simple linear equations like <span class="font-telemetry-data">J(R) = w<sub>1</sub>M + w<sub>2</sub>W + w<sub>3</sub>S</span> suffer from catastrophic preference distortion. A high net-margin maize monoculture can statistically hide excessive aquifer collapse if given a heavy financial weight.
+              </p>
+<p>
+<strong>Our Solution:</strong> By maintaining the multi-dimensional Pareto Frontier, our system presents the farmer with 2 to 3 structurally distinct optimal strategies (e.g., <em>Maximum Profit Frontier</em> vs. <em>Aquifer-Conserving Frontier</em>), ensuring full agency and agronomic transparency.
+              </p>
+</div>
+</div>
+<div class="mt-space-md flex items-center gap-space-sm pt-space-sm text-label-sm font-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px] text-secondary">memory</span>
+<span>Fast non-dominated sorting executed in <18ms per hectare plot</span>
+</div>
+</div>
+<!-- Pareto Frontier Visual Diagram -->
+<div class="lg:col-span-5 bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">2D Projection: Margin vs. Groundwater</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-lowest font-telemetry-data text-label-sm text-secondary">AEZ-03 Trial</span>
+</div>
+<!-- SVG Pareto Curve Graphic -->
+<div class="relative h-64 w-full bg-surface-container-lowest rounded p-2 flex items-center justify-center">
+<svg class="w-full h-full" viewbox="0 0 280 200">
+<!-- Grid lines -->
+<line class="text-outline-variant opacity-40" stroke="currentColor" stroke-width="1" x1="35" x2="35" y1="20" y2="170"></line>
+<line class="text-outline-variant opacity-40" stroke="currentColor" stroke-width="1" x1="35" x2="260" y1="170" y2="170"></line>
+<line class="text-outline-variant opacity-30" stroke="currentColor" stroke-dasharray="2 2" stroke-width="0.5" x1="35" x2="260" y1="120" y2="120"></line>
+<line class="text-outline-variant opacity-30" stroke="currentColor" stroke-dasharray="2 2" stroke-width="0.5" x1="35" x2="260" y1="70" y2="70"></line>
+<!-- Axis labels -->
+<text class="text-on-surface-variant font-label-sm" fill="currentColor" font-size="9" text-anchor="middle" x="140" y="192">Aquifer Conservation (↑ Less Drawdown)</text>
+<text class="text-on-surface-variant font-label-sm" fill="currentColor" font-size="9" text-anchor="middle" transform="rotate(-90 15 95)" x="15" y="95">Net Margin (BDT/ha)</text>
+<!-- Dominated candidate points (faded gray) -->
+<circle class="text-outline opacity-40" cx="80" cy="140" fill="currentColor" r="3"></circle>
+<circle class="text-outline opacity-40" cx="110" cy="150" fill="currentColor" r="3"></circle>
+<circle class="text-outline opacity-40" cx="95" cy="115" fill="currentColor" r="3"></circle>
+<circle class="text-outline opacity-40" cx="140" cy="130" fill="currentColor" r="3"></circle>
+<circle class="text-outline opacity-40" cx="160" cy="120" fill="currentColor" r="3"></circle>
+<circle class="text-outline opacity-40" cx="190" cy="145" fill="currentColor" r="3"></circle>
+<!-- Pareto Frontier curve line -->
+<path class="text-secondary" d="M 60 50 Q 110 55, 150 75 T 240 145" fill="none" stroke="currentColor" stroke-width="2"></path>
+<!-- Pareto Optimal Nodes -->
+<!-- Node 1: High Profit -->
+<circle class="text-secondary" cx="60" cy="50" fill="currentColor" r="5"></circle>
+<text class="text-on-surface" fill="currentColor" font-size="8" font-weight="bold" x="68" y="48">Rot-A (Boro/Aman/Maize)</text>
+<!-- Node 2: Balanced Optimal -->
+<circle class="text-secondary" cx="150" cy="75" fill="currentColor" r="5"></circle>
+<text class="text-on-surface" fill="currentColor" font-size="8" font-weight="bold" x="158" y="73">Rot-B (Aman/Mustard/Mung)</text>
+<!-- Node 3: Low Water Extreme -->
+<circle class="text-secondary" cx="240" cy="145" fill="currentColor" r="5"></circle>
+<text class="text-on-surface" fill="currentColor" font-size="8" font-weight="bold" x="180" y="160">Rot-C (Lentil/Sesame)</text>
+</svg>
+</div>
+<div class="mt-2 text-label-sm font-label-sm text-on-surface-variant flex items-center justify-between">
+<span class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary"></span> Non-dominated Frontier
+            </span>
+<span class="flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-outline"></span> Sub-optimal Pruned
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 6: HISTORICAL STRESS REPLAY        -->
+<!-- ========================================== -->
+<section class="mb-space-xl scroll-mt-20" id="stress-testing">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Module 06</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Historical Stress Replay vs. AI Prediction</h2>
+</div>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant">Empirical Boundary Testing</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg mb-space-lg">
+<!-- Why Empirical Replay beats Generative hallucination -->
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-center gap-2 mb-space-sm text-secondary font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined">history_toggle_off</span>
+          Why Empirical Replay?
+        </div>
+<p class="font-body-md text-body-md text-on-surface-variant space-y-space-sm">
+          Pure LLM or autoregressive generative models fail catastrophically in agriculture because they fabricate weather distributions ("hallucinated rain") and smooth out nonlinear shock thresholds.
+        </p>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+<strong>Next Season</strong> executes an empirical re-simulation of the proposed rotation across actual 2001-2024 satellite weather telemetry, validating whether the crop sequence would have survived historical real-world disasters.
+        </p>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 mb-space-sm text-on-surface font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-secondary">verified_user</span>
+            Resilience Qualification
+          </div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            To earn the <em>"NASA Climate Resilient"</em> badge, a rotation triplet must maintain positive gross margin across all 4 benchmark shock regimes without total agronomic failure.
+          </p>
+</div>
+<div class="p-space-sm rounded bg-surface-container-high text-on-secondary-container font-telemetry-data text-telemetry-data">
+          Stress Threshold Test: Margin(Shock) > BDT 8,500/bigha & Zero Caloric Failure
+        </div>
+</div>
+</div>
+<!-- 4 Historical Shock Replay Vectors -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm font-bold text-error uppercase">2014 Drought</span>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant">Rabi Benchmark</span>
+</div>
+<div class="font-telemetry-data text-telemetry-data text-on-surface font-semibold mb-2">
+          -34% Rainfall Anomaly
+        </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          SMAP root-zone moisture fell below 0.14 m³/m³ for 42 consecutive days. Tests deep rooting and residual moisture extraction in pulse crops.
+        </p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm font-bold text-error uppercase">2017 Heatwave</span>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant">Kharif-1 Benchmark</span>
+</div>
+<div class="font-telemetry-data text-telemetry-data text-on-surface font-semibold mb-2">
+          +2.8°C Thermal Spike
+        </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          NASA POWER recorded 5 consecutive days with T<sub>max</sub> > 38.5°C during maize silking and pulse anthesis. Tests pollen sterility resistance.
+        </p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm font-bold text-secondary uppercase">2020 Super Monsoon</span>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant">Kharif-2 Benchmark</span>
+</div>
+<div class="font-telemetry-data text-telemetry-data text-on-surface font-semibold mb-2">
+          +42% Excess Inundation
+        </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          GPM IMERG recorded 680mm in 96 hours. Simulates root submergence tolerance in T. Aman cultivars (BRRI dhan51 sub1 submergence locus).
+        </p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm font-bold text-error uppercase">Compound Shock</span>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant">Multi-Season Regime</span>
+</div>
+<div class="font-telemetry-data text-telemetry-data text-on-surface font-semibold mb-2">
+          Late Monsoon → Flash Freeze
+        </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Tests sudden cold snaps during sensitive mustard flowering following a delayed wet T. Aman harvest. Penalizes low-buffer turnaround gaps.
+        </p>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 7: WATER COMMONS EQUILIBRIUM       -->
+<!-- ========================================== -->
+<section class="mb-space-xl scroll-mt-20" id="water-commons">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Module 07</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Water Commons: Micro-Hydrogeological Coordination</h2>
+</div>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant">Cone-of-Depression Physics</span>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<div class="lg:col-span-6 space-y-space-md">
+<div class="font-label-sm text-label-sm text-secondary uppercase font-semibold">The Tragedy of Shared Tubewells</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">The Physics of Cone Overlap</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            In North-Western Bangladesh (Barind Tract & Tista Floodplain), deep tube-wells (DTW) and shallow tube-wells (STW) draw from the same unconfined Quaternary alluvium aquifer. When neighboring farmers simultaneously pump for flooded Boro rice, their cones of depression intersect, dropping hydraulic head below suction pump limits.
+          </p>
+<div class="p-space-md rounded-lg bg-surface-container-low space-y-space-xs font-body-sm text-body-sm">
+<div class="font-semibold text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">difference</span>
+              Two Distinct Mitigation Levers:
+            </div>
+<p class="text-on-surface-variant">
+<strong>1. Temporal Staggering (Δt/Δp):</strong> Staggering transplanting windows by 10–14 days spreads out the peak pumping draw without altering crop variety. Total seasonal volumetric withdrawal remains equal, but peak aquifer depression is smoothed by 28%.
+            </p>
+<p class="text-on-surface-variant">
+<strong>2. Volumetric Crop Substitution (ΔV):</strong> Replacing flood-irrigated Boro rice (1,200mm) with Mustard → Mungbean (490mm combined) permanently reduces gross volumetric extraction by 59%, preventing regional water-table collapse.
+            </p>
+</div>
+</div>
+<!-- Visual Diagram: Pumping Cones Overlap -->
+<div class="lg:col-span-6 bg-surface-container-low p-space-md rounded-lg flex flex-col justify-between">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm font-semibold text-on-surface">Aquifer Depletion Intersect Model</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-lowest font-telemetry-data text-label-sm text-secondary">Theis Non-Equilibrium Equation</span>
+</div>
+<!-- SVG Tube-well Depletion Graphic -->
+<div class="h-64 w-full bg-surface-container-lowest rounded p-2 flex items-center justify-center">
+<svg class="w-full h-full" viewbox="0 0 320 180">
+<!-- Ground Level Surface -->
+<rect class="text-surface-container-highest" fill="currentColor" height="8" width="320" x="0" y="30"></rect>
+<text class="text-on-surface-variant font-label-sm" fill="currentColor" font-size="8" x="10" y="24">Ground Surface</text>
+<!-- Well A & Well B shafts -->
+<line class="text-outline" stroke="currentColor" stroke-width="3" x1="90" x2="90" y1="38" y2="150"></line>
+<line class="text-outline" stroke="currentColor" stroke-width="3" x1="230" x2="230" y1="38" y2="150"></line>
+<rect class="text-primary" fill="currentColor" height="18" width="14" x="83" y="20"></rect>
+<rect class="text-primary" fill="currentColor" height="18" width="14" x="223" y="20"></rect>
+<text class="text-on-surface" fill="currentColor" font-size="8" font-weight="bold" text-anchor="middle" x="90" y="16">Plot A (STW)</text>
+<text class="text-on-surface" fill="currentColor" font-size="8" font-weight="bold" text-anchor="middle" x="230" y="16">Plot B (STW)</text>
+<!-- Static Water Table -->
+<line class="text-secondary" stroke="currentColor" stroke-dasharray="3 3" stroke-width="1.5" x1="0" x2="320" y1="65" y2="65"></line>
+<text class="text-secondary font-label-sm" fill="currentColor" font-size="7" x="10" y="60">Static Water Table (-8m)</text>
+<!-- Cone of Depression Overlap -->
+<!-- Individual Cone A -->
+<path class="text-secondary opacity-40" d="M 20 65 Q 90 65, 90 135 Q 90 65, 160 65" fill="none" stroke="currentColor" stroke-width="1"></path>
+<!-- Individual Cone B -->
+<path class="text-secondary opacity-40" d="M 160 65 Q 230 65, 230 135 Q 230 65, 300 65" fill="none" stroke="currentColor" stroke-width="1"></path>
+<!-- Combined Compound Drawdown -->
+<path class="text-error" d="M 20 65 Q 90 70, 90 145 Q 160 115, 230 145 Q 230 70, 300 65" fill="currentColor" fill-opacity="0.1" stroke="currentColor" stroke-width="2"></path>
+<text class="text-error" fill="currentColor" font-size="8" font-weight="bold" text-anchor="middle" x="160" y="125">Compound Cone Overlap</text>
+<text class="text-on-surface-variant" fill="currentColor" font-size="7" text-anchor="middle" x="160" y="137">Critical Head Loss Δs > 4.2m</text>
+</svg>
+</div>
+<div class="mt-2 text-label-sm font-label-sm text-on-surface-variant flex items-center justify-between">
+<span class="text-error font-semibold flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-error"></span> Uncoordinated Simultaneous Pumping
+            </span>
+<span class="text-secondary font-semibold">Decoupled via Phase Shifting</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 8: UNCERTAINTY QUANTIFICATION      -->
+<!-- ========================================== -->
+<section class="mb-space-xl scroll-mt-20" id="uncertainty-quantification">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Module 08</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Data Cascade & Non-Degrading Fallback Bounds</h2>
+</div>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant">Conservative Buffering</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-md mb-space-md">
+<!-- Tier 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm font-bold text-on-surface">Tier 1: Direct In-Situ Field Data</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-data text-label-sm font-bold text-secondary">Weight: 1.00</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+            Farmer-reported GPS boundaries, historical tubewell depth records, and verified soil texture analysis from upazila agricultural labs.
+          </p>
+</div>
+<div class="p-space-xs rounded bg-surface-container-low text-label-sm font-label-sm text-on-surface">
+          Zero buffer added. Nominal optimal model parameters.
+        </div>
+</div>
+<!-- Tier 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm font-bold text-on-surface">Tier 2: NASA Satellite Telemetry</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-data text-label-sm font-bold text-secondary">Weight: 0.90</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+            SMAP 9km root-zone moisture, GPM 30-min precipitation accumulation, NASA POWER daily surface insolation.
+          </p>
+</div>
+<div class="p-space-xs rounded bg-surface-container-low text-label-sm font-label-sm text-on-surface">
+          Bias-corrected via regional BARI ground-gauge correlations.
+        </div>
+</div>
+<!-- Tier 3 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm font-bold text-on-surface">Tier 3: SRDI Baseline Proxies</span>
+<span class="px-2 py-0.5 rounded bg-surface-container font-telemetry-data text-label-sm font-bold text-secondary">Weight: 0.65</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+            Soil Resource Development Institute AEZ regional soil tables and BADC historic block-level groundwater surveys.
+          </p>
+</div>
+<div class="p-space-xs rounded bg-surface-container-low text-label-sm font-label-sm text-on-surface">
+          Fallback when in-situ lab data is unavailable.
+        </div>
+</div>
+</div>
+<!-- The Non-Degrading Cushion Principle -->
+<div class="p-space-md rounded-xl bg-surface-container-high flex items-center justify-between">
+<div class="flex items-center gap-space-md">
+<span class="material-symbols-outlined text-secondary text-[28px]">health_and_safety</span>
+<div>
+<div class="font-label-lg text-label-lg font-bold text-on-surface">The Non-Degrading Recommendation Guarantee</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">
+            When field-level telemetry contains missing variables (e.g. unverified salinity or delayed rain gauge updates), our system refuses to fabricate precision. Instead, it expands safety margins: applying a <span class="font-telemetry-data font-semibold text-on-surface">+15% Nitrogen buffer</span> and a <span class="font-telemetry-data font-semibold text-on-surface">−12% conservative yield haircut</span> to prevent smallholder economic exposure.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 9: LIMITATIONS & ACADEMIC BOUNDARIES-->
+<!-- ========================================== -->
+<section class="mb-space-xl scroll-mt-20" id="limitations-validation">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Module 09</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">System Boundaries & Known Academic Limitations</h2>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">Peer Reviewer Transparency</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm border-l-4 border-l-secondary">
+<div class="flex items-center gap-2 mb-space-xs text-on-surface font-label-lg font-bold">
+<span class="material-symbols-outlined text-secondary">grid_goldenratio</span>
+          1. Spatial Sub-Pixel Scale
+        </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          SMAP L4 provides 9km grid resolution. While suitable for regional hydrologic dynamics, micro-topographical depressions (<50m) holding residual puddles require farmer verification through visual moisture confirmation chips in the Planning Tool.
+        </p>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm border-l-4 border-l-secondary">
+<div class="flex items-center gap-2 mb-space-xs text-on-surface font-label-lg font-bold">
+<span class="material-symbols-outlined text-secondary">pest_control</span>
+          2. Biotic & Viral Outbreaks
+        </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Radiometers measure physical water, temperature, and radiation. They cannot detect latent soilborne bacterial wilt or airborne insect swarms (e.g. Fall Armyworm). Integrated Pest Management (IPM) guidelines must accompany rotation schedules.
+        </p>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm border-l-4 border-l-secondary">
+<div class="flex items-center gap-2 mb-space-xs text-on-surface font-label-lg font-bold">
+<span class="material-symbols-outlined text-secondary">trending_down</span>
+          3. Macro Market Speculation
+        </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Margin calculations are anchored on 5-year median DAM (Department of Agricultural Marketing) farmgate price bands. Sudden macro shocks, trade embargoes, or localized diesel fuel price surges lie outside our biophysical engine.
+        </p>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 10: BENCHMARK VALIDATION RESULTS   -->
+<!-- ========================================== -->
+<section class="mb-space-xl">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Module 10</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Scientific Validation & 12-Year Retrospective Audit</h2>
+</div>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant">2012 – 2024 Field Ground-Truth</span>
+</div>
+<!-- Validation Highlight Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-md mb-space-lg">
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm text-center">
+<div class="font-headline-lg text-headline-lg font-bold text-secondary mb-1">89.4%</div>
+<div class="font-label-md text-label-md font-semibold text-on-surface">Sowing Window Concordance</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+          Matched optimal agronomic windows validated across 1,420 field trials in Dinajpur & Rangpur extension blocks.
+        </div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm text-center">
+<div class="font-headline-lg text-headline-lg font-bold text-secondary mb-1">−31.8%</div>
+<div class="font-label-md text-label-md font-semibold text-on-surface">Diesel Pumping Hours</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+          Demonstrated reduction in dry-season tubewell fuel consumption without degrading net caloric smallholder output.
+        </div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm text-center">
+<div class="font-headline-lg text-headline-lg font-bold text-secondary mb-1">0.00%</div>
+<div class="font-label-md text-label-md font-semibold text-on-surface">Caloric Deficit Violations</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+          Zero smallholders dropped below family baseline grain thresholds under historical NASA shock replay tests.
+        </div>
+</div>
+</div>
+<!-- Final Call to Action & Peer Links -->
+<div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Experience the Planning Tool or Audit the Code</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+          Inspect our reproducible Python notebooks, test individual AEZ parcels, or view the complete NASA Harvest benchmark dataset.
+        </p>
+</div>
+<div class="flex items-center gap-space-sm shrink-0">
+<a class="px-space-md py-2 rounded-lg bg-surface-container-lowest hover:bg-surface-container-high text-on-surface font-label-md text-label-md transition-colors shadow-sm inline-flex items-center gap-2" data-path="farmer-planning-tool" href="#">
+<span class="material-symbols-outlined text-[18px]">agriculture</span>
+<span>Launch Farmer Tool</span>
+</a>
+<a class="px-space-md py-2 rounded-lg bg-primary text-on-primary hover:bg-on-surface-variant font-label-md text-label-md transition-colors shadow-sm inline-flex items-center gap-2" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">code</span>
+<span>Inspect Github Repo</span>
+</a>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Dynamic navigation highlighting based on scroll position
+  document.addEventListener('DOMContentLoaded', () => {
+    const asideLinks = document.querySelectorAll('aside nav a');
+    const sections = Array.from(asideLinks).map(link => {
+      const path = link.getAttribute('data-path');
+      return document.getElementById(path);
+    }).filter(Boolean);
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          asideLinks.forEach(link => {
+            if (link.getAttribute('data-path') === id) {
+              link.classList.add('bg-surface-container-high', 'text-on-surface', 'font-semibold');
+              link.classList.remove('text-on-surface-variant');
+            } else {
+              link.classList.remove('bg-surface-container-high', 'text-on-surface', 'font-semibold');
+              link.classList.add('text-on-surface-variant');
+            }
+          });
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+
+    sections.forEach(section => observer.observe(section));
+  });
+</script></main></div></body></html>

@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-lowest":"#ffffff","surface-container":"#e5eeff","inverse-surface":"#213145","on-primary":"#ffffff","on-primary-container":"#7c839f","on-secondary-fixed":"#001d31","surface-bright":"#f8f9ff","error":"#ba1a1a","tertiary-fixed":"#95f8a7","on-primary-fixed-variant":"#3f465f","secondary-fixed":"#cce5ff","primary-container":"#141a32","secondary-fixed-dim":"#93ccff","tertiary":"#000000","on-tertiary-fixed-variant":"#005323","on-error":"#ffffff","outline":"#76767e","secondary-container":"#5bb8fe","surface-container-low":"#eff4ff","tertiary-container":"#00210a","surface-container-high":"#dce9ff","on-secondary-container":"#00476e","background":"#f8f9ff","inverse-primary":"#bfc5e4","surface-dim":"#cbdbf5","outline-variant":"#c6c6ce","on-tertiary":"#ffffff","secondary":"#006398","error-container":"#ffdad6","on-primary-fixed":"#141a32","surface-tint":"#575d78","surface":"#f8f9ff","surface-variant":"#d3e4fe","on-secondary-fixed-variant":"#004b73","on-secondary":"#ffffff","on-tertiary-fixed":"#00210a","inverse-on-surface":"#eaf1ff","on-error-container":"#93000a","on-tertiary-container":"#339650","primary-fixed-dim":"#bfc5e4","primary":"#000000","surface-container-highest":"#d3e4fe","on-surface-variant":"#46464d","tertiary-fixed-dim":"#79db8d","primary-fixed":"#dce1ff","on-surface":"#0b1c30","on-background":"#0b1c30"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-xs":"0.25rem","margin-mobile":"1rem","gutter":"1.5rem","space-sm":"0.5rem","margin":"2rem","space-lg":"1.5rem","gutter-mobile":"0.75rem","space-xl":"2.5rem","space-md":"1rem"},"fontFamily":{"headline-lg":["Plus Jakarta Sans"],"label-lg":["Inter"],"body-lg":["Inter"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-sm":["Inter"],"telemetry-data":["Inter"],"body-md":["Inter"],"label-md":["Inter"],"body-sm":["Inter"]},"fontSize":{"headline-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"0em","fontWeight":"600"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"600"}],"telemetry-data":["13px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"500"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"400"}]}}}}</script></head><body class="bg-background text-on-surface font-body-md antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 left-0 right-0 h-16 z-50 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="w-full h-16 px-gutter flex items-center justify-between"><div class="flex items-center gap-space-md"><div class="w-9 h-9 rounded-xl bg-primary-container flex items-center justify-center shadow-[0_1px_3px_rgba(10,17,40,0.12)]"><span class="material-symbols-outlined text-secondary-container text-[20px]">satellite_alt</span></div><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">Next Season</span><div class="hidden sm:flex items-center px-space-xs py-0.5 rounded-DEFAULT bg-surface-container-high text-secondary font-label-sm text-label-sm uppercase tracking-wider font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-secondary mr-1.5 animate-pulse"></span>NASA Space Apps 2026</div></div></div><div class="flex items-center gap-space-lg"><div class="hidden md:flex items-center gap-space-sm bg-surface-container-low px-space-md py-1.5 rounded-full"><span class="material-symbols-outlined text-secondary text-[18px]">eco</span><div class="flex flex-col"><span class="font-label-sm text-label-sm text-on-surface-variant leading-none">Active Delta Zone</span><span class="font-label-md text-label-md text-on-surface font-semibold leading-tight">Barisal Division • Kharif-1</span></div></div><div class="flex items-center p-0.5 rounded-full bg-surface-container"><button class="px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface font-label-sm text-label-sm font-semibold shadow-[0_1px_3px_rgba(10,17,40,0.06)]" type="button">EN</button><button class="px-2.5 py-1 rounded-full text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm font-medium transition-colors" type="button">বাংলা</button></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><aside class="fixed left-0 top-16 bottom-0 w-72 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex flex-col justify-between py-space-lg overflow-y-auto"><div class="px-space-md"><div class="px-space-sm pb-space-md mb-space-sm"><div class="flex items-center justify-between"><span class="font-label-sm text-label-sm uppercase text-on-surface-variant font-bold tracking-wider">Planning Sequence</span><span class="font-telemetry-data text-telemetry-data text-secondary font-semibold">1 / 8</span></div><div class="w-full bg-surface-container h-1 rounded-full mt-2 overflow-hidden"><div class="bg-secondary h-full rounded-full transition-all duration-500 w-[12.5%]"></div></div></div><nav class="flex flex-col gap-1" data-active-classes="bg-surface-container-low text-secondary font-bold shadow-[0_1px_3px_rgba(10,17,40,0.04)]"><a class="group flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="location" href="#"><div class="flex items-center gap-space-sm"><div class="w-7 h-7 rounded-lg flex items-center justify-center bg-surface-container text-on-surface-variant group-hover:bg-surface-container-high transition-colors"><span class="font-telemetry-data text-telemetry-data font-bold">01</span></div><span class="font-label-lg text-label-lg">Location</span></div><span class="material-symbols-outlined text-[16px] text-secondary opacity-80">near_me</span></a><a class="group flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="field" href="#"><div class="flex items-center gap-space-sm"><div class="w-7 h-7 rounded-lg flex items-center justify-center bg-surface-container text-on-surface-variant group-hover:bg-surface-container-high transition-colors"><span class="font-telemetry-data text-telemetry-data font-bold">02</span></div><span class="font-label-lg text-label-lg">Field</span></div><span class="material-symbols-outlined text-[16px] text-outline-variant">crop_free</span></a><a class="group flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="constraints" href="#"><div class="flex items-center gap-space-sm"><div class="w-7 h-7 rounded-lg flex items-center justify-center bg-surface-container text-on-surface-variant group-hover:bg-surface-container-high transition-colors"><span class="font-telemetry-data text-telemetry-data font-bold">03</span></div><span class="font-label-lg text-label-lg">Constraints</span></div><span class="material-symbols-outlined text-[16px] text-outline-variant">tune</span></a><a class="group flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="priorities" href="#"><div class="flex items-center gap-space-sm"><div class="w-7 h-7 rounded-lg flex items-center justify-center bg-surface-container text-on-surface-variant group-hover:bg-surface-container-high transition-colors"><span class="font-telemetry-data text-telemetry-data font-bold">04</span></div><span class="font-label-lg text-label-lg">Priorities</span></div><span class="material-symbols-outlined text-[16px] text-outline-variant">flag</span></a><a class="group flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="nasa-profile" href="#"><div class="flex items-center gap-space-sm"><div class="w-7 h-7 rounded-lg flex items-center justify-center bg-surface-container text-on-surface-variant group-hover:bg-surface-container-high transition-colors"><span class="font-telemetry-data text-telemetry-data font-bold">05</span></div><span class="font-label-lg text-label-lg">NASA Profile</span></div><span class="material-symbols-outlined text-[16px] text-outline-variant">public</span></a><a class="group flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="rotations" href="#"><div class="flex items-center gap-space-sm"><div class="w-7 h-7 rounded-lg flex items-center justify-center bg-surface-container text-on-surface-variant group-hover:bg-surface-container-high transition-colors"><span class="font-telemetry-data text-telemetry-data font-bold">06</span></div><span class="font-label-lg text-label-lg">Rotations</span></div><span class="material-symbols-outlined text-[16px] text-outline-variant">autorenew</span></a><a class="group flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="compare" href="#"><div class="flex items-center gap-space-sm"><div class="w-7 h-7 rounded-lg flex items-center justify-center bg-surface-container text-on-surface-variant group-hover:bg-surface-container-high transition-colors"><span class="font-telemetry-data text-telemetry-data font-bold">07</span></div><span class="font-label-lg text-label-lg">Compare</span></div><span class="material-symbols-outlined text-[16px] text-outline-variant">balance</span></a><a class="group flex items-center justify-between px-space-md py-2.5 rounded-xl text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="plan" href="#"><div class="flex items-center gap-space-sm"><div class="w-7 h-7 rounded-lg flex items-center justify-center bg-surface-container text-on-surface-variant group-hover:bg-surface-container-high transition-colors"><span class="font-telemetry-data text-telemetry-data font-bold">08</span></div><span class="font-label-lg text-label-lg">Plan</span></div><span class="material-symbols-outlined text-[16px] text-outline-variant">assignment</span></a></nav></div><div class="px-space-md"><div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs"><div class="flex items-center justify-between"><span class="font-label-sm text-label-sm uppercase text-on-surface-variant font-semibold">Telemetry Feed</span><span class="flex h-2 w-2 relative"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary-container opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-secondary"></span></span></div><p class="font-telemetry-data text-telemetry-data text-on-surface">SMAP L4 • GPM IMERG 30m</p><span class="font-label-sm text-label-sm text-on-surface-variant">Active Synchronized Orbit</span></div></div></aside><div class="pl-72"><main class="w-full min-h-[calc(100vh-4rem)] pt-16 px-gutter bg-background"><div class="flex flex-col w-full pb-16">
+<!-- Dynamic Sub-Header with telemetry metadata -->
+<div class="w-full bg-surface-container-low px-space-md py-space-sm rounded-xl mb-space-lg flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm flex-wrap">
+<div class="flex items-center gap-1.5 px-2 py-0.5 rounded bg-primary-container text-secondary-container font-label-sm text-label-sm uppercase tracking-wider">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container animate-pulse"></span>
+        STEP 04 OF 08
+      </div>
+<span class="text-outline-variant font-label-sm">•</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold tracking-tight uppercase">Decision Weighting Engine</span>
+<span class="text-outline-variant font-label-sm">•</span>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant">Rangpur AEZ-03 Floodplain</span>
+<span class="text-outline-variant font-label-sm">•</span>
+<span class="font-telemetry-data text-telemetry-data text-secondary font-semibold">1.20 Ha Target Parcel</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-secondary">tune</span>
+        Real-time Re-ranking
+      </span>
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim"></span>
+<span class="font-telemetry-data text-telemetry-data text-on-surface font-semibold">Active Matrix: 14 Candidates</span>
+</div>
+</div>
+<!-- Primary Header & Philosophy Narrative -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg mb-space-xl items-start">
+<div class="lg:col-span-8 flex flex-col gap-space-xs">
+<div class="flex items-center gap-2 text-secondary font-label-sm text-label-sm uppercase tracking-widest font-semibold">
+<span class="material-symbols-outlined text-[16px]">balance</span>
+        Multi-Objective Prioritization
+      </div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight font-bold">
+        What matters most to you?
+      </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">
+        Your priorities change which rotation rises to the top. Adjust the tactile sliders to reflect your household goals — our planetary models will re-rank candidate crop sequences in real time.
+      </p>
+</div>
+<!-- Reassurance / Scientific Calibration Notice -->
+<div class="lg:col-span-4 bg-surface-container-lowest p-space-md rounded-xl shadow-[0_1px_3px_rgba(10,17,40,0.04)] flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-secondary font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-[18px]">satellite_alt</span>
+        Objective Weighting Function
+      </div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+        High-priority dimensions receive amplified mathematical weight against calibrated NASA baselines: SMAP root-zone moisture, GPM rainfall variability, and MODIS vegetative indices.
+      </p>
+</div>
+</div>
+<!-- Presets Quick Bar -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-[0_1px_3px_rgba(10,17,40,0.04)] mb-space-xl flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="font-label-md text-label-md text-on-surface font-semibold uppercase tracking-wider flex items-center gap-1.5 mr-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">bolt</span>
+        Quick Strategy Presets:
+      </span>
+<button class="preset-btn px-3.5 py-1.5 rounded-full font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" id="preset-balanced" onclick="applyPreset('balanced')">
+        Balanced (All 20%)
+      </button>
+<button class="preset-btn active-preset px-3.5 py-1.5 rounded-full font-label-sm text-label-sm font-semibold bg-surface-container text-secondary shadow-[0_1px_2px_rgba(10,17,40,0.06)] transition-all flex items-center gap-1.5" id="preset-water" onclick="applyPreset('water')">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+        Water-Smart (30 / 25 / 25 / 10 / 10)
+      </button>
+<button class="preset-btn px-3.5 py-1.5 rounded-full font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" id="preset-soil" onclick="applyPreset('soil')">
+        Soil-First (40 / 20 / 20 / 10 / 10)
+      </button>
+<button class="preset-btn px-3.5 py-1.5 rounded-full font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" id="preset-income" onclick="applyPreset('income')">
+        Income-Focused (40 / 25 / 15 / 10 / 10)
+      </button>
+<button class="preset-btn px-3.5 py-1.5 rounded-full font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" id="preset-resilience" onclick="applyPreset('resilience')">
+        Resilience-First (40 / 25 / 15 / 10 / 10)
+      </button>
+</div>
+<span class="font-label-sm text-label-sm text-outline font-medium text-right shrink-0">
+      Presets rebalance automatically while remaining fully customizable.
+    </span>
+</div>
+<!-- Primary 2-Column Work Area (Sliders Left + Dynamic Preview Right) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- LEFT: 5 Rich Tactile Slider Cards (col-span-7) -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<!-- SLIDER 1: Water Conservation -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_1px_3px_rgba(10,17,40,0.04)] hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="flex items-start justify-between gap-space-md mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-11 h-11 rounded-xl bg-surface-container-low flex items-center justify-center text-secondary shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[24px]">water_drop</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Water Conservation &amp; Irrigation Economy</h3>
+<span class="px-2 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold uppercase tracking-wider" id="badge-dominant">Dominant Priority</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Prefer rotations that reduce costly groundwater pumping and optimize Kharif monsoon soil retention.
+              </p>
+</div>
+</div>
+<div class="flex items-baseline gap-1 shrink-0 bg-surface-container-low px-3 py-1 rounded-xl">
+<span class="font-headline-md text-headline-md font-bold text-secondary" id="readout-water">30</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">%</span>
+</div>
+</div>
+<!-- Custom Slider Control -->
+<div class="py-space-xs">
+<input class="w-full h-2.5 bg-surface-container rounded-lg appearance-none cursor-pointer accent-secondary transition-all" id="slider-water" max="100" min="0" oninput="updateSliders('water', this.value)" step="5" type="range" value="30"/>
+<div class="flex justify-between font-telemetry-data text-telemetry-data text-outline-variant mt-1.5 px-0.5">
+<span>0%</span>
+<span>25%</span>
+<span>50%</span>
+<span>75%</span>
+<span>100%</span>
+</div>
+</div>
+<!-- Telemetry Impact Snippet -->
+<div class="mt-space-sm p-space-sm rounded-lg bg-surface-container-low flex items-center justify-between text-on-surface">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">insights</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Model impact preview:</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Reduces dry-season Boro pumping hours by ~42% via legume inclusion.</span>
+</div>
+<span class="font-telemetry-data text-telemetry-data text-secondary uppercase font-bold">SMAP L4 Verified</span>
+</div>
+</div>
+<!-- SLIDER 2: Soil Health & Residual Fertility -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_1px_3px_rgba(10,17,40,0.04)] hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="flex items-start justify-between gap-space-md mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-11 h-11 rounded-xl bg-surface-container-low flex items-center justify-center text-on-tertiary-container shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[24px]">compost</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Soil Health &amp; Residual Fertility</h3>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm font-semibold uppercase tracking-wider">Bio-Cycling</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Build natural nitrogen reserves and enhance topsoil organic matter over the three-season rotation cycle.
+              </p>
+</div>
+</div>
+<div class="flex items-baseline gap-1 shrink-0 bg-surface-container-low px-3 py-1 rounded-xl">
+<span class="font-headline-md text-headline-md font-bold text-on-surface" id="readout-soil">25</span>
+<span class="font-label-sm text-label-sm text-on-surface font-bold">%</span>
+</div>
+</div>
+<div class="py-space-xs">
+<input class="w-full h-2.5 bg-surface-container rounded-lg appearance-none cursor-pointer accent-secondary transition-all" id="slider-soil" max="100" min="0" oninput="updateSliders('soil', this.value)" step="5" type="range" value="25"/>
+<div class="flex justify-between font-telemetry-data text-telemetry-data text-outline-variant mt-1.5 px-0.5">
+<span>0%</span>
+<span>25%</span>
+<span>50%</span>
+<span>75%</span>
+<span>100%</span>
+</div>
+</div>
+<div class="mt-space-sm p-space-sm rounded-lg bg-surface-container-low flex items-center justify-between text-on-surface">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">eco</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Model impact preview:</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Injects +18 kg/ha biological nitrogen via Mung Bean biomass incorporation.</span>
+</div>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant uppercase font-bold">Organic C: +0.22%</span>
+</div>
+</div>
+<!-- SLIDER 3: Climate & Flood Resilience -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_1px_3px_rgba(10,17,40,0.04)] hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="flex items-start justify-between gap-space-md mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-11 h-11 rounded-xl bg-surface-container-low flex items-center justify-center text-secondary shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[24px]">shield</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Climate Resilience &amp; Weather Shock Tolerance</h3>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm font-semibold uppercase tracking-wider">Flood &amp; Heat Buffer</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Buffer against delayed monsoon onset, early pre-monsoon flash floods, and dry-spell heat spikes.
+              </p>
+</div>
+</div>
+<div class="flex items-baseline gap-1 shrink-0 bg-surface-container-low px-3 py-1 rounded-xl">
+<span class="font-headline-md text-headline-md font-bold text-on-surface" id="readout-resilience">25</span>
+<span class="font-label-sm text-label-sm text-on-surface font-bold">%</span>
+</div>
+</div>
+<div class="py-space-xs">
+<input class="w-full h-2.5 bg-surface-container rounded-lg appearance-none cursor-pointer accent-secondary transition-all" id="slider-resilience" max="100" min="0" oninput="updateSliders('resilience', this.value)" step="5" type="range" value="25"/>
+<div class="flex justify-between font-telemetry-data text-telemetry-data text-outline-variant mt-1.5 px-0.5">
+<span>0%</span>
+<span>25%</span>
+<span>50%</span>
+<span>75%</span>
+<span>100%</span>
+</div>
+</div>
+<div class="mt-space-sm p-space-sm rounded-lg bg-surface-container-low flex items-center justify-between text-on-surface">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">thunderstorm</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Model impact preview:</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Selects submergence-tolerant rice cultivars (Sub1) and drought-hardy pulses.</span>
+</div>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant uppercase font-bold">GPM IMERG Validated</span>
+</div>
+</div>
+<!-- SLIDER 4: Income Potential & Market Return -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_1px_3px_rgba(10,17,40,0.04)] hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="flex items-start justify-between gap-space-md mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-11 h-11 rounded-xl bg-surface-container-low flex items-center justify-center text-on-surface shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[24px]">payments</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Income Potential &amp; Cash Generation</h3>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm font-semibold uppercase tracking-wider">Household Net</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Maximize net family earnings per bigha across the three-season economic calendar.
+              </p>
+</div>
+</div>
+<div class="flex items-baseline gap-1 shrink-0 bg-surface-container-low px-3 py-1 rounded-xl">
+<span class="font-headline-md text-headline-md font-bold text-on-surface" id="readout-income">10</span>
+<span class="font-label-sm text-label-sm text-on-surface font-bold">%</span>
+</div>
+</div>
+<div class="py-space-xs">
+<input class="w-full h-2.5 bg-surface-container rounded-lg appearance-none cursor-pointer accent-secondary transition-all" id="slider-income" max="100" min="0" oninput="updateSliders('income', this.value)" step="5" type="range" value="10"/>
+<div class="flex justify-between font-telemetry-data text-telemetry-data text-outline-variant mt-1.5 px-0.5">
+<span>0%</span>
+<span>25%</span>
+<span>50%</span>
+<span>75%</span>
+<span>100%</span>
+</div>
+</div>
+<div class="mt-space-sm p-space-sm rounded-lg bg-surface-container-low flex items-center justify-between text-on-surface">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">trending_up</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Model impact preview:</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Balances high-value cash oilseeds/pulses against locked household staple rice.</span>
+</div>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant uppercase font-bold">DAM Market Index</span>
+</div>
+</div>
+<!-- SLIDER 5: Low Input Cost & Cash Outlay -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_1px_3px_rgba(10,17,40,0.04)] hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="flex items-start justify-between gap-space-md mb-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-11 h-11 rounded-xl bg-surface-container-low flex items-center justify-center text-secondary shrink-0 shadow-inner">
+<span class="material-symbols-outlined text-[24px]">account_balance_wallet</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Low Input Cost &amp; Financial Safety</h3>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm font-semibold uppercase tracking-wider">Working Capital</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Minimize upfront cash debt for diesel pump fuel, high-cost hybrid seeds, and synthetic urea.
+              </p>
+</div>
+</div>
+<div class="flex items-baseline gap-1 shrink-0 bg-surface-container-low px-3 py-1 rounded-xl">
+<span class="font-headline-md text-headline-md font-bold text-on-surface" id="readout-cost">10</span>
+<span class="font-label-sm text-label-sm text-on-surface font-bold">%</span>
+</div>
+</div>
+<div class="py-space-xs">
+<input class="w-full h-2.5 bg-surface-container rounded-lg appearance-none cursor-pointer accent-secondary transition-all" id="slider-cost" max="100" min="0" oninput="updateSliders('cost', this.value)" step="5" type="range" value="10"/>
+<div class="flex justify-between font-telemetry-data text-telemetry-data text-outline-variant mt-1.5 px-0.5">
+<span>0%</span>
+<span>25%</span>
+<span>50%</span>
+<span>75%</span>
+<span>100%</span>
+</div>
+</div>
+<div class="mt-space-sm p-space-sm rounded-lg bg-surface-container-low flex items-center justify-between text-on-surface">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">price_check</span>
+<span class="font-label-md text-label-md text-on-surface-variant font-medium">Model impact preview:</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Cuts synthetic fertilizer expenditures by 30% through biological cycling.</span>
+</div>
+<span class="font-telemetry-data text-telemetry-data text-on-surface-variant uppercase font-bold">Diesel -28%</span>
+</div>
+</div>
+</div>
+<!-- RIGHT: Sticky Telemetry Intelligence Rail (col-span-5) -->
+<div class="lg:col-span-5 flex flex-col gap-space-md sticky top-20">
+<!-- Dynamic Live Ranking Synthesis Card -->
+<div class="bg-primary-container text-on-primary p-space-lg rounded-xl shadow-lg relative overflow-hidden">
+<div class="absolute -right-10 -bottom-10 w-44 h-44 rounded-full bg-secondary-container/10 blur-2xl pointer-events-none"></div>
+<div class="flex items-center justify-between mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary-container animate-ping"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-container font-bold">Live Ranking Synthesis</span>
+</div>
+<div class="px-2 py-0.5 rounded bg-surface-container-lowest/10 font-telemetry-data text-telemetry-data text-surface-container-lowest">
+            Rank Iteration #1,048
+          </div>
+</div>
+<p class="font-headline-sm text-headline-sm text-surface-bright font-bold leading-snug mb-space-xs" id="synthesis-headline">
+          “Your plan currently prioritizes Water Conservation (30%) and Soil Fertility (25%).”
+        </p>
+<p class="font-body-sm text-body-sm text-surface-dim leading-relaxed" id="synthesis-detail">
+          Next Season is actively filtering 14 feasible candidates to elevate rotations featuring early-maturing mustard and nitrogen-fixing mung bean alongside your locked Aman rice.
+        </p>
+<!-- Mini Weight Distribution Bar -->
+<div class="mt-space-md pt-space-sm flex flex-col gap-1.5">
+<div class="flex justify-between items-center font-telemetry-data text-telemetry-data text-surface-dim">
+<span>Allocated Weight Balance</span>
+<span class="text-secondary-container font-bold" id="total-weight-text">100% / 100% (Normalized)</span>
+</div>
+<div class="w-full h-3 rounded-full bg-surface-container-lowest/10 overflow-hidden flex">
+<div class="bg-secondary-container h-full transition-all duration-300" id="bar-water" style="width: 30%"></div>
+<div class="bg-tertiary-fixed-dim h-full transition-all duration-300" id="bar-soil" style="width: 25%"></div>
+<div class="bg-secondary-fixed h-full transition-all duration-300" id="bar-resilience" style="width: 25%"></div>
+<div class="bg-surface-container-highest h-full transition-all duration-300" id="bar-income" style="width: 10%"></div>
+<div class="bg-surface-dim h-full transition-all duration-300" id="bar-cost" style="width: 10%"></div>
+</div>
+<div class="flex items-center justify-between text-[10px] text-surface-dim mt-0.5">
+<span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span> Water</span>
+<span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></span> Soil</span>
+<span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed"></span> Resilience</span>
+<span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-surface-container-highest"></span> Income</span>
+<span class="flex items-center gap-1"><span class="w-1.5 h-1.5 rounded-full bg-surface-dim"></span> Cost</span>
+</div>
+</div>
+</div>
+<!-- Current #1 Ranked Rotation Preview Card -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-[0_1px_3px_rgba(10,17,40,0.04)] relative">
+<div class="flex items-center justify-between pb-space-sm mb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim"></span>
+<span class="font-label-sm text-label-sm font-bold uppercase tracking-wider text-on-surface">Top Candidate Preview</span>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-secondary font-telemetry-data text-telemetry-data font-bold">
+            Score: 94.2 / 100
+          </span>
+</div>
+<!-- Rotation Flow Chips -->
+<div class="p-space-md rounded-xl bg-surface-container-low mb-space-md">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant font-semibold block mb-2">3-Season Sequence (Rangpur AEZ-03)</span>
+<div class="flex items-center flex-wrap gap-2 text-on-surface">
+<div class="flex items-center gap-1.5 px-3 py-1.5 bg-surface-container-lowest rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">grass</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Kharif-2</span>
+<span class="font-label-md text-label-md font-bold">Aman Rice (BRRI dhan28)</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[16px]">arrow_forward</span>
+<div class="flex items-center gap-1.5 px-3 py-1.5 bg-surface-container-lowest rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-on-surface">energy_savings_leaf</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Rabi</span>
+<span class="font-label-md text-label-md font-bold">Tori-7 Mustard</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[16px]">arrow_forward</span>
+<div class="flex items-center gap-1.5 px-3 py-1.5 bg-surface-container-lowest rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">eco</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Kharif-1</span>
+<span class="font-label-md text-label-md font-bold">BARI Mung-6</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Radar / Score Breakdown Grid -->
+<div class="grid grid-cols-2 gap-space-sm mb-space-md">
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Water Conservation</span>
+<div class="flex items-baseline justify-between mt-1">
+<span class="font-headline-sm text-headline-sm font-bold text-secondary">96</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">/ 100</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full mt-1.5 overflow-hidden">
+<div class="bg-secondary h-full rounded-full w-[96%]"></div>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Climate Defense</span>
+<div class="flex items-baseline justify-between mt-1">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">92</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">/ 100</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full mt-1.5 overflow-hidden">
+<div class="bg-secondary h-full rounded-full w-[92%]"></div>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Soil Bio-Regen</span>
+<div class="flex items-baseline justify-between mt-1">
+<span class="font-headline-sm text-headline-sm font-bold text-on-tertiary-container">94</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">/ 100</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full mt-1.5 overflow-hidden">
+<div class="bg-tertiary-fixed-dim h-full rounded-full w-[94%]"></div>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Input Cash Economy</span>
+<div class="flex items-baseline justify-between mt-1">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">88</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">/ 100</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full mt-1.5 overflow-hidden">
+<div class="bg-secondary-container h-full rounded-full w-[88%]"></div>
+</div>
+</div>
+</div>
+<!-- Economic Projection -->
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center justify-between text-on-surface">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">currency_exchange</span>
+<span class="font-label-md text-label-md font-semibold">Projected Net Household Return:</span>
+</div>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">৳ 78,400 <span class="font-label-sm text-label-sm font-normal text-on-surface-variant">/ Acre</span></span>
+</div>
+</div>
+<!-- NASA Earth Observation Calibration Footnote Card -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-[0_1px_3px_rgba(10,17,40,0.04)] flex flex-col gap-space-xs">
+<div class="flex items-center gap-1.5 text-secondary font-label-sm text-label-sm font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px]">satellite</span>
+          NASA Earth Observation Baselines in Weighting:
+        </div>
+<ul class="flex flex-col gap-1.5 mt-1 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span><strong class="text-on-surface">SMAP L4 9km Soil Moisture:</strong> Evaluates root-zone water deficits to prioritize irrigation offsets.</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+<span><strong class="text-on-surface">GPM IMERG 10-Yr Monsoon Deviation:</strong> Measures flash flood likelihood during early Kharif seedling stages.</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-fixed-dim"></span>
+<span><strong class="text-on-surface">NASA POWER Surface Temp &amp; Solar Irradiance:</strong> Simulates crop maturity &amp; terminal heat risk.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Bottom Navigation & Workflow Confirmation Bar -->
+<div class="mt-space-xl pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm w-full sm:w-auto">
+<a class="px-space-md py-2.5 rounded-xl bg-surface-container text-on-surface hover:bg-surface-container-high transition-all font-label-md text-label-md font-semibold flex items-center gap-2 shadow-sm" href="#">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+        Back to Constraints
+      </a>
+<button class="px-space-md py-2.5 rounded-xl text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all font-label-md text-label-md font-medium" type="button">
+        Save Draft
+      </button>
+</div>
+<div class="flex items-center gap-space-lg w-full sm:w-auto justify-end">
+<div class="hidden md:flex flex-col text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Next Planning Step</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">05 / 08 • Synthesize NASA Environmental Profile</span>
+</div>
+<a class="px-space-lg py-3 rounded-xl bg-primary text-on-primary hover:bg-on-surface-variant active:scale-[0.99] transition-all font-label-lg text-label-lg font-bold flex items-center gap-space-sm shadow-md" href="#">
+<span>Build My NASA Profile</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Interactive Sliders & Presets Controller Script -->
+<script>
+  const presets = {
+    balanced: { water: 20, soil: 20, resilience: 20, income: 20, cost: 20, headline: "“Your plan currently balances all five ecological and economic goals evenly (20% each).”", detail: "Next Season is maintaining a balanced optimization score across all 14 candidate rotations." },
+    water: { water: 30, soil: 25, resilience: 25, income: 10, cost: 10, headline: "“Your plan currently prioritizes Water Conservation (30%) and Soil Fertility (25%).”", detail: "Next Season is actively filtering 14 feasible candidates to elevate rotations featuring early-maturing mustard and nitrogen-fixing mung bean alongside your locked Aman rice." },
+    soil: { water: 20, soil: 40, resilience: 20, income: 10, cost: 10, headline: "“Your plan currently prioritizes Topsoil Organic Matter & Natural Nitrogen (40%).”", detail: "Prioritizing deep taproot pulses, Sesbania green manure, and zero-tillage mustard options to build depleted Barind and Floodplain horizons." },
+    income: { water: 10, soil: 10, resilience: 15, income: 40, cost: 25, headline: "“Your plan currently prioritizes Maximum Cash Generation per Bigha (40%).”", detail: "Elevating high-yield hybrid maize, premium aromatic rice cultivars, and cold-season potato or sunflower cash rotations." },
+    resilience: { water: 25, soil: 15, resilience: 40, income: 10, cost: 10, headline: "“Your plan strongly prioritizes Climate Resilience & Monsoon Flash-Flood Buffer (40%).”", detail: "Prioritizing submergence-tolerant (Scuba/Sub1) rice varieties, short-duration Rabi pulses, and elevated-bed moisture conservation patterns." }
+  };
+
+  function applyPreset(name) {
+    const config = presets[name];
+    if (!config) return;
+
+    ['water', 'soil', 'resilience', 'income', 'cost'].forEach(key => {
+      const slider = document.getElementById('slider-' + key);
+      const readout = document.getElementById('readout-' + key);
+      if (slider && readout) {
+        slider.value = config[key];
+        readout.innerText = config[key];
+      }
+    });
+
+    document.querySelectorAll('.preset-btn').forEach(b => {
+      b.classList.remove('active-preset', 'bg-surface-container', 'text-secondary', 'font-semibold', 'shadow-[0_1px_2px_rgba(10,17,40,0.06)]');
+      b.classList.add('text-on-surface-variant');
+    });
+
+    const activeBtn = document.getElementById('preset-' + name);
+    if (activeBtn) {
+      activeBtn.classList.add('active-preset', 'bg-surface-container', 'text-secondary', 'font-semibold', 'shadow-[0_1px_2px_rgba(10,17,40,0.06)]');
+      activeBtn.classList.remove('text-on-surface-variant');
+    }
+
+    const synthesisH = document.getElementById('synthesis-headline');
+    const synthesisD = document.getElementById('synthesis-detail');
+    if (synthesisH) synthesisH.innerText = config.headline;
+    if (synthesisD) synthesisD.innerText = config.detail;
+
+    updateBarVisuals();
+  }
+
+  function updateSliders(changedKey, value) {
+    const readout = document.getElementById('readout-' + changedKey);
+    if (readout) readout.innerText = value;
+
+    // Reset preset active pill highlights on custom tweak
+    document.querySelectorAll('.preset-btn').forEach(b => {
+      b.classList.remove('active-preset', 'bg-surface-container', 'text-secondary', 'font-semibold');
+      b.classList.add('text-on-surface-variant');
+    });
+
+    updateBarVisuals();
+  }
+
+  function updateBarVisuals() {
+    const w = parseInt(document.getElementById('slider-water').value, 10);
+    const s = parseInt(document.getElementById('slider-soil').value, 10);
+    const r = parseInt(document.getElementById('slider-resilience').value, 10);
+    const i = parseInt(document.getElementById('slider-income').value, 10);
+    const c = parseInt(document.getElementById('slider-cost').value, 10);
+
+    const sum = w + s + r + i + c;
+    const totalEl = document.getElementById('total-weight-text');
+    if (totalEl) {
+      totalEl.innerText = sum + "% / 100% " + (sum === 100 ? "(Balanced)" : "(Unbalanced)");
+    }
+
+    // Update mini-bar widths
+    const norm = sum === 0 ? 1 : sum;
+    document.getElementById('bar-water').style.width = ((w / norm) * 100) + '%';
+    document.getElementById('bar-soil').style.width = ((s / norm) * 100) + '%';
+    document.getElementById('bar-resilience').style.width = ((r / norm) * 100) + '%';
+    document.getElementById('bar-income').style.width = ((i / norm) * 100) + '%';
+    document.getElementById('bar-cost').style.width = ((c / norm) * 100) + '%';
+  }
+</script></main></div></body></html>

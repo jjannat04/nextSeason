@@ -1,0 +1,93 @@
+{
+  "conflicts": [
+    {
+      "id": "salinity-1",
+      "claim": {
+        "raw_value": "2.02",
+        "normalized_value": 2.02,
+        "verification": "conflicting",
+        "source": {
+          "source_title": "Faocrop, research papers",
+          "source_url": "1.https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet         https://www.researchgate.net/publication/348917336_Productivity_Improvement_Opportunities_in_the_Coastal_Polders_to_Address_Food_Security_Challenges_of_Bangladesh                                    https://www.researchgate.net/publication/352761040_Assessing_the_role_of_a_rehabilitated_polder_in_sustainable_agricultural_development_A_case_study_from_Bangladesh                 ",
+          "source_year": null,
+          "normalized_urls": [
+            "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet",
+            "https://www.researchgate.net/publication/348917336_Productivity_Improvement_Opportunities_in_the_Coastal_Polders_to_Address_Food_Security_Challenges_of_Bangladesh",
+            "https://www.researchgate.net/publication/352761040_Assessing_the_role_of_a_rehabilitated_polder_in_sustainable_agricultural_development_A_case_study_from_Bangladesh"
+          ]
+        },
+        "confidence": null,
+        "notes": "N/A",
+        "geographic_applicability": null,
+        "provenance": {
+          "file": "5_crop_soil_requirements.csv",
+          "record": 2,
+          "column": "salinity_threshold_ece_ds_m",
+          "sha256": "1add4e1949166be2cc37e61fdee8a93c7dcfe1ea2c37bca589f8a3513b7a965f"
+        },
+        "unit": "dS/m_ECe",
+        "allowed_uses": []
+      },
+      "other_record": "7_crop_salinity_response.csv:2",
+      "reason": "Observation/stage descriptor is not a verified yield-loss threshold; preserve both records",
+      "resolution": null
+    },
+    {
+      "id": "salinity-9",
+      "claim": {
+        "raw_value": "8",
+        "normalized_value": 8,
+        "verification": "conflicting",
+        "source": {
+          "source_title": "",
+          "source_url": "",
+          "source_year": null,
+          "normalized_urls": []
+        },
+        "confidence": null,
+        "notes": "",
+        "geographic_applicability": null,
+        "provenance": {
+          "file": "5_crop_soil_requirements.csv",
+          "record": 10,
+          "column": "salinity_threshold_ece_ds_m",
+          "sha256": "1add4e1949166be2cc37e61fdee8a93c7dcfe1ea2c37bca589f8a3513b7a965f"
+        },
+        "unit": "dS/m_ECe",
+        "allowed_uses": []
+      },
+      "other_record": "7_crop_salinity_response.csv:10",
+      "reason": "Observation/stage descriptor is not a verified yield-loss threshold; preserve both records",
+      "resolution": null
+    },
+    {
+      "id": "salinity-11",
+      "claim": {
+        "raw_value": "6",
+        "normalized_value": 6,
+        "verification": "conflicting",
+        "source": {
+          "source_title": "",
+          "source_url": "",
+          "source_year": null,
+          "normalized_urls": []
+        },
+        "confidence": null,
+        "notes": "",
+        "geographic_applicability": null,
+        "provenance": {
+          "file": "5_crop_soil_requirements.csv",
+          "record": 12,
+          "column": "salinity_threshold_ece_ds_m",
+          "sha256": "1add4e1949166be2cc37e61fdee8a93c7dcfe1ea2c37bca589f8a3513b7a965f"
+        },
+        "unit": "dS/m_ECe",
+        "allowed_uses": []
+      },
+      "other_record": "7_crop_salinity_response.csv:12",
+      "reason": "Observation/stage descriptor is not a verified yield-loss threshold; preserve both records",
+      "resolution": null
+    }
+  ],
+  "policy": "No automatic reconciliation; all claims retained in staging.json"
+}

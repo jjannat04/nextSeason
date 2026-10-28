@@ -1,0 +1,404 @@
+{
+  "aman_rice": {
+    "rainfall_min_mm": {
+      "raw_value": "1000",
+      "normalized_value": 1000,
+      "verification": "verified",
+      "source": {
+        "source_title": "FAO EcoCrop Oryza sativa",
+        "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+        "source_year": "N/A",
+        "normalized_urls": [
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574"
+        ]
+      },
+      "confidence": "medium",
+      "notes": "Global Oryza sativa reference; annual rainfall not seasonal irrigation; rice season thresholds not differentiated",
+      "geographic_applicability": "global_species_reference",
+      "provenance": {
+        "file": "3_crop_climate_requirements.csv",
+        "record": 2,
+        "column": "rainfall_min_mm",
+        "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+      },
+      "unit": "mm",
+      "allowed_uses": [
+        "annual_rainfall_reference_comparison"
+      ],
+      "review": {
+        "date": "2026-10-28",
+        "method": "official_FAO_EcoCrop_transcription_check",
+        "locator": "Ecology: Rainfall (annual)",
+        "limitation": "Annual species context, not seasonal crop irrigation demand; local applicability provisional"
+      },
+      "measurement_basis": "annual_rainfall_total"
+    },
+    "rainfall_optimal_min_mm": {
+      "raw_value": "1500",
+      "normalized_value": 1500,
+      "verification": "verified",
+      "source": {
+        "source_title": "FAO EcoCrop Oryza sativa",
+        "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+        "source_year": "N/A",
+        "normalized_urls": [
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574"
+        ]
+      },
+      "confidence": "medium",
+      "notes": "Global Oryza sativa reference; annual rainfall not seasonal irrigation; rice season thresholds not differentiated",
+      "geographic_applicability": "global_species_reference",
+      "provenance": {
+        "file": "3_crop_climate_requirements.csv",
+        "record": 2,
+        "column": "rainfall_optimal_min_mm",
+        "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+      },
+      "unit": "mm",
+      "allowed_uses": [
+        "annual_rainfall_reference_comparison"
+      ],
+      "review": {
+        "date": "2026-10-28",
+        "method": "official_FAO_EcoCrop_transcription_check",
+        "locator": "Ecology: Rainfall (annual)",
+        "limitation": "Annual species context, not seasonal crop irrigation demand; local applicability provisional"
+      },
+      "measurement_basis": "annual_rainfall_total"
+    },
+    "rainfall_optimal_max_mm": {
+      "raw_value": "2000",
+      "normalized_value": 2000,
+      "verification": "verified",
+      "source": {
+        "source_title": "FAO EcoCrop Oryza sativa",
+        "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+        "source_year": "N/A",
+        "normalized_urls": [
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574"
+        ]
+      },
+      "confidence": "medium",
+      "notes": "Global Oryza sativa reference; annual rainfall not seasonal irrigation; rice season thresholds not differentiated",
+      "geographic_applicability": "global_species_reference",
+      "provenance": {
+        "file": "3_crop_climate_requirements.csv",
+        "record": 2,
+        "column": "rainfall_optimal_max_mm",
+        "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+      },
+      "unit": "mm",
+      "allowed_uses": [
+        "annual_rainfall_reference_comparison"
+      ],
+      "review": {
+        "date": "2026-10-28",
+        "method": "official_FAO_EcoCrop_transcription_check",
+        "locator": "Ecology: Rainfall (annual)",
+        "limitation": "Annual species context, not seasonal crop irrigation demand; local applicability provisional"
+      },
+      "measurement_basis": "annual_rainfall_total"
+    },
+    "rainfall_max_mm": {
+      "raw_value": "4000",
+      "normalized_value": 4000,
+      "verification": "verified",
+      "source": {
+        "source_title": "FAO EcoCrop Oryza sativa",
+        "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+        "source_year": "N/A",
+        "normalized_urls": [
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574"
+        ]
+      },
+      "confidence": "medium",
+      "notes": "Global Oryza sativa reference; annual rainfall not seasonal irrigation; rice season thresholds not differentiated",
+      "geographic_applicability": "global_species_reference",
+      "provenance": {
+        "file": "3_crop_climate_requirements.csv",
+        "record": 2,
+        "column": "rainfall_max_mm",
+        "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+      },
+      "unit": "mm",
+      "allowed_uses": [
+        "annual_rainfall_reference_comparison"
+      ],
+      "review": {
+        "date": "2026-10-28",
+        "method": "official_FAO_EcoCrop_transcription_check",
+        "locator": "Ecology: Rainfall (annual)",
+        "limitation": "Annual species context, not seasonal crop irrigation demand; local applicability provisional"
+      },
+      "measurement_basis": "annual_rainfall_total"
+    }
+  },
+  "maize": {
+    "rainfall_min_mm": {
+      "raw_value": "400",
+      "normalized_value": 400,
+      "verification": "verified",
+      "source": {
+        "source_title": "FAO EcoCrop species datasheet",
+        "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663",
+        "source_year": "N/A",
+        "normalized_urls": [
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663"
+        ]
+      },
+      "confidence": "high",
+      "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+      "geographic_applicability": "global_species_reference",
+      "provenance": {
+        "file": "3_crop_climate_requirements.csv",
+        "record": 5,
+        "column": "rainfall_min_mm",
+        "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+      },
+      "unit": "mm",
+      "allowed_uses": [
+        "annual_rainfall_reference_comparison"
+      ],
+      "review": {
+        "date": "2026-10-28",
+        "method": "official_FAO_EcoCrop_transcription_check",
+        "locator": "Ecology: Rainfall (annual)",
+        "limitation": "Annual species context, not seasonal crop irrigation demand; local applicability provisional"
+      },
+      "measurement_basis": "annual_rainfall_total"
+    },
+    "rainfall_optimal_min_mm": {
+      "raw_value": "600",
+      "normalized_value": 600,
+      "verification": "verified",
+      "source": {
+        "source_title": "FAO EcoCrop species datasheet",
+        "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663",
+        "source_year": "N/A",
+        "normalized_urls": [
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663"
+        ]
+      },
+      "confidence": "high",
+      "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+      "geographic_applicability": "global_species_reference",
+      "provenance": {
+        "file": "3_crop_climate_requirements.csv",
+        "record": 5,
+        "column": "rainfall_optimal_min_mm",
+        "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+      },
+      "unit": "mm",
+      "allowed_uses": [
+        "annual_rainfall_reference_comparison"
+      ],
+      "review": {
+        "date": "2026-10-28",
+        "method": "official_FAO_EcoCrop_transcription_check",
+        "locator": "Ecology: Rainfall (annual)",
+        "limitation": "Annual species context, not seasonal crop irrigation demand; local applicability provisional"
+      },
+      "measurement_basis": "annual_rainfall_total"
+    },
+    "rainfall_optimal_max_mm": {
+      "raw_value": "1200",
+      "normalized_value": 1200,
+      "verification": "verified",
+      "source": {
+        "source_title": "FAO EcoCrop species datasheet",
+        "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663",
+        "source_year": "N/A",
+        "normalized_urls": [
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663"
+        ]
+      },
+      "confidence": "high",
+      "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+      "geographic_applicability": "global_species_reference",
+      "provenance": {
+        "file": "3_crop_climate_requirements.csv",
+        "record": 5,
+        "column": "rainfall_optimal_max_mm",
+        "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+      },
+      "unit": "mm",
+      "allowed_uses": [
+        "annual_rainfall_reference_comparison"
+      ],
+      "review": {
+        "date": "2026-10-28",
+        "method": "official_FAO_EcoCrop_transcription_check",
+        "locator": "Ecology: Rainfall (annual)",
+        "limitation": "Annual species context, not seasonal crop irrigation demand; local applicability provisional"
+      },
+      "measurement_basis": "annual_rainfall_total"
+    },
+    "rainfall_max_mm": {
+      "raw_value": "1800",
+      "normalized_value": 1800,
+      "verification": "verified",
+      "source": {
+        "source_title": "FAO EcoCrop species datasheet",
+        "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663",
+        "source_year": "N/A",
+        "normalized_urls": [
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663"
+        ]
+      },
+      "confidence": "high",
+      "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+      "geographic_applicability": "global_species_reference",
+      "provenance": {
+        "file": "3_crop_climate_requirements.csv",
+        "record": 5,
+        "column": "rainfall_max_mm",
+        "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+      },
+      "unit": "mm",
+      "allowed_uses": [
+        "annual_rainfall_reference_comparison"
+      ],
+      "review": {
+        "date": "2026-10-28",
+        "method": "official_FAO_EcoCrop_transcription_check",
+        "locator": "Ecology: Rainfall (annual)",
+        "limitation": "Annual species context, not seasonal crop irrigation demand; local applicability provisional"
+      },
+      "measurement_basis": "annual_rainfall_total"
+    }
+  },
+  "sunflower": {
+    "rainfall_min_mm": {
+      "raw_value": "300",
+      "normalized_value": 300,
+      "verification": "verified",
+      "source": {
+        "source_title": "FAO EcoCrop species datasheet",
+        "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191",
+        "source_year": "N/A",
+        "normalized_urls": [
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191"
+        ]
+      },
+      "confidence": "medium",
+      "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+      "geographic_applicability": "global_species_reference",
+      "provenance": {
+        "file": "3_crop_climate_requirements.csv",
+        "record": 6,
+        "column": "rainfall_min_mm",
+        "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+      },
+      "unit": "mm",
+      "allowed_uses": [
+        "annual_rainfall_reference_comparison"
+      ],
+      "review": {
+        "date": "2026-10-28",
+        "method": "official_FAO_EcoCrop_transcription_check",
+        "locator": "Ecology: Rainfall (annual)",
+        "limitation": "Annual species context, not seasonal crop irrigation demand; local applicability provisional"
+      },
+      "measurement_basis": "annual_rainfall_total"
+    },
+    "rainfall_optimal_min_mm": {
+      "raw_value": "600",
+      "normalized_value": 600,
+      "verification": "verified",
+      "source": {
+        "source_title": "FAO EcoCrop species datasheet",
+        "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191",
+        "source_year": "N/A",
+        "normalized_urls": [
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191"
+        ]
+      },
+      "confidence": "medium",
+      "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+      "geographic_applicability": "global_species_reference",
+      "provenance": {
+        "file": "3_crop_climate_requirements.csv",
+        "record": 6,
+        "column": "rainfall_optimal_min_mm",
+        "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+      },
+      "unit": "mm",
+      "allowed_uses": [
+        "annual_rainfall_reference_comparison"
+      ],
+      "review": {
+        "date": "2026-10-28",
+        "method": "official_FAO_EcoCrop_transcription_check",
+        "locator": "Ecology: Rainfall (annual)",
+        "limitation": "Annual species context, not seasonal crop irrigation demand; local applicability provisional"
+      },
+      "measurement_basis": "annual_rainfall_total"
+    },
+    "rainfall_optimal_max_mm": {
+      "raw_value": "1000",
+      "normalized_value": 1000,
+      "verification": "verified",
+      "source": {
+        "source_title": "FAO EcoCrop species datasheet",
+        "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191",
+        "source_year": "N/A",
+        "normalized_urls": [
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191"
+        ]
+      },
+      "confidence": "medium",
+      "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+      "geographic_applicability": "global_species_reference",
+      "provenance": {
+        "file": "3_crop_climate_requirements.csv",
+        "record": 6,
+        "column": "rainfall_optimal_max_mm",
+        "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+      },
+      "unit": "mm",
+      "allowed_uses": [
+        "annual_rainfall_reference_comparison"
+      ],
+      "review": {
+        "date": "2026-10-28",
+        "method": "official_FAO_EcoCrop_transcription_check",
+        "locator": "Ecology: Rainfall (annual)",
+        "limitation": "Annual species context, not seasonal crop irrigation demand; local applicability provisional"
+      },
+      "measurement_basis": "annual_rainfall_total"
+    },
+    "rainfall_max_mm": {
+      "raw_value": "1600",
+      "normalized_value": 1600,
+      "verification": "verified",
+      "source": {
+        "source_title": "FAO EcoCrop species datasheet",
+        "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191",
+        "source_year": "N/A",
+        "normalized_urls": [
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191"
+        ]
+      },
+      "confidence": "medium",
+      "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+      "geographic_applicability": "global_species_reference",
+      "provenance": {
+        "file": "3_crop_climate_requirements.csv",
+        "record": 6,
+        "column": "rainfall_max_mm",
+        "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+      },
+      "unit": "mm",
+      "allowed_uses": [
+        "annual_rainfall_reference_comparison"
+      ],
+      "review": {
+        "date": "2026-10-28",
+        "method": "official_FAO_EcoCrop_transcription_check",
+        "locator": "Ecology: Rainfall (annual)",
+        "limitation": "Annual species context, not seasonal crop irrigation demand; local applicability provisional"
+      },
+      "measurement_basis": "annual_rainfall_total"
+    }
+  }
+}

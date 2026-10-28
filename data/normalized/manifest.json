@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "file": "1_crops_master.csv",
+      "sha256": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98",
+      "rows": 8
+    },
+    {
+      "file": "2_crop_calendar.csv",
+      "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747",
+      "rows": 9
+    },
+    {
+      "file": "3_crop_climate_requirements.csv",
+      "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc",
+      "rows": 8
+    },
+    {
+      "file": "4_crop_water_requirements.csv",
+      "sha256": "9d88a8ae4874f707a07ff44da4a2fd770ac84d178e58dbbd19de35af03c3ffe8",
+      "rows": 32
+    },
+    {
+      "file": "5_crop_soil_requirements.csv",
+      "sha256": "1add4e1949166be2cc37e61fdee8a93c7dcfe1ea2c37bca589f8a3513b7a965f",
+      "rows": 11
+    },
+    {
+      "file": "6_crop_soil_health_effects.csv",
+      "sha256": "8cff1cc397f776deb904b84f0399c8429519187d762ed6780d4a014af9885895",
+      "rows": 11
+    },
+    {
+      "file": "7_crop_salinity_response.csv",
+      "sha256": "79278d81c38cf7538226181d36be3c07b30fe357197bd3438d97f867fda08175",
+      "rows": 11
+    },
+    {
+      "file": "8_crop_rotation_rules.csv",
+      "sha256": "866d0b088cbb5fdfda78f4a8e9177f6585929b5a30d8bf54bd26f11ecf991e28",
+      "rows": 42
+    },
+    {
+      "file": "9_crop_stage_sensitivity.csv",
+      "sha256": "ff4346219ebf4a45339c076266d0172927ca969599643c3e86a5df43c606a657",
+      "rows": 34
+    },
+    {
+      "file": "10_bangladesh_soil_reference.csv",
+      "sha256": "c140ef21784a194cde6d6c7adbc2c922eb475447ed3be91539e6cd807637c02d",
+      "rows": 30
+    },
+    {
+      "file": "11_bangladesh_crop_suitability_reference.csv",
+      "sha256": "8a4f223bf054d1bc9f150809037d00fde00bae770f247df13fd28f756159f6f3",
+      "rows": 37
+    },
+    {
+      "file": "12_farmer_constraint_options.csv",
+      "sha256": "f070d491812409db04ab5150e809ee8d276ca1f29edd3c8db641a724b8d2357f",
+      "rows": 30
+    },
+    {
+      "file": "13_farmer_priority_options.csv",
+      "sha256": "1732a2994c7b06caad8e0c7a72451e1b02dd959f399e3eeb4fed3e51f1cc93af",
+      "rows": 21
+    },
+    {
+      "file": "14_rotation_case_studies.csv",
+      "sha256": "6a26bd9473d85c080c110d04d8b288b8073df88e8a9eb006ee0f0125e3ddfd47",
+      "rows": 16
+    },
+    {
+      "file": "15_sources.csv",
+      "sha256": "e5f11b974ced9a279065037d869dad563e2eb8cebed2428869aac5e80f189f4a",
+      "rows": 74
+    }
+  ],
+  "records": 374
+}

@@ -1,0 +1,107 @@
+{
+  "review_date": "2026-10-28",
+  "scope": [
+    "aman_rice",
+    "maize",
+    "sunflower",
+    "mung_bean"
+  ],
+  "sources": {
+    "BARC2013": {
+      "title": "Hand Book of Agricultural Technology",
+      "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-barc/2024/12/053a0722429448d4903412ce683a7d06.pdf",
+      "year": 2013,
+      "year_basis": "Publication statement: May 2013",
+      "publisher": "Bangladesh Agricultural Research Council",
+      "access": "full_pdf_downloaded_text_and_target_pages_visually_checked",
+      "sha256": "613f4968d1bcefc573e21234030b2f9679212e3dfb0dd7ee8671026c829cf5ad"
+    },
+    "BBS2024": {
+      "title": "Yearbook of Agricultural Statistics-2024, 36th series",
+      "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-bbs/2024/12/58f325576f9a47cc91e7d227e336e40f.pdf",
+      "year": 2025,
+      "year_basis": "Publication: June 2025; yearbook reference year 2024",
+      "publisher": "Bangladesh Bureau of Statistics",
+      "access": "full_pdf_downloaded_text_and_calendar_pages_visually_checked",
+      "sha256": "b9dbe231d0b8bab0a3080aad1795028120287e4d3844429cd229e8475f2833aa"
+    },
+    "IRRI2021": {
+      "title": "Crop diversification in rice-based systems in the polders of Bangladesh: Yield stability, profitability, and associated risk",
+      "url": "https://ricetoday.irri.org/crop-diversification-in-rice-based-systems-in-the-polders-of-bangladesh-yield-stability-profitability-and-associated-risk/",
+      "year": 2021,
+      "year_basis": "Article date: 1 March 2021",
+      "publisher": "IRRI Rice Today",
+      "access": "full_institutional_summary_read; underlying journal full text not accessible",
+      "sha256": ""
+    },
+    "BRRIpatterns": {
+      "title": "ধান ভিত্তিক খামার বিন্যাস বিভাগের সাফল্য",
+      "url": "https://brri.gov.bd/pages/static-pages/6922dc9b933eb65569e1140d",
+      "year": "",
+      "year_basis": "Publication year not established; do not substitute search crawl/site update year",
+      "publisher": "Bangladesh Rice Research Institute",
+      "access": "indexed_official_text_only; direct full-page fetch failed",
+      "sha256": ""
+    },
+    "BAMISaman": {
+      "title": "Crop Weather Calendar of Aman Rice: Khulna Region",
+      "url": "https://www.bamis.gov.bd/res/public/calendars/2019/08/23/5083.pdf",
+      "year": 2019,
+      "year_basis": "PDF metadata and hosting path; no explicit publication statement",
+      "publisher": "DAE/BAMIS",
+      "access": "full_one_page_pdf_downloaded_text_and_chart_visually_checked",
+      "sha256": "0b9b00162d2ae35455b3333d14e330e64c6612aec3da8c8518328b5d6b779b85"
+    },
+    "BAMISmaize": {
+      "title": "Crop Weather Calendar of Maize: Khulna Region",
+      "url": "https://www.bamis.gov.bd/res/public/calendars/2019/08/23/5127.pdf",
+      "year": 2019,
+      "year_basis": "PDF metadata and hosting path; no explicit publication statement",
+      "publisher": "DAE/BAMIS",
+      "access": "full_one_page_pdf_downloaded_text_and_chart_visually_checked",
+      "sha256": "1f10807ccb81ef153f10c12909df9a7f4ea754921eaa44c845e1c0103e2dd3a5"
+    },
+    "BAMISmung": {
+      "title": "Crop Weather Calendar of Green Gram Kharif-1: Khulna Region",
+      "url": "https://www.bamis.gov.bd/res/public/calendars/2019/12/30/10934.pdf",
+      "year": 2019,
+      "year_basis": "PDF metadata and hosting path; no explicit publication statement",
+      "publisher": "DAE/BAMIS",
+      "access": "full_one_page_pdf_downloaded_text_and_chart_visually_checked",
+      "sha256": "b69602a23df60440c828f959125b23fa505f84fa0a94796b576aa032035f980f"
+    }
+  },
+  "raw_sha256": {
+    "10_bangladesh_soil_reference.csv": "c140ef21784a194cde6d6c7adbc2c922eb475447ed3be91539e6cd807637c02d",
+    "11_bangladesh_crop_suitability_reference.csv": "8a4f223bf054d1bc9f150809037d00fde00bae770f247df13fd28f756159f6f3",
+    "12_farmer_constraint_options.csv": "f070d491812409db04ab5150e809ee8d276ca1f29edd3c8db641a724b8d2357f",
+    "13_farmer_priority_options.csv": "1732a2994c7b06caad8e0c7a72451e1b02dd959f399e3eeb4fed3e51f1cc93af",
+    "14_rotation_case_studies.csv": "6a26bd9473d85c080c110d04d8b288b8073df88e8a9eb006ee0f0125e3ddfd47",
+    "15_sources.csv": "e5f11b974ced9a279065037d869dad563e2eb8cebed2428869aac5e80f189f4a",
+    "1_crops_master.csv": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98",
+    "2_crop_calendar.csv": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747",
+    "3_crop_climate_requirements.csv": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc",
+    "4_crop_water_requirements.csv": "9d88a8ae4874f707a07ff44da4a2fd770ac84d178e58dbbd19de35af03c3ffe8",
+    "5_crop_soil_requirements.csv": "1add4e1949166be2cc37e61fdee8a93c7dcfe1ea2c37bca589f8a3513b7a965f",
+    "6_crop_soil_health_effects.csv": "8cff1cc397f776deb904b84f0399c8429519187d762ed6780d4a014af9885895",
+    "7_crop_salinity_response.csv": "79278d81c38cf7538226181d36be3c07b30fe357197bd3438d97f867fda08175",
+    "8_crop_rotation_rules.csv": "866d0b088cbb5fdfda78f4a8e9177f6585929b5a30d8bf54bd26f11ecf991e28",
+    "9_crop_stage_sensitivity.csv": "ff4346219ebf4a45339c076266d0172927ca969599643c3e86a5df43c606a657"
+  },
+  "artifacts": {
+    "crop_calendar_verified.csv": {
+      "rows": 13,
+      "sha256": "5eecac312039047f66e65ba4b85bb9e4c019bbc7e4cceecc076b2e2526f4cfa8"
+    },
+    "crop_rotation_rules_verified.csv": {
+      "rows": 18,
+      "sha256": "a38a7052d8a850e28b4ea4737607f6d98cafa87810d0b6c4089a24dbe39901e2"
+    },
+    "production_crop_subset.csv": {
+      "rows": 4,
+      "sha256": "fa441ec922171e6446dd5c241a909593d8e0d510fe3fc7252891d0aa54945356"
+    }
+  },
+  "release_decision": "not_approved_for_production",
+  "runtime_projection_changed": false
+}

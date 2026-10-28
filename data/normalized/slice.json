@@ -1,0 +1,3458 @@
+{
+  "schema_version": 1,
+  "origin": "RESEARCH_EVIDENCE",
+  "status": "calendar_blocked",
+  "allowed_use": "global_species_reference_comparison",
+  "crops": [
+    {
+      "id": "aman_rice",
+      "label": "Aman rice",
+      "family": "Poaceae",
+      "temperature": {
+        "temp_absolute_min_c": {
+          "raw_value": "10",
+          "normalized_value": 10,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop Oryza sativa",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "Global Oryza sativa reference; annual rainfall not seasonal irrigation; rice season thresholds not differentiated",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 2,
+            "column": "temp_absolute_min_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "temp_optimal_min_c": {
+          "raw_value": "20",
+          "normalized_value": 20,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop Oryza sativa",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "Global Oryza sativa reference; annual rainfall not seasonal irrigation; rice season thresholds not differentiated",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 2,
+            "column": "temp_optimal_min_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "temp_optimal_max_c": {
+          "raw_value": "30",
+          "normalized_value": 30,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop Oryza sativa",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "Global Oryza sativa reference; annual rainfall not seasonal irrigation; rice season thresholds not differentiated",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 2,
+            "column": "temp_optimal_max_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "temp_absolute_max_c": {
+          "raw_value": "36",
+          "normalized_value": 36,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop Oryza sativa",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "Global Oryza sativa reference; annual rainfall not seasonal irrigation; rice season thresholds not differentiated",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 2,
+            "column": "temp_absolute_max_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        }
+      },
+      "soil_ph": {
+        "soil_ph_opt_min": {
+          "raw_value": "5.5",
+          "normalized_value": 5.5,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop Oryza sativa",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "Rice climate and pH generic species reference; local duration and seasons not validated",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "1_crops_master.csv",
+            "record": 2,
+            "column": "soil_ph_opt_min",
+            "sha256": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98"
+          },
+          "unit": "pH_method_unspecified",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Soil PH (Optimal)",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "soil_ph_opt_max": {
+          "raw_value": "7",
+          "normalized_value": 7,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop Oryza sativa",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "Rice climate and pH generic species reference; local duration and seasons not validated",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "1_crops_master.csv",
+            "record": 2,
+            "column": "soil_ph_opt_max",
+            "sha256": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98"
+          },
+          "unit": "pH_method_unspecified",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Soil PH (Optimal)",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        }
+      },
+      "calendars": [
+        {
+          "id": "2_crop_calendar.csv:2",
+          "fields": {
+            "calendar_id": {
+              "raw_value": "CAL01",
+              "normalized_value": "CAL01",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "calendar_id",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "crop_id": {
+              "raw_value": "C01",
+              "normalized_value": "aman_rice",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "crop_id",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "identity_mapping": {
+                "canonical_id": "aman_rice",
+                "variety_id": null,
+                "namespace": "2_crop_calendar.csv",
+                "meaning": "Identity mapping only; scientific applicability remains separately gated"
+              }
+            },
+            "region_scope": {
+              "raw_value": "Polder 30 Batiaghata",
+              "normalized_value": "Polder 30 Batiaghata",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "region_scope",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "division": {
+              "raw_value": "Khulna",
+              "normalized_value": "Khulna",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "division",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "district": {
+              "raw_value": "Khulna",
+              "normalized_value": "Khulna",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "district",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "agro_ecological_zone": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "agro_ecological_zone",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "season_name": {
+              "raw_value": "Jul-Dec",
+              "normalized_value": "Jul-Dec",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "season_name",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_start_month": {
+              "raw_value": "7",
+              "normalized_value": 7,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "planting_start_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_start_day": {
+              "raw_value": "10",
+              "normalized_value": 10,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "planting_start_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_end_month": {
+              "raw_value": "8",
+              "normalized_value": 8,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "planting_end_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_end_day": {
+              "raw_value": "20",
+              "normalized_value": 20,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "planting_end_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_start_month": {
+              "raw_value": "11",
+              "normalized_value": 11,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "harvest_start_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_start_day": {
+              "raw_value": "20",
+              "normalized_value": 20,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "harvest_start_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_end_month": {
+              "raw_value": "12",
+              "normalized_value": 12,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "harvest_end_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_end_day": {
+              "raw_value": "31",
+              "normalized_value": 31,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "harvest_end_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "typical_duration_days": {
+              "raw_value": "133",
+              "normalized_value": 133,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "typical_duration_days",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "transplanting_or_direct_seed": {
+              "raw_value": "transplanting",
+              "normalized_value": "transplanting",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "transplanting_or_direct_seed",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "irrigated_or_rainfed": {
+              "raw_value": "rainfed",
+              "normalized_value": "rainfed",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "irrigated_or_rainfed",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "notes": {
+              "raw_value": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "normalized_value": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "notes",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "source_title": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "source_title",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "source_url": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "source_url",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "source_year": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "source_year",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "confidence_level": {
+              "raw_value": "medium",
+              "normalized_value": "medium",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "confidence_level",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "source_verified": {
+              "raw_value": "no",
+              "normalized_value": "no",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "source_verified",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "date_basis": {
+              "raw_value": "research_window",
+              "normalized_value": "research_window",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "date_basis",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "data_status": {
+              "raw_value": "unverified",
+              "normalized_value": "unverified",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "data_status",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "production_ready": {
+              "raw_value": "no",
+              "normalized_value": "no",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "production_ready",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "source_scope": {
+              "raw_value": "unverified_local_calendar",
+              "normalized_value": "unverified_local_calendar",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 2,
+                "column": "source_scope",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            }
+          },
+          "verification": "provisional"
+        }
+      ],
+      "origin": "RESEARCH_EVIDENCE",
+      "family_evidence": {
+        "raw_value": "Poaceae",
+        "normalized_value": "Poaceae",
+        "verification": "provisional",
+        "source": {
+          "source_title": "FAO EcoCrop Oryza sativa",
+          "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+          "source_year": "N/A",
+          "normalized_urls": [
+            "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574"
+          ]
+        },
+        "confidence": "medium",
+        "notes": "Rice climate and pH generic species reference; local duration and seasons not validated",
+        "geographic_applicability": "global_species_reference",
+        "provenance": {
+          "file": "1_crops_master.csv",
+          "record": 2,
+          "column": "crop_family",
+          "sha256": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98"
+        },
+        "unit": null,
+        "allowed_uses": []
+      }
+    },
+    {
+      "id": "maize",
+      "label": "Maize",
+      "family": "Poaceae",
+      "temperature": {
+        "temp_absolute_min_c": {
+          "raw_value": "10",
+          "normalized_value": 10,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663"
+            ]
+          },
+          "confidence": "high",
+          "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 5,
+            "column": "temp_absolute_min_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "temp_optimal_min_c": {
+          "raw_value": "18",
+          "normalized_value": 18,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663"
+            ]
+          },
+          "confidence": "high",
+          "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 5,
+            "column": "temp_optimal_min_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "temp_optimal_max_c": {
+          "raw_value": "33",
+          "normalized_value": 33,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663"
+            ]
+          },
+          "confidence": "high",
+          "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 5,
+            "column": "temp_optimal_max_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "temp_absolute_max_c": {
+          "raw_value": "47",
+          "normalized_value": 47,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663"
+            ]
+          },
+          "confidence": "high",
+          "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 5,
+            "column": "temp_absolute_max_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        }
+      },
+      "soil_ph": {
+        "soil_ph_opt_min": {
+          "raw_value": "5",
+          "normalized_value": 5,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop global pH reference; variety and locality-specific duration not verified",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "1_crops_master.csv",
+            "record": 5,
+            "column": "soil_ph_opt_min",
+            "sha256": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98"
+          },
+          "unit": "pH_method_unspecified",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Soil PH (Optimal)",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "soil_ph_opt_max": {
+          "raw_value": "7",
+          "normalized_value": 7,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop global pH reference; variety and locality-specific duration not verified",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "1_crops_master.csv",
+            "record": 5,
+            "column": "soil_ph_opt_max",
+            "sha256": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98"
+          },
+          "unit": "pH_method_unspecified",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Soil PH (Optimal)",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        }
+      },
+      "calendars": [
+        {
+          "id": "2_crop_calendar.csv:5",
+          "fields": {
+            "calendar_id": {
+              "raw_value": "CAL04",
+              "normalized_value": "CAL04",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "calendar_id",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "crop_id": {
+              "raw_value": "C04",
+              "normalized_value": "maize",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "crop_id",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "identity_mapping": {
+                "canonical_id": "maize",
+                "variety_id": null,
+                "namespace": "2_crop_calendar.csv",
+                "meaning": "Identity mapping only; scientific applicability remains separately gated"
+              }
+            },
+            "region_scope": {
+              "raw_value": "coastal low-salinity polder",
+              "normalized_value": "coastal low-salinity polder",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "region_scope",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "division": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "division",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "district": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "district",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "agro_ecological_zone": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "agro_ecological_zone",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "season_name": {
+              "raw_value": "Nov-May",
+              "normalized_value": "Nov-May",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "season_name",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_start_month": {
+              "raw_value": "11",
+              "normalized_value": 11,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "planting_start_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_start_day": {
+              "raw_value": "30",
+              "normalized_value": 30,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "planting_start_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_end_month": {
+              "raw_value": "1",
+              "normalized_value": 1,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "planting_end_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_end_day": {
+              "raw_value": "15",
+              "normalized_value": 15,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "planting_end_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_start_month": {
+              "raw_value": "4",
+              "normalized_value": 4,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "harvest_start_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_start_day": {
+              "raw_value": "3",
+              "normalized_value": 3,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "harvest_start_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_end_month": {
+              "raw_value": "5",
+              "normalized_value": 5,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "harvest_end_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_end_day": {
+              "raw_value": "27",
+              "normalized_value": 27,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "harvest_end_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "typical_duration_days": {
+              "raw_value": "128",
+              "normalized_value": 128,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "typical_duration_days",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "transplanting_or_direct_seed": {
+              "raw_value": "direct_seed",
+              "normalized_value": "direct_seed",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "transplanting_or_direct_seed",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "irrigated_or_rainfed": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "irrigated_or_rainfed",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "notes": {
+              "raw_value": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "normalized_value": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "notes",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "source_title": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "source_title",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "source_url": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "source_url",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "source_year": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "source_year",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "confidence_level": {
+              "raw_value": "medium",
+              "normalized_value": "medium",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "confidence_level",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "source_verified": {
+              "raw_value": "no",
+              "normalized_value": "no",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "source_verified",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "date_basis": {
+              "raw_value": "research_window",
+              "normalized_value": "research_window",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "date_basis",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "data_status": {
+              "raw_value": "unverified",
+              "normalized_value": "unverified",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "data_status",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "production_ready": {
+              "raw_value": "no",
+              "normalized_value": "no",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "production_ready",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "source_scope": {
+              "raw_value": "unverified_local_calendar",
+              "normalized_value": "unverified_local_calendar",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 5,
+                "column": "source_scope",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            }
+          },
+          "verification": "provisional"
+        }
+      ],
+      "origin": "RESEARCH_EVIDENCE",
+      "family_evidence": {
+        "raw_value": "Poaceae",
+        "normalized_value": "Poaceae",
+        "verification": "provisional",
+        "source": {
+          "source_title": "FAO EcoCrop species datasheet",
+          "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663",
+          "source_year": "N/A",
+          "normalized_urls": [
+            "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=238663"
+          ]
+        },
+        "confidence": "medium",
+        "notes": "FAO EcoCrop global pH reference; variety and locality-specific duration not verified",
+        "geographic_applicability": "global_crop_reference",
+        "provenance": {
+          "file": "1_crops_master.csv",
+          "record": 5,
+          "column": "crop_family",
+          "sha256": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98"
+        },
+        "unit": null,
+        "allowed_uses": []
+      }
+    },
+    {
+      "id": "sunflower",
+      "label": "Sunflower",
+      "family": "Asteraceae",
+      "temperature": {
+        "temp_absolute_min_c": {
+          "raw_value": "5",
+          "normalized_value": 5,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 6,
+            "column": "temp_absolute_min_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "temp_optimal_min_c": {
+          "raw_value": "17",
+          "normalized_value": 17,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 6,
+            "column": "temp_optimal_min_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "temp_optimal_max_c": {
+          "raw_value": "34",
+          "normalized_value": 34,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 6,
+            "column": "temp_optimal_max_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "temp_absolute_max_c": {
+          "raw_value": "45",
+          "normalized_value": 45,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 6,
+            "column": "temp_absolute_max_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        }
+      },
+      "soil_ph": {
+        "soil_ph_opt_min": {
+          "raw_value": "6",
+          "normalized_value": 6,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop global pH reference; variety and locality-specific duration not verified",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "1_crops_master.csv",
+            "record": 6,
+            "column": "soil_ph_opt_min",
+            "sha256": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98"
+          },
+          "unit": "pH_method_unspecified",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Soil PH (Optimal)",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "soil_ph_opt_max": {
+          "raw_value": "7.5",
+          "normalized_value": 7.5,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop global pH reference; variety and locality-specific duration not verified",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "1_crops_master.csv",
+            "record": 6,
+            "column": "soil_ph_opt_max",
+            "sha256": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98"
+          },
+          "unit": "pH_method_unspecified",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Soil PH (Optimal)",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        }
+      },
+      "calendars": [
+        {
+          "id": "2_crop_calendar.csv:6",
+          "fields": {
+            "calendar_id": {
+              "raw_value": "CAL05",
+              "normalized_value": "CAL05",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "calendar_id",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "crop_id": {
+              "raw_value": "C05",
+              "normalized_value": "sunflower",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "crop_id",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "identity_mapping": {
+                "canonical_id": "sunflower",
+                "variety_id": null,
+                "namespace": "2_crop_calendar.csv",
+                "meaning": "Identity mapping only; scientific applicability remains separately gated"
+              }
+            },
+            "region_scope": {
+              "raw_value": "coastal low-salinity polder",
+              "normalized_value": "coastal low-salinity polder",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "region_scope",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "division": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "division",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "district": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "district",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "agro_ecological_zone": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "agro_ecological_zone",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "season_name": {
+              "raw_value": "Nov-May",
+              "normalized_value": "Nov-May",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "season_name",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_start_month": {
+              "raw_value": "11",
+              "normalized_value": 11,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "planting_start_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_start_day": {
+              "raw_value": "30",
+              "normalized_value": 30,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "planting_start_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_end_month": {
+              "raw_value": "1",
+              "normalized_value": 1,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "planting_end_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_end_day": {
+              "raw_value": "15",
+              "normalized_value": 15,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "planting_end_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_start_month": {
+              "raw_value": "3",
+              "normalized_value": 3,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "harvest_start_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_start_day": {
+              "raw_value": "10",
+              "normalized_value": 10,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "harvest_start_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_end_month": {
+              "raw_value": "5",
+              "normalized_value": 5,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "harvest_end_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_end_day": {
+              "raw_value": "5",
+              "normalized_value": 5,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "harvest_end_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "typical_duration_days": {
+              "raw_value": "105",
+              "normalized_value": 105,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "typical_duration_days",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "transplanting_or_direct_seed": {
+              "raw_value": "direct_seed",
+              "normalized_value": "direct_seed",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "transplanting_or_direct_seed",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "irrigated_or_rainfed": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "irrigated_or_rainfed",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "notes": {
+              "raw_value": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "normalized_value": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "notes",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "source_title": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "source_title",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "source_url": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "source_url",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "source_year": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "source_year",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "confidence_level": {
+              "raw_value": "medium",
+              "normalized_value": "medium",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "confidence_level",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "source_verified": {
+              "raw_value": "no",
+              "normalized_value": "no",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "source_verified",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "date_basis": {
+              "raw_value": "research_window",
+              "normalized_value": "research_window",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "date_basis",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "data_status": {
+              "raw_value": "unverified",
+              "normalized_value": "unverified",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "data_status",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "production_ready": {
+              "raw_value": "no",
+              "normalized_value": "no",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "production_ready",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "source_scope": {
+              "raw_value": "unverified_local_calendar",
+              "normalized_value": "unverified_local_calendar",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "medium",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 6,
+                "column": "source_scope",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            }
+          },
+          "verification": "provisional"
+        }
+      ],
+      "origin": "RESEARCH_EVIDENCE",
+      "family_evidence": {
+        "raw_value": "Asteraceae",
+        "normalized_value": "Asteraceae",
+        "verification": "provisional",
+        "source": {
+          "source_title": "FAO EcoCrop species datasheet",
+          "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191",
+          "source_year": "N/A",
+          "normalized_urls": [
+            "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1191"
+          ]
+        },
+        "confidence": "medium",
+        "notes": "FAO EcoCrop global pH reference; variety and locality-specific duration not verified",
+        "geographic_applicability": "global_crop_reference",
+        "provenance": {
+          "file": "1_crops_master.csv",
+          "record": 6,
+          "column": "crop_family",
+          "sha256": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98"
+        },
+        "unit": null,
+        "allowed_uses": []
+      }
+    },
+    {
+      "id": "mung_bean",
+      "label": "Mungbean",
+      "family": "Fabaceae",
+      "temperature": {
+        "temp_absolute_min_c": {
+          "raw_value": "8",
+          "normalized_value": 8,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 7,
+            "column": "temp_absolute_min_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "temp_optimal_min_c": {
+          "raw_value": "21",
+          "normalized_value": 21,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 7,
+            "column": "temp_optimal_min_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "temp_optimal_max_c": {
+          "raw_value": "36",
+          "normalized_value": 36,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 7,
+            "column": "temp_optimal_max_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "temp_absolute_max_c": {
+          "raw_value": "40",
+          "normalized_value": 40,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop species global reference; annual rainfall is not seasonal crop water demand",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "3_crop_climate_requirements.csv",
+            "record": 7,
+            "column": "temp_absolute_max_c",
+            "sha256": "31f172ad4151e5e0685639dc85d78e27deef11056a74bc3e50e6ccacf0a126fc"
+          },
+          "unit": "degC",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Temperature requirements",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        }
+      },
+      "soil_ph": {
+        "soil_ph_opt_min": {
+          "raw_value": "5.5",
+          "normalized_value": 5.5,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop global pH reference; variety and locality-specific duration not verified",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "1_crops_master.csv",
+            "record": 7,
+            "column": "soil_ph_opt_min",
+            "sha256": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98"
+          },
+          "unit": "pH_method_unspecified",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Soil PH (Optimal)",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        },
+        "soil_ph_opt_max": {
+          "raw_value": "6.2",
+          "normalized_value": 6.2,
+          "verification": "verified",
+          "source": {
+            "source_title": "FAO EcoCrop species datasheet",
+            "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150",
+            "source_year": "N/A",
+            "normalized_urls": [
+              "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150"
+            ]
+          },
+          "confidence": "medium",
+          "notes": "FAO EcoCrop global pH reference; variety and locality-specific duration not verified",
+          "geographic_applicability": "global_species_reference",
+          "provenance": {
+            "file": "1_crops_master.csv",
+            "record": 7,
+            "column": "soil_ph_opt_max",
+            "sha256": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98"
+          },
+          "unit": "pH_method_unspecified",
+          "allowed_uses": [
+            "global_species_reference_comparison"
+          ],
+          "review": {
+            "method": "official_source_transcription_check",
+            "date": "2026-10-28",
+            "locator": "Ecology: Soil PH (Optimal)",
+            "limitation": "Not local calendar, cultivar or crop-stage validation"
+          }
+        }
+      },
+      "calendars": [
+        {
+          "id": "2_crop_calendar.csv:7",
+          "fields": {
+            "calendar_id": {
+              "raw_value": "CAL06",
+              "normalized_value": "CAL06",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "calendar_id",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "crop_id": {
+              "raw_value": "C06",
+              "normalized_value": "mung_bean",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "crop_id",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "identity_mapping": {
+                "canonical_id": "mung_bean",
+                "variety_id": null,
+                "namespace": "2_crop_calendar.csv",
+                "meaning": "Identity mapping only; scientific applicability remains separately gated"
+              }
+            },
+            "region_scope": {
+              "raw_value": "southern coastal",
+              "normalized_value": "southern coastal",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "region_scope",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "division": {
+              "raw_value": "Barishal",
+              "normalized_value": "Barishal",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "division",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "district": {
+              "raw_value": "Patuakhali",
+              "normalized_value": "Patuakhali",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "district",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "agro_ecological_zone": {
+              "raw_value": "13",
+              "normalized_value": "13",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "agro_ecological_zone",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "season_name": {
+              "raw_value": "Jan-Apr",
+              "normalized_value": "Jan-Apr",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "season_name",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_start_month": {
+              "raw_value": "1",
+              "normalized_value": 1,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "planting_start_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_start_day": {
+              "raw_value": "25",
+              "normalized_value": 25,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "planting_start_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_end_month": {
+              "raw_value": "2",
+              "normalized_value": 2,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "planting_end_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "planting_end_day": {
+              "raw_value": "15",
+              "normalized_value": 15,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "planting_end_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_start_month": {
+              "raw_value": "3",
+              "normalized_value": 3,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "harvest_start_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_start_day": {
+              "raw_value": "26",
+              "normalized_value": 26,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "harvest_start_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_end_month": {
+              "raw_value": "4",
+              "normalized_value": 4,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "harvest_end_month",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "harvest_end_day": {
+              "raw_value": "16",
+              "normalized_value": 16,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "harvest_end_day",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "typical_duration_days": {
+              "raw_value": "60",
+              "normalized_value": 60,
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "typical_duration_days",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "transplanting_or_direct_seed": {
+              "raw_value": "direct_seed",
+              "normalized_value": "direct_seed",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "transplanting_or_direct_seed",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "irrigated_or_rainfed": {
+              "raw_value": "rainfed",
+              "normalized_value": "rainfed",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "irrigated_or_rainfed",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "notes": {
+              "raw_value": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "normalized_value": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "notes",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "source_title": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "source_title",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "source_url": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "source_url",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "source_year": {
+              "raw_value": "N/A",
+              "normalized_value": null,
+              "verification": "missing",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "source_year",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": [],
+              "missing_reason": "unspecified_missing"
+            },
+            "confidence_level": {
+              "raw_value": "low",
+              "normalized_value": "low",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "confidence_level",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "source_verified": {
+              "raw_value": "no",
+              "normalized_value": "no",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "source_verified",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "date_basis": {
+              "raw_value": "research_window",
+              "normalized_value": "research_window",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "date_basis",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "data_status": {
+              "raw_value": "unverified",
+              "normalized_value": "unverified",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "data_status",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "production_ready": {
+              "raw_value": "no",
+              "normalized_value": "no",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "production_ready",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            },
+            "source_scope": {
+              "raw_value": "unverified_local_calendar",
+              "normalized_value": "unverified_local_calendar",
+              "verification": "provisional",
+              "source": {
+                "source_title": "N/A",
+                "source_url": "N/A",
+                "source_year": "N/A",
+                "normalized_urls": []
+              },
+              "confidence": "low",
+              "notes": "Provisional existing dates only; exclude from production rotation decisions until local primary source verified",
+              "geographic_applicability": "unverified_local_calendar",
+              "provenance": {
+                "file": "2_crop_calendar.csv",
+                "record": 7,
+                "column": "source_scope",
+                "sha256": "8a8bba445401eb455a247ab6402ca3a4fcd109f6b771031d4dce71e2f6367747"
+              },
+              "unit": null,
+              "allowed_uses": []
+            }
+          },
+          "verification": "provisional"
+        }
+      ],
+      "origin": "RESEARCH_EVIDENCE",
+      "family_evidence": {
+        "raw_value": "Fabaceae",
+        "normalized_value": "Fabaceae",
+        "verification": "provisional",
+        "source": {
+          "source_title": "FAO EcoCrop species datasheet",
+          "source_url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150",
+          "source_year": "N/A",
+          "normalized_urls": [
+            "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2150"
+          ]
+        },
+        "confidence": "medium",
+        "notes": "FAO EcoCrop global pH reference; variety and locality-specific duration not verified",
+        "geographic_applicability": "global_crop_reference",
+        "provenance": {
+          "file": "1_crops_master.csv",
+          "record": 7,
+          "column": "crop_family",
+          "sha256": "5036e1713ee96a959ea1018677d263156cd7fc3927f0114872be1ae733e22b98"
+        },
+        "unit": null,
+        "allowed_uses": []
+      }
+    }
+  ],
+  "rotation_rules": [],
+  "limitations": [
+    "No verified local calendars or executable sequence rules",
+    "No calibrated water, salinity, stage-stress, soil-health or economic scores"
+  ]
+}

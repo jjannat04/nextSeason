@@ -1,0 +1,28 @@
+{
+  "master": {"C01":"aman_rice","C02":"aus_rice","C03":"boro_rice","C04":"maize","C05":"sunflower","C06":"mung_bean","C07":"mustard","C08":"watermelon"},
+  "legacy": {
+    "1":["mung_daal_bari_mung_6","mung_bean","bari_mung_6"],
+    "2":["sesame_bari_til_4","sesame","bari_til_4"],
+    "3":["sunflower_hysun_33","sunflower","hysun_33"],
+    "4":["maize_e_34_x_bil_211","maize","e_34_x_bil_211"],
+    "5":["maize_pinacle_3_x_bil_211","maize","pinacle_3_x_bil_211"],
+    "6":["maize_bil_79_x_pinacle_16","maize","bil_79_x_pinacle_16"],
+    "7":["maize_bari_hybrid_maize_16","maize","bari_hybrid_maize_16"],
+    "8":["rice_brri_dhan51","aman_rice","brri_dhan51"],
+    "9":["rice_brri_dhan54","aman_rice","brri_dhan54"],
+    "10":["rice_brri_dhan52","aman_rice","brri_dhan52"],
+    "11":["rice_brri_dhan47","boro_rice","brri_dhan47"]
+  },
+  "names": {
+    "Aman rice":"aman_rice","Aus rice":"aus_rice","Boro rice":"boro_rice","Maize":"maize","Sunflower":"sunflower","Mungbean":"mung_bean","Mung bean":"mung_bean","Mustard":"mustard","Watermelon":"watermelon",
+    "T. Aman rice":"aman_rice","T. Aus rice":"aus_rice","short-duration Boro rice":"boro_rice",
+    "Wheat":"wheat","Potato":"potato","Groundnut":"groundnut","Onion":"onion","Sugarcane":"sugarcane","Chili":"chili","Lentil":"lentil","Chickpea":"chickpea","Jute":"jute","Sesame":"sesame","Garlic":"garlic",
+    "Sweet gourd":"sweet_gourd","Red amaranth":"red_amaranth","Garden pea":"garden_pea","Radish":"radish"
+  },
+  "scientific_names": {
+    "Zea mays L.":"maize","Helianthus annuus L.":"sunflower","Vigna radiata (L.) Wilczek":"mung_bean","Brassica juncea (L.) Czern.":"mustard","Citrullus lanatus":"watermelon"
+  },
+  "ambiguous": {"Oryza sativa L.":"Rice species cannot identify Aman, Aus or Boro system by itself.","Dhaincha":"Species and cultivar not established by the case sequence; retain green-manure activity without a crop mapping.","Rabi crops":"Unspecified landscape crop group, not a crop identity."},
+  "activities": ["Fallow"],
+  "notes": "Mappings assert identity only. They do not approve cultivar transfer, calendars or scientific values. Pinacle spelling is preserved. Production enables only four crops."
+}

@@ -1,0 +1,2125 @@
+{
+  "schema_version": 1,
+  "aliases": [
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "C01",
+      "canonical_id": "aman_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "Aman rice",
+      "canonical_id": "aman_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "C02",
+      "canonical_id": "aus_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "Aus rice",
+      "canonical_id": "aus_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "C03",
+      "canonical_id": "boro_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "Boro rice",
+      "canonical_id": "boro_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "C04",
+      "canonical_id": "maize",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "Maize",
+      "canonical_id": "maize",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "Zea mays L.",
+      "canonical_id": "maize",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "C05",
+      "canonical_id": "sunflower",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "Sunflower",
+      "canonical_id": "sunflower",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "Helianthus annuus L.",
+      "canonical_id": "sunflower",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "C06",
+      "canonical_id": "mung_bean",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "Mungbean",
+      "canonical_id": "mung_bean",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "Vigna radiata (L.) Wilczek",
+      "canonical_id": "mung_bean",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "C07",
+      "canonical_id": "mustard",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "Mustard",
+      "canonical_id": "mustard",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "Brassica juncea (L.) Czern.",
+      "canonical_id": "mustard",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "C08",
+      "canonical_id": "watermelon",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "Watermelon",
+      "canonical_id": "watermelon",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "1_crops_master.csv",
+      "raw": "Citrullus lanatus",
+      "canonical_id": "watermelon",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "2_crop_calendar.csv",
+      "raw": "C01",
+      "canonical_id": "aman_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "2_crop_calendar.csv",
+      "raw": "C02",
+      "canonical_id": "aus_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "2_crop_calendar.csv",
+      "raw": "C03",
+      "canonical_id": "boro_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "2_crop_calendar.csv",
+      "raw": "C04",
+      "canonical_id": "maize",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "2_crop_calendar.csv",
+      "raw": "C05",
+      "canonical_id": "sunflower",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "2_crop_calendar.csv",
+      "raw": "C06",
+      "canonical_id": "mung_bean",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "2_crop_calendar.csv",
+      "raw": "C07",
+      "canonical_id": "mustard",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "2_crop_calendar.csv",
+      "raw": "C08",
+      "canonical_id": "watermelon",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "3_crop_climate_requirements.csv",
+      "raw": "C01",
+      "canonical_id": "aman_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "3_crop_climate_requirements.csv",
+      "raw": "C02",
+      "canonical_id": "aus_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "3_crop_climate_requirements.csv",
+      "raw": "C03",
+      "canonical_id": "boro_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "3_crop_climate_requirements.csv",
+      "raw": "C04",
+      "canonical_id": "maize",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "3_crop_climate_requirements.csv",
+      "raw": "C05",
+      "canonical_id": "sunflower",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "3_crop_climate_requirements.csv",
+      "raw": "C06",
+      "canonical_id": "mung_bean",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "3_crop_climate_requirements.csv",
+      "raw": "C07",
+      "canonical_id": "mustard",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "3_crop_climate_requirements.csv",
+      "raw": "C08",
+      "canonical_id": "watermelon",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "4_crop_water_requirements.csv",
+      "raw": "C01",
+      "canonical_id": "aman_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "4_crop_water_requirements.csv",
+      "raw": "C02",
+      "canonical_id": "aus_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "4_crop_water_requirements.csv",
+      "raw": "C03",
+      "canonical_id": "boro_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "4_crop_water_requirements.csv",
+      "raw": "C04",
+      "canonical_id": "maize",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "4_crop_water_requirements.csv",
+      "raw": "C05",
+      "canonical_id": "sunflower",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "4_crop_water_requirements.csv",
+      "raw": "C06",
+      "canonical_id": "mung_bean",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "4_crop_water_requirements.csv",
+      "raw": "C07",
+      "canonical_id": "mustard",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "4_crop_water_requirements.csv",
+      "raw": "C08",
+      "canonical_id": "watermelon",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "1",
+      "canonical_id": "mung_bean",
+      "variety_id": "bari_mung_6",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "mung_daal_bari_mung_6",
+      "canonical_id": "mung_bean",
+      "variety_id": "bari_mung_6",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "2",
+      "canonical_id": "sesame",
+      "variety_id": "bari_til_4",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "sesame_bari_til_4",
+      "canonical_id": "sesame",
+      "variety_id": "bari_til_4",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "3",
+      "canonical_id": "sunflower",
+      "variety_id": "hysun_33",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "sunflower_hysun_33",
+      "canonical_id": "sunflower",
+      "variety_id": "hysun_33",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "4",
+      "canonical_id": "maize",
+      "variety_id": "e_34_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "maize_e_34_x_bil_211",
+      "canonical_id": "maize",
+      "variety_id": "e_34_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "5",
+      "canonical_id": "maize",
+      "variety_id": "pinacle_3_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "maize_pinacle_3_x_bil_211",
+      "canonical_id": "maize",
+      "variety_id": "pinacle_3_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "6",
+      "canonical_id": "maize",
+      "variety_id": "bil_79_x_pinacle_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "maize_bil_79_x_pinacle_16",
+      "canonical_id": "maize",
+      "variety_id": "bil_79_x_pinacle_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "7",
+      "canonical_id": "maize",
+      "variety_id": "bari_hybrid_maize_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "maize_bari_hybrid_maize_16",
+      "canonical_id": "maize",
+      "variety_id": "bari_hybrid_maize_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "8",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan51",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "rice_brri_dhan51",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan51",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "9",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan54",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "rice_brri_dhan54",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan54",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "10",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan52",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "rice_brri_dhan52",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan52",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "11",
+      "canonical_id": "boro_rice",
+      "variety_id": "brri_dhan47",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "5_crop_soil_requirements.csv",
+      "raw": "rice_brri_dhan47",
+      "canonical_id": "boro_rice",
+      "variety_id": "brri_dhan47",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "1",
+      "canonical_id": "mung_bean",
+      "variety_id": "bari_mung_6",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "mung_daal_bari_mung_6",
+      "canonical_id": "mung_bean",
+      "variety_id": "bari_mung_6",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "2",
+      "canonical_id": "sesame",
+      "variety_id": "bari_til_4",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "sesame_bari_til_4",
+      "canonical_id": "sesame",
+      "variety_id": "bari_til_4",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "3",
+      "canonical_id": "sunflower",
+      "variety_id": "hysun_33",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "sunflower_hysun_33",
+      "canonical_id": "sunflower",
+      "variety_id": "hysun_33",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "4",
+      "canonical_id": "maize",
+      "variety_id": "e_34_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "maize_e_34_x_bil_211",
+      "canonical_id": "maize",
+      "variety_id": "e_34_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "5",
+      "canonical_id": "maize",
+      "variety_id": "pinacle_3_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "maize_pinacle_3_x_bil_211",
+      "canonical_id": "maize",
+      "variety_id": "pinacle_3_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "6",
+      "canonical_id": "maize",
+      "variety_id": "bil_79_x_pinacle_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "maize_bil_79_x_pinacle_16",
+      "canonical_id": "maize",
+      "variety_id": "bil_79_x_pinacle_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "7",
+      "canonical_id": "maize",
+      "variety_id": "bari_hybrid_maize_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "maize_bari_hybrid_maize_16",
+      "canonical_id": "maize",
+      "variety_id": "bari_hybrid_maize_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "8",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan51",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "rice_brri_dhan51",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan51",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "9",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan54",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "rice_brri_dhan54",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan54",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "10",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan52",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "rice_brri_dhan52",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan52",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "11",
+      "canonical_id": "boro_rice",
+      "variety_id": "brri_dhan47",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "6_crop_soil_health_effects.csv",
+      "raw": "rice_brri_dhan47",
+      "canonical_id": "boro_rice",
+      "variety_id": "brri_dhan47",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "1",
+      "canonical_id": "mung_bean",
+      "variety_id": "bari_mung_6",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "mung_daal_bari_mung_6",
+      "canonical_id": "mung_bean",
+      "variety_id": "bari_mung_6",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "2",
+      "canonical_id": "sesame",
+      "variety_id": "bari_til_4",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "sesame_bari_til_4",
+      "canonical_id": "sesame",
+      "variety_id": "bari_til_4",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "3",
+      "canonical_id": "sunflower",
+      "variety_id": "hysun_33",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "sunflower_hysun_33",
+      "canonical_id": "sunflower",
+      "variety_id": "hysun_33",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "4",
+      "canonical_id": "maize",
+      "variety_id": "e_34_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "maize_e_34_x_bil_211",
+      "canonical_id": "maize",
+      "variety_id": "e_34_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "5",
+      "canonical_id": "maize",
+      "variety_id": "pinacle_3_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "maize_pinacle_3_x_bil_211",
+      "canonical_id": "maize",
+      "variety_id": "pinacle_3_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "6",
+      "canonical_id": "maize",
+      "variety_id": "bil_79_x_pinacle_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "maize_bil_79_x_pinacle_16",
+      "canonical_id": "maize",
+      "variety_id": "bil_79_x_pinacle_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "7",
+      "canonical_id": "maize",
+      "variety_id": "bari_hybrid_maize_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "maize_bari_hybrid_maize_16",
+      "canonical_id": "maize",
+      "variety_id": "bari_hybrid_maize_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "8",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan51",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "rice_brri_dhan51",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan51",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "9",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan54",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "rice_brri_dhan54",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan54",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "10",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan52",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "rice_brri_dhan52",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan52",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "11",
+      "canonical_id": "boro_rice",
+      "variety_id": "brri_dhan47",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "7_crop_salinity_response.csv",
+      "raw": "rice_brri_dhan47",
+      "canonical_id": "boro_rice",
+      "variety_id": "brri_dhan47",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "8_crop_rotation_rules.csv",
+      "raw": "mung_daal_bari_mung_6",
+      "canonical_id": "mung_bean",
+      "variety_id": "bari_mung_6",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "8_crop_rotation_rules.csv",
+      "raw": "rice_brri_dhan51",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan51",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "8_crop_rotation_rules.csv",
+      "raw": "rice_brri_dhan54",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan54",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "8_crop_rotation_rules.csv",
+      "raw": "rice_brri_dhan52",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan52",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "8_crop_rotation_rules.csv",
+      "raw": "sesame_bari_til_4",
+      "canonical_id": "sesame",
+      "variety_id": "bari_til_4",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "8_crop_rotation_rules.csv",
+      "raw": "sunflower_hysun_33",
+      "canonical_id": "sunflower",
+      "variety_id": "hysun_33",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "8_crop_rotation_rules.csv",
+      "raw": "maize_e_34_x_bil_211",
+      "canonical_id": "maize",
+      "variety_id": "e_34_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "8_crop_rotation_rules.csv",
+      "raw": "maize_pinacle_3_x_bil_211",
+      "canonical_id": "maize",
+      "variety_id": "pinacle_3_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "8_crop_rotation_rules.csv",
+      "raw": "maize_bil_79_x_pinacle_16",
+      "canonical_id": "maize",
+      "variety_id": "bil_79_x_pinacle_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "8_crop_rotation_rules.csv",
+      "raw": "maize_bari_hybrid_maize_16",
+      "canonical_id": "maize",
+      "variety_id": "bari_hybrid_maize_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "aman_rice",
+      "canonical_id": "aman_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Aman rice",
+      "canonical_id": "aman_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "aus_rice",
+      "canonical_id": "aus_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Aus rice",
+      "canonical_id": "aus_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "boro_rice",
+      "canonical_id": "boro_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Boro rice",
+      "canonical_id": "boro_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "wheat",
+      "canonical_id": "wheat",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Wheat",
+      "canonical_id": "wheat",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "maize",
+      "canonical_id": "maize",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Maize",
+      "canonical_id": "maize",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "potato",
+      "canonical_id": "potato",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Potato",
+      "canonical_id": "potato",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "groundnut",
+      "canonical_id": "groundnut",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Groundnut",
+      "canonical_id": "groundnut",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "onion",
+      "canonical_id": "onion",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Onion",
+      "canonical_id": "onion",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "sugarcane",
+      "canonical_id": "sugarcane",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Sugarcane",
+      "canonical_id": "sugarcane",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "chili",
+      "canonical_id": "chili",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Chili",
+      "canonical_id": "chili",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "mustard",
+      "canonical_id": "mustard",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Mustard",
+      "canonical_id": "mustard",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "mung_bean",
+      "canonical_id": "mung_bean",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Mung bean",
+      "canonical_id": "mung_bean",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "lentil",
+      "canonical_id": "lentil",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Lentil",
+      "canonical_id": "lentil",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "chickpea",
+      "canonical_id": "chickpea",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Chickpea",
+      "canonical_id": "chickpea",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "jute",
+      "canonical_id": "jute",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Jute",
+      "canonical_id": "jute",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "sesame",
+      "canonical_id": "sesame",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Sesame",
+      "canonical_id": "sesame",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "garlic",
+      "canonical_id": "garlic",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "Garlic",
+      "canonical_id": "garlic",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "BRRI_dhan67",
+      "canonical_id": "boro_rice",
+      "variety_id": "brri_dhan67",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "9_crop_stage_sensitivity.csv",
+      "raw": "BRRI_dhan83",
+      "canonical_id": "aus_rice",
+      "variety_id": "brri_dhan83",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "aus_rice",
+      "canonical_id": "aus_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Aus rice",
+      "canonical_id": "aus_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "aman_rice",
+      "canonical_id": "aman_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Aman rice",
+      "canonical_id": "aman_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "boro_rice",
+      "canonical_id": "boro_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Boro rice",
+      "canonical_id": "boro_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "wheat",
+      "canonical_id": "wheat",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Wheat",
+      "canonical_id": "wheat",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "maize",
+      "canonical_id": "maize",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Maize",
+      "canonical_id": "maize",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "potato",
+      "canonical_id": "potato",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Potato",
+      "canonical_id": "potato",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "lentil",
+      "canonical_id": "lentil",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Lentil",
+      "canonical_id": "lentil",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "mung_bean",
+      "canonical_id": "mung_bean",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Mung bean",
+      "canonical_id": "mung_bean",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "chickpea",
+      "canonical_id": "chickpea",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Chickpea",
+      "canonical_id": "chickpea",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "mustard",
+      "canonical_id": "mustard",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Mustard",
+      "canonical_id": "mustard",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "groundnut",
+      "canonical_id": "groundnut",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Groundnut",
+      "canonical_id": "groundnut",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "chili",
+      "canonical_id": "chili",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Chili",
+      "canonical_id": "chili",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "onion",
+      "canonical_id": "onion",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Onion",
+      "canonical_id": "onion",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "garlic",
+      "canonical_id": "garlic",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Garlic",
+      "canonical_id": "garlic",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "sugarcane",
+      "canonical_id": "sugarcane",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Sugarcane",
+      "canonical_id": "sugarcane",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "jute",
+      "canonical_id": "jute",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Jute",
+      "canonical_id": "jute",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "sesame",
+      "canonical_id": "sesame",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "Sesame",
+      "canonical_id": "sesame",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan73",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan73",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan78",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan78",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan67",
+      "canonical_id": "boro_rice",
+      "variety_id": "brri_dhan67",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan97",
+      "canonical_id": "boro_rice",
+      "variety_id": "brri_dhan97",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan99",
+      "canonical_id": "boro_rice",
+      "variety_id": "brri_dhan99",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan76",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan76",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan77",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan77",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan48",
+      "canonical_id": "aus_rice",
+      "variety_id": "brri_dhan48",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan82",
+      "canonical_id": "aus_rice",
+      "variety_id": "brri_dhan82",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan43",
+      "canonical_id": "aus_rice",
+      "variety_id": "brri_dhan43",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan84",
+      "canonical_id": "boro_rice",
+      "variety_id": "brri_dhan84",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan88",
+      "canonical_id": "boro_rice",
+      "variety_id": "brri_dhan88",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan83",
+      "canonical_id": "aus_rice",
+      "variety_id": "brri_dhan83",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan93",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan93",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "11_bangladesh_crop_suitability_reference.csv",
+      "raw": "BRRI_dhan65",
+      "canonical_id": "aus_rice",
+      "variety_id": "brri_dhan65",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Mustard",
+      "canonical_id": "mustard",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "T. Aus rice",
+      "canonical_id": "aus_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "T. Aman rice",
+      "canonical_id": "aman_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Fallow",
+      "canonical_id": null,
+      "variety_id": null,
+      "kind": "land_use_activity",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Sunflower",
+      "canonical_id": "sunflower",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Maize",
+      "canonical_id": "maize",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Wheat",
+      "canonical_id": "wheat",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Mungbean",
+      "canonical_id": "mung_bean",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Boro rice",
+      "canonical_id": "boro_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Potato",
+      "canonical_id": "potato",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Sweet gourd",
+      "canonical_id": "sweet_gourd",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Jute",
+      "canonical_id": "jute",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Onion",
+      "canonical_id": "onion",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Red amaranth",
+      "canonical_id": "red_amaranth",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Garden pea",
+      "canonical_id": "garden_pea",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Radish",
+      "canonical_id": "radish",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Aus rice",
+      "canonical_id": "aus_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "Aman rice",
+      "canonical_id": "aman_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "14_rotation_case_studies.csv",
+      "raw": "short-duration Boro rice",
+      "canonical_id": "boro_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "maize",
+      "canonical_id": "maize",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "aman_rice",
+      "canonical_id": "aman_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "aus_rice",
+      "canonical_id": "aus_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "boro_rice",
+      "canonical_id": "boro_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "chickpea",
+      "canonical_id": "chickpea",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "chili",
+      "canonical_id": "chili",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "garlic",
+      "canonical_id": "garlic",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "groundnut",
+      "canonical_id": "groundnut",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "jute",
+      "canonical_id": "jute",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "lentil",
+      "canonical_id": "lentil",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "mung_bean",
+      "canonical_id": "mung_bean",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "mustard",
+      "canonical_id": "mustard",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "onion",
+      "canonical_id": "onion",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "potato",
+      "canonical_id": "potato",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "sugarcane",
+      "canonical_id": "sugarcane",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "wheat",
+      "canonical_id": "wheat",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "1",
+      "canonical_id": "mung_bean",
+      "variety_id": "bari_mung_6",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "10",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan52",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "2",
+      "canonical_id": "sesame",
+      "variety_id": "bari_til_4",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "8",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan51",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "4",
+      "canonical_id": "maize",
+      "variety_id": "e_34_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "5",
+      "canonical_id": "maize",
+      "variety_id": "pinacle_3_x_bil_211",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "6",
+      "canonical_id": "maize",
+      "variety_id": "bil_79_x_pinacle_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "7",
+      "canonical_id": "maize",
+      "variety_id": "bari_hybrid_maize_16",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "3",
+      "canonical_id": "sunflower",
+      "variety_id": "hysun_33",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "11",
+      "canonical_id": "boro_rice",
+      "variety_id": "brri_dhan47",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "9",
+      "canonical_id": "aman_rice",
+      "variety_id": "brri_dhan54",
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "C05",
+      "canonical_id": "sunflower",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "C01",
+      "canonical_id": "aman_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "C02",
+      "canonical_id": "aus_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "C03",
+      "canonical_id": "boro_rice",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "C06",
+      "canonical_id": "mung_bean",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "C04",
+      "canonical_id": "maize",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "C07",
+      "canonical_id": "mustard",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "C08",
+      "canonical_id": "watermelon",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    },
+    {
+      "namespace": "15_sources.csv",
+      "raw": "sesame",
+      "canonical_id": "sesame",
+      "variety_id": null,
+      "kind": "crop",
+      "status": "mapped"
+    }
+  ],
+  "unresolved": [
+    {
+      "record": "1_crops_master.csv:2",
+      "column": "scientific_name",
+      "raw": "Oryza sativa L.",
+      "reason": "Rice species cannot identify Aman, Aus or Boro system by itself."
+    },
+    {
+      "record": "1_crops_master.csv:3",
+      "column": "scientific_name",
+      "raw": "Oryza sativa L.",
+      "reason": "Rice species cannot identify Aman, Aus or Boro system by itself."
+    },
+    {
+      "record": "1_crops_master.csv:4",
+      "column": "scientific_name",
+      "raw": "Oryza sativa L.",
+      "reason": "Rice species cannot identify Aman, Aus or Boro system by itself."
+    },
+    {
+      "record": "14_rotation_case_studies.csv:7",
+      "column": "candidate_sequence",
+      "raw": "Dhaincha",
+      "reason": "Species and cultivar not established by the case sequence; retain green-manure activity without a crop mapping."
+    },
+    {
+      "record": "14_rotation_case_studies.csv:16",
+      "column": "candidate_sequence",
+      "raw": "Rabi crops",
+      "reason": "Unspecified landscape crop group, not a crop identity."
+    }
+  ]
+}
