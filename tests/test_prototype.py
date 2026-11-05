@@ -24,6 +24,26 @@ def request_data():
 
 
 class PrototypeTests(unittest.TestCase):
+    def test_farmer_entered_existing_rotation_is_included_and_explained(self):
+        data = request_data()
+        data["existing_rotation"] = ["sunflower", "aman_rice", "sunflower"]
+        result = plan(data, TestProvider())
+        comparison = result["existing_rotation_comparison"]
+        self.assertEqual(comparison["status"], "included")
+        candidate = next(c for c in result["candidate_rotations"] if c["id"] == comparison["candidate_id"])
+        self.assertEqual(candidate["strategy_role"], "existing_rotation_baseline")
+        self.assertEqual([a["crop_id"] for a in candidate["activities"]], data["existing_rotation"])
+        self.assertIn("calendar windows", comparison["reason"])
+        self.assertEqual(candidate["dimension_results"]["climate_suitability"]["status"], "qualitative_screening")
+
+    def test_existing_rotation_without_supported_feasible_exact_match_stays_out(self):
+        data = request_data()
+        data["existing_rotation"] = ["mung_bean", "maize", "aman_rice"]
+        result = plan(data, TestProvider())
+        self.assertEqual(result["existing_rotation_comparison"]["status"], "unsupported")
+        self.assertIsNone(result["existing_rotation_comparison"]["candidate_id"])
+        self.assertFalse(any(c.get("strategy_role") == "existing_rotation_baseline" for c in result["candidate_rotations"]))
+
     def test_three_real_crops_participate_with_provisional_status(self):
         result = plan(request_data(), TestProvider())
         self.assertEqual(set(result["eligible_crop_ids"]), {"aman_rice", "maize", "sunflower"})
@@ -197,6 +217,11 @@ class PrototypeTests(unittest.TestCase):
         del data["location"]["country_code"]
         result = Client().post("/api/rotation-plan", data=json.dumps(data), content_type="application/json")
         self.assertEqual(result.status_code, 400)
+
+    def test_api_requires_complete_existing_rotation(self):
+        data = request_data(); data["existing_rotation"] = ["sunflower", "aman_rice"]
+        response = Client().post("/api/rotation-plan", data=json.dumps(data), content_type="application/json")
+        self.assertEqual(response.status_code, 400)
 
     def test_prototype_projection_rejects_stale_source_fingerprints(self):
         with patch("next_season.knowledge.prototype.fingerprint", return_value="changed"):

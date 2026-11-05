@@ -44,6 +44,10 @@ The active conditional systems are Aman–maize and Aman–sunflower, from IRRI'
 
 The candidate search enumerates documented alternating rice/dry-crop system templates; it is not an exhaustive catalogue of all agronomically possible sequences. An unsupported pair is outside that search, not assigned an avoid/discouraged classification or a ranking penalty. If a crop-history transition is outside the documented templates, no candidate is claimed for it and the coverage ledger identifies the missing evidence. No source-supported class other than `acceptable` is currently active, so sequence comparisons can honestly tie.
 
+### Farmer-entered current strategy comparison
+
+The planning form optionally accepts the three crops the farmer would continue growing, in order, as a status-quo strategy for the next planning horizon. This is distinct from the most recently harvested/currently occupying crop and from the optional maximum-change constraint. The engine includes this baseline only when that exact crop sequence is independently generated as feasible under the same current calendar, sequence-evidence and hard-constraint rules. It reuses that candidate's ordinary NASA, soil, priority and evidence evaluation; it adds no special baseline bonus or penalty. If no exact candidate exists, the response reports `unsupported` with a reason and does not synthesize one. The UI preselects the baseline and up to two alternatives for comparison. Displayed dates are conservative generated month windows, not farmer-recorded historical dates or a claim about actual future planting dates. If the farmer does not enter a complete sequence, the baseline comparison remains `not_provided`.
+
 ## NASA-dependent qualitative climate screening
 
 The provider retrieves real NASA POWER daily point data at the entered coordinates: `T2M`, `T2M_MIN`, `T2M_MAX`, `PRECTOTCORR`, AG community, UTC. Exact-query, checksummed raw caching remains unchanged. Only **T2M daily means** influence the present climate interpretation; rainfall is shown as context, not irrigation demand. Other parameters are not silently treated as stage thresholds.

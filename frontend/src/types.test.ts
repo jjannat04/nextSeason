@@ -1,5 +1,5 @@
 import {describe,it,expect} from 'vitest';
-import {assertMode} from './types';
+import {assertMode,initialComparisonSelection} from './types';
 import type {PlanResult} from './types';
 
 describe('response mode boundary',()=>{
@@ -20,5 +20,16 @@ describe('response mode boundary',()=>{
   });
   it('requires fixtures to remain non-recommendations',()=>{
     expect(()=>assertMode({mode:'development_fixture',is_recommendation:true} as PlanResult,'development_fixture')).toThrow();
+  });
+});
+
+describe('current-rotation comparison defaults',()=>{
+  it('preselects the supported status-quo baseline and two alternatives',()=>{
+    const result={existing_rotation_comparison:{status:'included',candidate_id:'b',crop_ids:['sunflower','aman_rice','sunflower'],reason:'supported'},candidate_rotations:[{id:'a'},{id:'b'},{id:'c'},{id:'d'}]} as unknown as PlanResult;
+    expect(initialComparisonSelection(result)).toEqual(['b','a','c']);
+  });
+  it('does not invent a baseline when one was not supported',()=>{
+    const result={existing_rotation_comparison:{status:'unsupported',candidate_id:null,crop_ids:['mung_bean','maize','aman_rice'],reason:'unsupported'},candidate_rotations:[{id:'a'},{id:'b'}]} as unknown as PlanResult;
+    expect(initialComparisonSelection(result)).toEqual([]);
   });
 });

@@ -11,7 +11,11 @@ CALENDARS = {"aman_rice": "VCAL01", "maize": "VCAL03", "sunflower": "VCAL04"}
 
 
 def fingerprint(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    # Git may normalize text files to LF while a Windows checkout uses CRLF.
+    # Canonicalize newline spellings only; any change to content still changes
+    # the digest and triggers the offline projection rebuild/safety check.
+    canonical = path.read_bytes().replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+    return hashlib.sha256(canonical).hexdigest()
 
 
 def build():

@@ -96,6 +96,7 @@ class PlanInput(StrictSerializer):
     soil=Soil(default=dict)
     crop_history=serializers.ListField(child=serializers.ChoiceField(choices=SLICE),max_length=6,default=list)
     current_crop=CurrentCrop(required=False,allow_null=True)
+    existing_rotation=serializers.ListField(child=serializers.ChoiceField(choices=SLICE),min_length=3,max_length=3,required=False,allow_null=True)
     constraints=Constraints(default=dict)
     preferred_crop_ids=serializers.ListField(child=serializers.ChoiceField(choices=SLICE),max_length=4,default=list)
     priorities=serializers.DictField(child=serializers.FloatField(min_value=0,max_value=1))

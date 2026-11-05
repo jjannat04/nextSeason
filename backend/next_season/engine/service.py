@@ -22,6 +22,18 @@ def prototype_plan(request,provider,environmental_provider=None):
     crops={c["id"]:c for c in data["crops"]}
     comparisons=[assess(c,environment,request.get("soil",{})) for c in crops.values()]
     candidates,rejected=generate_months(data,request)
+    existing_rotation=request.get("existing_rotation")
+    existing_comparison={"status":"not_provided","candidate_id":None,"crop_ids":[],"reason":"Enter the three-crop strategy you would continue to include a status-quo comparison."}
+    if existing_rotation:
+        existing_comparison={"status":"unsupported","candidate_id":None,"crop_ids":existing_rotation,
+            "reason":"No generated, calendar-feasible option matches this exact sequence under the current evidence and constraints. It was not added as a comparison."}
+        for candidate in candidates:
+            if [activity["crop_id"] for activity in candidate["activities"]]==existing_rotation:
+                candidate["strategy_role"]="existing_rotation_baseline"
+                candidate["strategy_label"]="Farmer-entered current strategy (baseline)"
+                existing_comparison={"status":"included","candidate_id":candidate["id"],"crop_ids":existing_rotation,
+                    "reason":"The farmer-entered sequence matches a generated option supported by the current calendar, sequence evidence and constraints. Displayed dates remain conservative calendar windows."}
+                break
     evaluated=[evaluate_prototype(c,crops,environment,request,space_profile=space) for c in candidates]
     ranked,ranking=rank(evaluated,request["priorities"],allow_partial=True)
     from .stress_testing import build_stress_tests
@@ -40,6 +52,7 @@ def prototype_plan(request,provider,environmental_provider=None):
         "sequence_evidence_coverage":data["sequence_evidence_coverage"],
         "ranking":ranking,"dimension_results":{"scope":"per_candidate","ranking":ranking},"explanations":[e for c in ranked for e in c["explanations"]],
         "data_gaps":gaps,"rejected_candidates":rejected,"limitations":data["limitations"],
+        "existing_rotation_comparison":existing_comparison,
         "provenance":{"knowledge_schema":data["schema_version"],"dataset_origin":data["origin"],"engine_version":"prototype.1",
             "release_inputs":data["release_inputs"],"environment_response_sha256":environment["response_sha256"],"input":request,
             "environmental_sources":space["provenance"] if space else None,

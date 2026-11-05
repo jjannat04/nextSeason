@@ -9,6 +9,16 @@ const first=candidate('a','Aman rice'),second=candidate('b','Maize');
 const result={status:'rotation_options',mode:'prototype_recommendation',is_recommendation:true,notice:'Research prototype',environment_profile:{} as PlanResult['environment_profile'],candidate_rotations:[first,second],crop_comparisons:[],data_gaps:[{dimension:'soil_suitability',message:'Field pH is unknown; no regional default was substituted.'}],ranking:{status:'ranked',method:'Priority-ordered comparison',priority_order:['climate_suitability']},provenance:{dataset_origin:'RESEARCH_EVIDENCE'}} as PlanResult;
 
 describe('backend-driven result screens',()=>{
+  it('labels an included current strategy and explains unsupported baseline states',()=>{
+    const baseline={...first,strategy_role:'existing_rotation_baseline'};
+    const included={...result,candidate_rotations:[baseline,second],existing_rotation_comparison:{status:'included',candidate_id:'a',crop_ids:['aman_rice','maize','aman_rice'],reason:'Farmer-entered sequence matches supported calendar windows.'}} as PlanResult;
+    const html=renderToStaticMarkup(<NextSeasons result={included} selected={['a','b']} onSelect={()=>{}} onExplain={()=>{}} onStress={()=>{}} onCompare={()=>{}}/>);
+    expect(html).toContain('Your current strategy is included');expect(html).toContain('CURRENT STRATEGY');
+    const compare=renderToStaticMarkup(<RotationComparison result={included} selected={['a','b']} onExplain={()=>{}}/>);
+    expect(compare).toContain('CURRENT STRATEGY (BASELINE)');
+    const unsupported={...included,existing_rotation_comparison:{status:'unsupported',candidate_id:null,crop_ids:['mung_bean','maize','aman_rice'],reason:'No supported exact match.'}};
+    expect(renderToStaticMarkup(<NextSeasons result={unsupported} selected={[]} onSelect={()=>{}} onExplain={()=>{}} onStress={()=>{}} onCompare={()=>{}}/>)).toContain('No supported exact match.');
+  });
   it('shows generated sequences, confidence, NASA influence and unsupported dimensions without demo scores',()=>{const html=renderToStaticMarkup(<NextSeasons result={result} selected={['a']} onSelect={()=>{}} onExplain={()=>{}} onStress={()=>{}} onCompare={()=>{}}/>);expect(html).toContain('Aman rice');expect(html).toContain('Maize');expect(html).toContain('NASA influence');expect(html).toContain('Not evaluated');expect(html).not.toContain('94%');});
   it('compares selected options using only returned dimensions',()=>{const html=renderToStaticMarkup(<RotationComparison result={result} selected={['a','b']} onExplain={()=>{}}/>);expect(html).toContain('Compare Your Options');expect(html).toContain('Climate Suitability');expect(html).toContain('Not evaluated');expect(html).not.toContain('Irrigation savings');});
   it('prevents selecting a fourth option for comparison',()=>{const extra=[candidate('c','Sunflower'),candidate('d','Aman rice')];const html=renderToStaticMarkup(<NextSeasons result={{...result,candidate_rotations:[...result.candidate_rotations,...extra]}} selected={['a','b','c']} onSelect={()=>{}} onExplain={()=>{}} onStress={()=>{}} onCompare={()=>{}}/>);expect(html).toContain('Compare selected (3/3)');expect(html).toMatch(/disabled=""[^>]*type="checkbox"|type="checkbox"[^>]*disabled=""/);});

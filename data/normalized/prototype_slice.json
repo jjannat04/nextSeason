@@ -3087,10 +3087,10 @@
   ],
   "release_mode": "prototype_recommendation",
   "release_inputs": {
-    "slice.json": "668b733507bfcf1e82ee39d356bf391dbe1e83901bfe534d2ebf71cf6c803a0c",
-    "crop_calendar_verified.csv": "5eecac312039047f66e65ba4b85bb9e4c019bbc7e4cceecc076b2e2526f4cfa8",
-    "crop_rotation_rules_verified.csv": "a38a7052d8a850e28b4ea4737607f6d98cafa87810d0b6c4089a24dbe39901e2",
-    "rainfall_references_verified.json": "b271aacedd9cf53e9888b0437e7f6f32a192b40e9c4bf80e41a4b4b915b1b9f9"
+    "slice.json": "c77cd626f21a83cad4b25037f46b82301eb8086af1f8ad7bd1d5ebb59b00a93e",
+    "crop_calendar_verified.csv": "c1f091d943603c308b79a67aa18a303073ee41ec8af26b8be9b0ac618d3317df",
+    "crop_rotation_rules_verified.csv": "4833891887a30240b9c776401a0ff52c87a416117fcd01f6c317d2754aa4570d",
+    "rainfall_references_verified.json": "edd4850cad63157fc2c280b080f6eab82658330ef26bc5de60628c126f1ffd92"
   },
   "sequence_evidence_coverage": [
     {
